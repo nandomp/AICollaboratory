@@ -11,12 +11,19 @@ This project is conceived as a pioneering initiative for the development of a co
 * [Data](#data)
 	* [AI](#AI)
 		* [Deep Learning Architectures](#deep-learning-architectures)
+			* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
+			* [General Video Game AI Competition](#case-study-the-general-video-game-ai-competition)
+			* [Alpha* systems](#case-study-alpha-systems)
+			* [ImageNet](#case-study-imagenet)
 		* [Machine Learning algorithms](#machine-learning-algorithms)
+			* [OpenML](#case-study-openml)
 		* [Computer Chess Systems](#computer-chess-systems)
+			* [Computer Chess Rating List](#case-study-ccrl-computer-chess-rating-lists)
 	* [Human](#human)
 	* [Animal](#animal-non-human)
-
-
+* [Code](#code-r)
+* [TODOs](#todos)
+* [Acknowledgements](#aknowledgements)
 
 # Infraestructure
 
