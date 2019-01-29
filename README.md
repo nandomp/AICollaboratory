@@ -19,19 +19,44 @@ This repository comprise an:
 
 #### Case Study: Arcade Learning Environment (Atari 2600 games)
 
+Tasks | Systems | Methods | #Results
+----- | ------- | ------- | --------
+X | Y | Z | R
+
+
 #### Case Study: ImageNet
+
+Tasks | Systems | Methods | #Results
+----- | ------- | ------- | --------
+X | Y | Z | R
 
 ### Machine Learning algorithms
 
 #### Case Study: OpenML 
 
+Tasks | Systems | Methods | #Results
+----- | ------- | ------- | --------
+X | Y | Z | R
+
+
+
 ### Computer Chess Systems 
 
-Engine vs engine chess testing. Data web-scraped from [CCRL](http://www.computerchess.org.uk/ccrl/). 
+#### Case Study: Computer Chess Rating Lists
 
-Tasks | Systems | Methods
------ | ------- | -------
-X | Y | Z
+Engine vs engine chess testing. Web-scraped data from [CCRL](http://www.computerchess.org.uk/ccrl/). 
+
+Tasks | Systems | Methods | #Results
+----- | ------- | ------- | --------
+X | Y | Z | R
+
+Extra Info:
+
+3 evaluation methodologies:
+
+* **40/40**: Ponder off, General book (up to 12 moves), 3-4-5 piece EGTB. Time control: Equivalent to 40 moves in 40 minutes on Athlon 64 X2 4600+ (2.4 GHz), about 15 minutes on a modern Intel CPU.
+* **40/4**: Ponder off, General book (up to 12 moves), 3-4-5 piece EGTB. Time control: Equivalent to 40 moves in 4 minutes on Athlon 64 X2 4600+ (2.4 GHz), about 1.5 minutes on a modern Intel CPU.
+* **404FRC**: Shredder GUI, ChessGUI by Matthias Gemuh, Ponder off, 5-men EGTB, 128MB hash, random openings with switched sides. Time control: Equivalent to 40 moves in 4 minutes on Athlon 64 X2 4600+ (2.4 GHz), about 1.5 minutes on a modern Intel CPU.
 
 
 #### Case Study: (CCRL) Computer Chess Rating Lists
