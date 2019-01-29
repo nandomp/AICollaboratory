@@ -13,6 +13,41 @@ This repository comprise an:
 
 # Data 
 
+## AI
+
+### Deep Learning Architectures
+
+#### Case Study: Arcade Learning Environment (Atari 2600 games)
+
+#### Case Study: ImageNet
+
+### Machine Learning algorithms
+
+#### Case Study: OpenML 
+
+### Computer Chess Systems 
+
+Engine vs engine chess testing. Data web-scraped from [CCRL](http://www.computerchess.org.uk/ccrl/). 
+
+Tasks | Systems | Methods
+----- | ------- | -------
+X | Y | Z
+
+
+#### Case Study: (CCRL) Computer Chess Rating Lists
+
+...
+
+## Human
+
+...
+
+## Animal (non-human)
+
+...
+
+# DataBase
+
 ## MySQL ERR diagram
 
 ![ERR](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_ERR_v1.png)
@@ -21,8 +56,9 @@ This repository comprise an:
 
 [SQL script](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_schema_v1.sql)
 
-# Code
+# Code (R)
 
+# Examples
 
 # TODOs 
 
