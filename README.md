@@ -22,5 +22,4 @@ This repository comprise an:
 
 # Aknowledgements
 
-![ERR](https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png)
-![ERR](https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx)
+<img src="https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png?sanitize=true&raw=true" /><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx?sanitize=true&raw=true" />
