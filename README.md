@@ -18,4 +18,9 @@ This repository comprise an:
 # Todos 
 
 - [x] Definition of repository requirements
-- [] Inventory of A(G)I systems
+- [ ] Inventory of A(G)I systems
+
+# Aknowledgements
+
+![ERR](https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png)
+![ERR](https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx)
