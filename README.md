@@ -13,9 +13,18 @@ This repository comprise an:
 
 # Data 
 
+## MySQL ERR diagram
+
 ![ERR](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_ERR_v1.png)
 
-# Todos 
+## MySQL SQL Create script
+
+[SQL script](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_schema_v1.sql)
+
+# Code
+
+
+# TODOs 
 
 - [x] Definition of repository requirements
 - [ ] Inventory of A(G)I systems
