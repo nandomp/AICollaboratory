@@ -1,18 +1,20 @@
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/AICollaboratoryLogo.png"
-      alt="[A]I Colaboratory" width="400" />
+      alt="[A]I Colaboratory" width="600" />
 </div>
 <h1 align="center"></h1>
 
-<div align="center">
-  :boy::girl::baby:  :monkey_face::octopus::whale2:  :space_invader::computer::iphone:
-</div>
 <div align="center">
   <strong></strong>
 </div>
 <div align="center">
   A Collaboratory for the evaluation, comparison and classification of <code>(A)I</code>!
 </div>
+
+<div align="center">
+  :boy::girl::baby:  :monkey_face::octopus::whale2:  :space_invader::computer::iphone:
+</div>
+
 
 <br />
 
