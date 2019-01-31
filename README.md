@@ -19,7 +19,7 @@
 
 This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of  AI paradigms and systems. It will start by incorporating approaches, data, knowledge, measurements and evaluations, within the machine learning, (deep) reinforcement learning and interactive learning paradigms in the field of A(G)I, due to the priorities and particular needs in these areas. The framework will allow the study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of A(G)I systems, covering, in the longer term, the current and future panorama of the A(G)I. 
 
-🚩 **Table of contents**
+:triangular_flag_on_post: **Table of contents**
 
 
 * [Infraestructure](#nfraestructure) 
@@ -51,7 +51,7 @@ This project is conceived as a pioneering initiative for the development of a co
 * [TODOs](#todos)
 * [Acknowledgements](#aknowledgements)
 
-# Infraestructure
+# :page_with_curl: Infraestructure
 
 The collaboratory will integrate open data and knowledge in four domains:
 
@@ -65,7 +65,7 @@ The collaboratory will integrate open data and knowledge in four domains:
 * **Constructs of Intelligence Corpus**, which will integrate latent and hierarchical models, taxonomical criteria, ontologies, mappings from low to high-level cognition, as well as theories of intelligence.
 
 
-# Architecture
+# :pencil2: Architecture
 
 Multidimensional perspective (over a database): 
 
@@ -86,7 +86,7 @@ Each dimension has a structure and captures (part of) the information / ontologi
 
 
 
-# Database design
+# :books: Database design
 
 ## Schema
 
@@ -190,7 +190,7 @@ We use a free, lightweight, open source MySQL database.
 
 
 
-# Data 
+# :file_folder: Data 
 
 ## AI
 
@@ -342,7 +342,7 @@ X | Y | Z | R
 
 
 
-# Code (R)
+# 💾 Code (R)
 
 
 
