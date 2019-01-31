@@ -366,11 +366,11 @@ We're open to suggestions, feel free to message us or open an issue. Pull reques
 
   <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
-      alt="R" />
+      alt="R" width = "100"/>
   </a>
   <a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-      alt="MySQL" />
+      alt="MySQL" width = "100"/>
   </a>
 
 
