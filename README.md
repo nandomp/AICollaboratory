@@ -3,7 +3,9 @@
 This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of  AI paradigms and systems. It will start by incorporating approaches, data, knowledge, measurements and evaluations, within the machine learning, (deep) reinforcement learning and interactive learning paradigms in the field of A(G)I, due to the priorities and particular needs in these areas. The framework will allow the study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of A(G)I systems, covering, in the longer term, the current and future panorama of the A(G)I. 
 
 **Table of contents**
- 
+
+
+* [Infraestructure](#nfraestructure) 
 * [Architecture](#architecture)
 * [DataBase](#database)
 	* [ERR diagram](#mysql-err-diagram)
@@ -22,8 +24,24 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Human](#human)
 	* [Animal](#animal-non-human)
 * [Code](#code-r)
+* [Related Work](#related-work)
 * [TODOs](#todos)
 * [Acknowledgements](#aknowledgements)
+
+# Infraestructure
+
+The collaboratory will integrate open data and knowledge in four domains:
+
+
+* **Inventory of intelligent systems**,  which incorporates information about current, past and future systems, including hybrid and collectives, natural or artificial, from human professions to AI desiderata. They will be aggregated from individuals to species, groups or organisations, with populations and distributions over them.
+
+* **“Behavioural Test Catalogue**, which will integrate a series of behavioural tests, the dimensions they measure and for which kinds of systems, the possible interfaces and testing apparatus. The catalogue, largely automated and accessible online, will help researchers apply or reproduce the tests.
+
+
+* **Repository of experimentation**, will record the results (measurements) of a wide range of systems (natural, artificial, hybrid or collective) for several tests and benchmarks, as the main data source of the atlas. Data will be contributed from scientific papers, experiments, psychometric repositories, AI/robotic competitions, etc. 
+
+* **Constructs of Intelligence Corpus**, which will integrate latent and hierarchical models, taxonomical criteria, ontologies, mappings from low to high-level cognition, as well as theories of intelligence.
+
 
 # Architecture
 
@@ -31,20 +49,17 @@ Multidimensional perspective (over a database):
 
 ![Multidimensial perspective](https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png)
 
-Example (simplified) of stored information:
+Example (simplified) of information stored in the multidimensional model:
 
 ```
-**DQN** system, using the parameters of Mnih et al. 2015, 
-is evaluated over **Moctezuma game** (from ALE v1.0) using **100,000 episodes**, 
-with a measured score of **23.3**
+DQN system, using the parameters of Mnih et al. 2015, 
+is evaluated over Moctezuma game (from ALE v1.0) using 100,000 episodes, 
+with a measured score of 23.3
 ```
 
+Each dimension has a structure and captures (part of) the information / ontologies / constructs about intelligence / cognition / tests in the literature.
 
-This repository comprise an:
 
-* **Inventory of intelligent systems**,  which incorporates information on current, past and future AI systems.
-
-* **Repository of experimentation**, recording the results thereof for various tests and benchmarks.
 
 # DataBase
 
@@ -225,6 +240,7 @@ X | Y | Z | R
 
 
 
+# Related Work
 
 
 
