@@ -1,10 +1,9 @@
-
-<h1 align="center">(A)ICollaboratory</h1>
+<div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/AICollaboratoryLogo.png"
       alt="NPM version" />
-	  
+</div>
 <div align="center">
-  :steam_locomotive::train::train::train::train::train:
+  :neck_beard::monkey_face::space_invader:
 </div>
 <div align="center">
   <strong></strong>
