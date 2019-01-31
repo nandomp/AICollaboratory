@@ -85,7 +85,7 @@ Examples of rows:
 
 ```
 TASK "Moctezuma" _IS "Atari-Game" according to SOURCE "Bellemare et al., 2013"
-TASK "Winogradschemas" _IS (requires) "Commonsense" to some extent ("weight") according to SOURCE "Levesque 2014".
+TASK "Winogradschemas" _IS (requires) "Commonsense" (to some extent/weight) according to SOURCE "Levesque 2014".
 TASK "Gv" (Visual Processing) _IS (composes) "G" (General Intelligence) according to SOURCE "Cattell-Horn_carroll" and _BELONGS_TO the HIERARCHY "CHC"
 ```
 
@@ -130,7 +130,6 @@ Examples of rows:
 
 ```
 METHOD "Cross-Validation-Anneal" _HAS "5" number of folds and "2" repetitions according to SOURCE "OpenML"
-METHOD "Cross-Validation-Anneal" _HAS "5" number of folds and "2" repetitions according to SOURCE "OpenML"
 METHOD "PriorDuel-noop" _HAS  "no-op actions" as procedure, "57" games in testing phase and "200M" training frames according to SOURCE "Wang et al, 2015"
 ```
 
@@ -143,10 +142,10 @@ Measures:
 Examples of rows:
 
 ```
-DDQN-v3.4 AGENT, using the a DQN approah, human data augmentation, without parallelism, and the hyperparameters of Mnih et al. 2015, 
-is evaluated over the TASK Moctezuma game which belongs to th benchmark ALE 1.0,  
-using as evaluation METHOD 100,000 episodes, 57 test games and 200M training frames,
-obtains a measured score of 23.3
+"DDQN-v3.4 AGENT", using a "Dual DQN" approah, "human data" augmentation, "no" parallelism, and the hyperparameters of "Mnih et al. 2015", 
+is evaluated over the TASK "Moctezuma" game which belongs to the benchmark "ALE 1.0",  
+using as evaluation METHOD "100,000" episodes, "57" test games and "200M" training frames,
+obtains a measured score of "23.3"
 ```
 
 ## Database architecture
@@ -324,7 +323,8 @@ X | Y | Z | R
 
 
 
-# Related Work
+# References
+
 
 
 
