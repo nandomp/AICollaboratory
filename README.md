@@ -4,9 +4,7 @@
 </div>
 <h1 align="center"></h1>
 
-<div align="center">
-  <strong></strong>
-</div>
+
 <div align="center">
   A Collaboratory for the evaluation, comparison and classification of <code>(A)I</code>!
 </div>
@@ -71,7 +69,10 @@ The collaboratory will integrate open data and knowledge in four domains:
 
 Multidimensional perspective (over a database): 
 
-![Multidimensial perspective](https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png)
+<div align="center">
+<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
+      alt="Multidimensial perspective"/>
+</div>
 
 Example (simplified) of information stored in the multidimensional model:
 
