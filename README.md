@@ -6,7 +6,7 @@
 
 
 <div align="center">
-  A Collaboratory for the evaluation, comparison and classification of <code>(A)I</code>!
+  A Collaboratory for the evaluation, comparison and classification of <code>(A)I</code> !
 </div>
 
 <div align="center">
@@ -58,7 +58,7 @@ The collaboratory will integrate open data and knowledge in four domains:
 
 * **Inventory of intelligent systems**,  which incorporates information about current, past and future systems, including hybrid and collectives, natural or artificial, from human professions to AI desiderata. They will be aggregated from individuals to species, groups or organisations, with populations and distributions over them.
 
-* **“Behavioural Test Catalogue**, which will integrate a series of behavioural tests, the dimensions they measure and for which kinds of systems, the possible interfaces and testing apparatus. The catalogue, largely automated and accessible online, will help researchers apply or reproduce the tests.
+* **Behavioural Test Catalogue**, which will integrate a series of behavioural tests, the dimensions they measure and for which kinds of systems, the possible interfaces and testing apparatus. The catalogue, largely automated and accessible online, will help researchers apply or reproduce the tests.
 
 * **Repository of experimentation**, which will record the results (measurements) of a wide range of systems (natural, artificial, hybrid or collective) for several tests and benchmarks, as the main data source of the atlas. Data will be contributed from scientific papers, experiments, psychometric repositories, AI/robotic competitions, etc. 
 
@@ -71,8 +71,9 @@ Multidimensional perspective (over a database):
 
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
-      alt="Multidimensial perspective" width = "800"/>
+      alt="Multidimensial perspective" width = "700"/>
 </div>
+<br>
 
 Example (simplified) of information stored in the multidimensional model:
 
@@ -174,7 +175,7 @@ obtains a measured score of "23.3"
 
 ## Implementation
 
-We use a free, lightweight, open source MySQL database.
+We use a free, lightweight, open source [MySQL](https://www.mysql.com/) database.
 
 ### MySQL ERR diagram
 
@@ -337,8 +338,7 @@ X | Y | Z | R
 
 
 
-
-
+# :hammer: Usage
 
 
 
@@ -347,24 +347,34 @@ X | Y | Z | R
 
 
 
-# References
-
-
+# :orange_book: References
 
 
 # TODOs 
 
-- [x] Definition of repository requirements
-- [ ] Inventory of A(G)I systems
+- [x] 
+- [ ] 
 
 
+# Credits
+
+[A]I Collaboratory is created and maintained by Fernando Martínez-Plumed and José Hernández-Orallo.
+
+We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!
+
+[A]I Collaboratory is powered by:
+
+  <a href="https://www.r-project.org/Rlogo.png">
+    <img src="https://www.r-project.org"
+      alt="R" />
+  </a>
+  <a href="https://www.mysql.com/common/logos/logo-mysql-170x115.png">
+    <img src="https://www.mysql.com"
+      alt="MySQL" />
+  </a>
 
 
-
-
-
-
-# Aknowledgements
+# :heart: Aknowledgements
 
 European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/community/humaint) project within the [JRC's Centre for Advanced Studies](https://ec.europa.eu/jrc/en/research/centre-advanced-studies)
 
