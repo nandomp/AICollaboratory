@@ -22,9 +22,9 @@ This project is conceived as a pioneering initiative for the development of a co
 :triangular_flag_on_post: **Table of contents**
 
 
-* [Infraestructure](#nfraestructure) 
-* [Architecture](#architecture)
-* [Database Design](#database-design)
+* [Infraestructure](#page_with_curl-infraestructure) 
+* [Architecture](#pencil2-architecture)
+* [Database Design](#books-database-design)
 	* [Schema](#schema)
 		* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
 		* [WHO dimension](#who-dimension-cognitive-system-inventory)
@@ -33,8 +33,8 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Implementation](#implementation)
 		* [ERR diagram](#mysql-err-diagram)
 		* [SQL Create script](#mysql-sql-create-script)
-* [Data](#data)
-	* [AI](#AI)
+* [Data](#file_folder-data)
+	* [AI](#computer-ai)
 		* [Deep Learning Architectures](#deep-learning-architectures)
 			* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
 			* [General Video Game AI Competition](#case-study-the-general-video-game-ai-competition)
@@ -44,12 +44,14 @@ This project is conceived as a pioneering initiative for the development of a co
 			* [OpenML](#case-study-openml)
 		* [Computer Chess Systems](#computer-chess-systems)
 			* [Computer Chess Rating List](#case-study-ccrl-computer-chess-rating-lists)
-	* [Human](#human)
-	* [Animal](#animal-non-human)
-* [Code](#code-r)
-* [Related Work](#related-work)
+	* [Human](#woman-human)
+	* [Animal](#hear_no_evil-animal-non-human)
+* [Usage](#hammer-usage)
+* [Code](#-code-r)
+* [References](#orange_book-references)
 * [TODOs](#todos)
-* [Acknowledgements](#aknowledgements)
+* [Credits](#muscle-credits)
+* [Acknowledgements](#heart-aknowledgements)
 
 # :page_with_curl: Infraestructure
 
@@ -356,10 +358,10 @@ X | Y | Z | R
 
 # :orange_book: References
 
-* ...
-*
-*
-*
+* Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Seán Ó hÉigeartaigh, Fernando Martínez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and José Hernández-Orallo, [*Mapping Intelligence: Requirements and Possibilities*](https://doi.org/10.1007/978-3-319-96448-5_13), In: Müller, Vincent C. (ed.), [Philosophy and Theory of Artificial Intelligence 2017](https://www.springer.com/gb/book/9783319964478), Studies in Applied Philosophy, Epistemology and Rational Ethics (SAPERE), Vol 44, ISBN 978-3-319-96447-8, Springer, 2018.
+
+* Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Seán Ó hÉigeartaigh, Fernando Martínez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and José Hernández-Orallo, [*A First Survey on an Atlas of Intelligence*](http://users.dsic.upv.es/~flip/papers/Bhatnagar18_SurveyAtlas.pdf), Technical Report, 2018.
+
 
 
 # TODOs 
