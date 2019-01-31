@@ -340,10 +340,17 @@ X | Y | Z | R
 
 # :hammer: Usage
 
-
+* ...
+*
+*
+*
 
 # 💾 Code (R)
 
+* ...
+*
+*
+*
 
 
 
@@ -366,10 +373,10 @@ X | Y | Z | R
 
   <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
-      alt="R" width = "50"/>
-  </a><a href="https://www.mysql.com">
+      alt="R" width = "75"/>
+  </a>   <a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-      alt="MySQL" width = "50"/>
+      alt="MySQL" width = "75"/>
   </a>
 
 
@@ -377,4 +384,4 @@ X | Y | Z | R
 
 European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/community/humaint) project within the [JRC's Centre for Advanced Studies](https://ec.europa.eu/jrc/en/research/centre-advanced-studies)
 
-<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png?sanitize=true&raw=true" alt="Example" width="100" /><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx?sanitize=true&raw=true" alt="Example" width="400" /></a>
+<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png?sanitize=true&raw=true" alt="Example" width="100" />  <img src="https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx?sanitize=true&raw=true" alt="Example" width="400" /></a>
