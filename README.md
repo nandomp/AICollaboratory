@@ -192,7 +192,7 @@ We use a free, lightweight, open source MySQL database.
 
 # :file_folder: Data 
 
-## AI
+## :computer: AI
 
 ### Deep Learning Architectures
 
@@ -327,11 +327,11 @@ X | Y | Z | R
 
 ...
 
-## Human
+## :woman: Human
 
 ...
 
-## Animal (non-human)
+## :hear_no_evil: Animal (non-human)
 
 ...
 
