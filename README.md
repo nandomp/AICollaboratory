@@ -2,6 +2,8 @@
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/AICollaboratoryLogo.png"
       alt="NPM version" />
 </div>
+<h1 align="center"></h1>
+
 <div align="center">
   :neck_beard::monkey_face::space_invader:
 </div>
