@@ -34,7 +34,9 @@ Multidimensional perspective (over a database):
 Example (simplified) of stored information:
 
 ```
-DQN system, using the parameters of Mnih et al. 20155, is evaluated over Moctezuma game (from ALE v1.0) using 100,000 episodes, with a measured result of 23.3
+**DQN** system, using the parameters of Mnih et al. 2015, 
+is evaluated over **Moctezuma game** (from ALE v1.0) using **100,000 episodes**, 
+with a measured score of **23.3**
 ```
 
 
