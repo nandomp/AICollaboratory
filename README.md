@@ -7,7 +7,11 @@ This project is conceived as a pioneering initiative for the development of a co
 
 * [Infraestructure](#nfraestructure) 
 * [Architecture](#architecture)
-* [DataBase](#database)
+* [Database](#database-design)
+	* [WHAT dimension](#mysql-err-diagram)
+	* [WHO dimension](#mysql-err-diagram)
+	* [HOW dimension](#mysql-err-diagram)
+	* [FACT TABLE](#mysql-err-diagram)
 	* [ERR diagram](#mysql-err-diagram)
 	* [SQL Create script](#mysql-sql-create-script)
 * [Data](#data)
@@ -37,8 +41,7 @@ The collaboratory will integrate open data and knowledge in four domains:
 
 * **“Behavioural Test Catalogue**, which will integrate a series of behavioural tests, the dimensions they measure and for which kinds of systems, the possible interfaces and testing apparatus. The catalogue, largely automated and accessible online, will help researchers apply or reproduce the tests.
 
-
-* **Repository of experimentation**, will record the results (measurements) of a wide range of systems (natural, artificial, hybrid or collective) for several tests and benchmarks, as the main data source of the atlas. Data will be contributed from scientific papers, experiments, psychometric repositories, AI/robotic competitions, etc. 
+* **Repository of experimentation**, which will record the results (measurements) of a wide range of systems (natural, artificial, hybrid or collective) for several tests and benchmarks, as the main data source of the atlas. Data will be contributed from scientific papers, experiments, psychometric repositories, AI/robotic competitions, etc. 
 
 * **Constructs of Intelligence Corpus**, which will integrate latent and hierarchical models, taxonomical criteria, ontologies, mappings from low to high-level cognition, as well as theories of intelligence.
 
@@ -61,13 +64,60 @@ Each dimension has a structure and captures (part of) the information / ontologi
 
 
 
-# DataBase
+# Database design
 
-* **Task**:
-* **Agent**:
-* **Method**:
-* **Results**:
+## WHAT dimension (Behavioural Test Catalogue)
 
+Entity tables: 
+
+* **TASK**: Instances, datasets, task, tests, etc.
+* **SOURCE**: description, author, year, etc.
+* **HIERARCHY**: task hierarchy.
+* **ATTRIBUTES**: platform, format, #classes, format, etc.
+
+Many-tomany relationships: 
+
+* **_IS**: TASK belongs to TEST in SOURCE (PK: T x T x S)
+* **_HAS**: AGENT possess ATTRIBUTES (PK: T x A)
+* **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: T x H)
+
+
+## WHO dimension (cognitive System Inventory)
+
+* **Agent**: Systems, architectures, algorithms, etc.
+
+Entity tables: 
+
+* **AGENT**: system, algorithm, approach, entity, etc.
+* **SOURCE**: description, author, year, etc.
+* **HIERARCHY**: agent hierarchy.
+* **ATTRIBUTES**: parallelism, hiperparameters, approach, batch, fit, etc.
+
+Many-tomany relationships: 
+
+* **_IS**: AGENT belongs to FAMILY in SOURCE (PK: T x T x S)
+* **_HAS**: TASK possess ATTRIBUTES (PK: T x A)
+* **_BELONGS_TO**: TASK belongs to HIERARCHY (PK: T x H)
+
+## HOW dimension (Experimentation Repository)
+
+Entity tables: 
+
+* **METHOD**: testing apparatus, CV, hs, noop, spliting, etc.
+* **SOURCE**: description, author, year, etc.
+* **ATTRIBUTES**: frames, estimation procedure, folds, repeats, frames, etc.
+
+Many-tomany relationships: 
+
+* **_HAS**: METHOD possess ATTRIBUTES (PK: T x A)
+
+## Fact table
+
+Measures:
+
+* **Results**: score, accuracy, kappa, f.measure, recall, RMSE, etc.
+
+## 
 
 ## MySQL ERR diagram
 
