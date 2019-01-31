@@ -1,11 +1,11 @@
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/AICollaboratoryLogo.png"
-      alt="NPM version" />
+      alt="[A]I Colaboratory" width="400" />
 </div>
 <h1 align="center"></h1>
 
 <div align="center">
-  :neck_beard::monkey_face::space_invader:
+  :boy::girl::baby:  :monkey_face::octopus::whale2:  :space_invader::computer::iphone:
 </div>
 <div align="center">
   <strong></strong>
