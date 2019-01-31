@@ -27,9 +27,15 @@ This project is conceived as a pioneering initiative for the development of a co
 
 # Architecture
 
-Architecture of the first prototype. 
+Multidimensional perspective (over a database): 
 
 ![Multidimensial perspective](https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png)
+
+Example (simplified) of stored information:
+
+```
+DQN system, using the parameters of Mnih et al. 20155, is evaluated over Moctezuma game (from ALE v1.0) using 100,000 episodes, with a measured result of 23.3
+```
 
 
 This repository comprise an:
