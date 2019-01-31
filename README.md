@@ -364,12 +364,12 @@ We're open to suggestions, feel free to message us or open an issue. Pull reques
 
 [A]I Collaboratory is powered by:
 
-  <a href="https://www.r-project.org/Rlogo.png">
-    <img src="https://www.r-project.org"
+  <a href="https://www.r-project.org">
+    <img src="https://www.r-project.org/Rlogo.png"
       alt="R" />
   </a>
-  <a href="https://www.mysql.com/common/logos/logo-mysql-170x115.png">
-    <img src="https://www.mysql.com"
+  <a href="https://www.mysql.com">
+    <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
       alt="MySQL" />
   </a>
 
