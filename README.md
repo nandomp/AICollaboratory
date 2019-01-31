@@ -356,11 +356,11 @@ X | Y | Z | R
 - [ ] 
 
 
-# Credits
+# :muscle: Credits
 
-[A]I Collaboratory is created and maintained by Fernando Martínez-Plumed and José Hernández-Orallo.
+[A]I Collaboratory is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
 
-We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!
+*We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
 
 [A]I Collaboratory is powered by:
 
