@@ -343,11 +343,16 @@ X | Y | Z | R
 
 # :hammer: Usage
 
+### Database population
+
+A easy way to to populate the database with data from new case studies...
+
+### SQL queries
+
 * ...
 *
 *
 *
-
 # 💾 Code (R)
 
 * ...
@@ -379,10 +384,10 @@ X | Y | Z | R
 
 [A]I Collaboratory is powered by: <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
-      alt="R" width = "40"/>
+      alt="R" width = "30"/>
   </a> &  <a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-      alt="MySQL" width = "45"/>
+      alt="MySQL" width = "35"/>
   </a>
 
 
