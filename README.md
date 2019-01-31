@@ -26,7 +26,7 @@ This project is conceived as a pioneering initiative for the development of a co
 * [Infraestructure](#page_with_curl-infraestructure) 
 * [Architecture](#pencil2-architecture)
 * [Database Design](#books-database-design)
-	* [Schema](#schema)
+	* [Multidemensional Schema](#multidimensional-schema)
 		* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
 		* [WHO dimension](#who-dimension-cognitive-system-inventory)
 		* [HOW dimension](#how-dimension-experimentation-repository)
@@ -92,7 +92,7 @@ Each dimension has a structure and captures (part of) the information / ontologi
 
 # :books: Database design
 
-## Schema
+## Multidimensional Schema
 
 ### WHAT dimension (Behavioural Test Catalogue)
 
@@ -117,7 +117,7 @@ TASK "Winogradschemas" _IS (requires) "Commonsense" (to some extent/weight) acco
 TASK "Gv" (Visual Processing) _IS (composes) "G" (General Intelligence) according to SOURCE "Cattell-Horn_carroll" and _BELONGS_TO the HIERARCHY "CHC"
 ```
 
-### WHO dimension (cognitive System Inventory)
+### WHO dimension (Cognitive System Inventory)
 
 * **Agent**: Systems, architectures, algorithms, etc.
 
@@ -361,6 +361,12 @@ A easy way to to populate the database with data from new case studies...
 *
 
 
+# TODOs 
+
+- [x] ...
+- [ ] ...
+
+
 
 # :orange_book: References
 
@@ -370,11 +376,6 @@ A easy way to to populate the database with data from new case studies...
 
 
 
-# TODOs 
-
-- [x] ...
-- [ ] ...
-
 
 # :muscle: Credits
 
@@ -382,7 +383,7 @@ A easy way to to populate the database with data from new case studies...
 
 *We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
 
-[A]I Collaboratory is powered by: <a href="https://www.r-project.org">
+[A]I Collaboratory is powered by <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
       alt="R" width = "30"/>
   </a> &  <a href="https://www.mysql.com">
