@@ -8,10 +8,10 @@ This project is conceived as a pioneering initiative for the development of a co
 * [Infraestructure](#nfraestructure) 
 * [Architecture](#architecture)
 * [Database](#database-design)
-	* [WHAT dimension](#mysql-err-diagram)
-	* [WHO dimension](#mysql-err-diagram)
-	* [HOW dimension](#mysql-err-diagram)
-	* [FACT TABLE](#mysql-err-diagram)
+	* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
+	* [WHO dimension](#who-dimension-cognitive-system-inventory)
+	* [HOW dimension](#how-dimension-experimentation-repository)
+	* [FACT TABLE](#fact-table)
 	* [ERR diagram](#mysql-err-diagram)
 	* [SQL Create script](#mysql-sql-create-script)
 * [Data](#data)
@@ -81,6 +81,13 @@ Many-tomany relationships:
 * **_HAS**: AGENT possess ATTRIBUTES (PK: T x A)
 * **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: T x H)
 
+Examples of rows:
+
+```
+TASK "Moctezuma" _IS "Atari-Game" according to SOURCE "Bellemare et al., 2013"
+TASK "Winogradschemas" _IS (requires) "Commonsense" to some extent ("weight") according to SOURCE "Levesque 2014".
+TASK "Gv" (Visual Processing) _IS (composes) "G" (General Intelligence) according to SOURCE "Cattell-Horn_carroll" and _BELONGS_TO the HIERARCHY "CHC"
+```
 
 ## WHO dimension (cognitive System Inventory)
 
@@ -93,11 +100,19 @@ Entity tables:
 * **HIERARCHY**: agent hierarchy.
 * **ATTRIBUTES**: parallelism, hiperparameters, approach, batch, fit, etc.
 
+Examples of rows:
+
+```
+AGENT "RAINBOW" _IS a "Deep Learning architecture" according to SOURCE "Hessel et al., 2013"
+AGENT "weka.PART(1)_65" _IS "PART" technique according to SOURCE "OpenML".
+AGENT "Human Atari gamer" IS " Homo sapiens" according to SOURCE "Bellamare et al., 2013" and _BELONGS_TO the HIERARCHY "Hominoidea"
+```
+
 Many-tomany relationships: 
 
-* **_IS**: AGENT belongs to FAMILY in SOURCE (PK: T x T x S)
-* **_HAS**: TASK possess ATTRIBUTES (PK: T x A)
-* **_BELONGS_TO**: TASK belongs to HIERARCHY (PK: T x H)
+* **_IS**: AGENT belongs to FAMILY in SOURCE (PK: Ag x F x S)
+* **_HAS**: AGENT possess ATTRIBUTES (PK: Ag x A)
+* **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: Ag x H)
 
 ## HOW dimension (Experimentation Repository)
 
@@ -109,7 +124,15 @@ Entity tables:
 
 Many-tomany relationships: 
 
-* **_HAS**: METHOD possess ATTRIBUTES (PK: T x A)
+* **_HAS**: METHOD possess ATTRIBUTES (PK: M x A)
+
+Examples of rows:
+
+```
+METHOD "Cross-Validation-Anneal" _HAS "5" number of folds and "2" repetitions according to SOURCE "OpenML"
+METHOD "Cross-Validation-Anneal" _HAS "5" number of folds and "2" repetitions according to SOURCE "OpenML"
+METHOD "PriorDuel-noop" _HAS  "no-op actions" as procedure, "57" games in testing phase and "200M" training frames according to SOURCE "Wang et al, 2015"
+```
 
 ## Fact table
 
@@ -117,13 +140,24 @@ Measures:
 
 * **Results**: score, accuracy, kappa, f.measure, recall, RMSE, etc.
 
-## 
+Examples of rows:
 
-## MySQL ERR diagram
+```
+DDQN-v3.4 AGENT, using the a DQN approah, human data augmentation, without parallelism, and the hyperparameters of Mnih et al. 2015, 
+is evaluated over the TASK Moctezuma game which belongs to th benchmark ALE 1.0,  
+using as evaluation METHOD 100,000 episodes, 57 test games and 200M training frames,
+obtains a measured score of 23.3
+```
+
+## Database architecture
+
+We use a free, lightweight, open source MySQL database.
+
+### MySQL ERR diagram
 
 ![ERR](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_ERR_v1.png)
 
-## MySQL SQL Create script
+### MySQL SQL Create script
 
 [SQL script](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_schema_v1.sql)
 
