@@ -4,7 +4,7 @@ This project is conceived as a pioneering initiative for the development of a co
 
 **Table of contents**
  
-* [Infraestructure](#infraestructure)
+* [Architecture](#architecture)
 * [DataBase](#database)
 	* [ERR diagram](#mysql-err-diagram)
 	* [SQL Create script](#mysql-sql-create-script)
@@ -25,7 +25,12 @@ This project is conceived as a pioneering initiative for the development of a co
 * [TODOs](#todos)
 * [Acknowledgements](#aknowledgements)
 
-# Infraestructure
+# Architecture
+
+Architecture of the first prototype. 
+
+![Multidimensial perspective](https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png)
+
 
 This repository comprise an:
 
@@ -36,7 +41,7 @@ This repository comprise an:
 # DataBase
 
 * **Task**:
-* **Agents**:
+* **Agent**:
 * **Method**:
 * **Results**:
 
