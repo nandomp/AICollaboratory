@@ -364,8 +364,8 @@ X | Y | Z | R
 
 # TODOs 
 
-- [x] 
-- [ ] 
+- [x] ...
+- [ ] ...
 
 
 # :muscle: Credits
@@ -379,7 +379,7 @@ X | Y | Z | R
       alt="R" width = "40"/>
   </a> &  <a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-      alt="MySQL" width = "40"/>
+      alt="MySQL" width = "45"/>
   </a>
 
 
