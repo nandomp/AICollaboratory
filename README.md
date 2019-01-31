@@ -1,4 +1,18 @@
-# AICollaboratory
+
+<h1 align="center">(A)ICollaboratory</h1>
+
+<div align="center">
+  :steam_locomotive::train::train::train::train::train:
+</div>
+<div align="center">
+  <strong></strong>
+</div>
+<div align="center">
+  A Collaboratory for the evaluation, comparison and classification of <code>(A)I</code>!
+</div>
+
+<br />
+
 
 This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of  AI paradigms and systems. It will start by incorporating approaches, data, knowledge, measurements and evaluations, within the machine learning, (deep) reinforcement learning and interactive learning paradigms in the field of A(G)I, due to the priorities and particular needs in these areas. The framework will allow the study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of A(G)I systems, covering, in the longer term, the current and future panorama of the A(G)I. 
 
