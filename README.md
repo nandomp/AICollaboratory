@@ -7,13 +7,15 @@ This project is conceived as a pioneering initiative for the development of a co
 
 * [Infraestructure](#nfraestructure) 
 * [Architecture](#architecture)
-* [Database](#database-design)
-	* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
-	* [WHO dimension](#who-dimension-cognitive-system-inventory)
-	* [HOW dimension](#how-dimension-experimentation-repository)
-	* [FACT TABLE](#fact-table)
-	* [ERR diagram](#mysql-err-diagram)
-	* [SQL Create script](#mysql-sql-create-script)
+* [Database Design](#database-design)
+	* [Schema](#schema)
+		* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
+		* [WHO dimension](#who-dimension-cognitive-system-inventory)
+		* [HOW dimension](#how-dimension-experimentation-repository)
+		* [FACT TABLE](#fact-table)
+	* [Implementation](#implementation)
+		* [ERR diagram](#mysql-err-diagram)
+		* [SQL Create script](#mysql-sql-create-script)
 * [Data](#data)
 	* [AI](#AI)
 		* [Deep Learning Architectures](#deep-learning-architectures)
@@ -66,7 +68,9 @@ Each dimension has a structure and captures (part of) the information / ontologi
 
 # Database design
 
-## WHAT dimension (Behavioural Test Catalogue)
+## Schema
+
+### WHAT dimension (Behavioural Test Catalogue)
 
 Entity tables: 
 
@@ -89,7 +93,7 @@ TASK "Winogradschemas" _IS (requires) "Commonsense" (to some extent/weight) acco
 TASK "Gv" (Visual Processing) _IS (composes) "G" (General Intelligence) according to SOURCE "Cattell-Horn_carroll" and _BELONGS_TO the HIERARCHY "CHC"
 ```
 
-## WHO dimension (cognitive System Inventory)
+### WHO dimension (cognitive System Inventory)
 
 * **Agent**: Systems, architectures, algorithms, etc.
 
@@ -114,7 +118,7 @@ Many-tomany relationships:
 * **_HAS**: AGENT possess ATTRIBUTES (PK: Ag x A)
 * **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: Ag x H)
 
-## HOW dimension (Experimentation Repository)
+### HOW dimension (Experimentation Repository)
 
 Entity tables: 
 
@@ -133,7 +137,7 @@ METHOD "Cross-Validation-Anneal" _HAS "5" number of folds and "2" repetitions ac
 METHOD "PriorDuel-noop" _HAS  "no-op actions" as procedure, "57" games in testing phase and "200M" training frames according to SOURCE "Wang et al, 2015"
 ```
 
-## Fact table
+### Fact table
 
 Measures:
 
@@ -148,7 +152,7 @@ using as evaluation METHOD "100,000" episodes, "57" test games and "200M" traini
 obtains a measured score of "23.3"
 ```
 
-## Database architecture
+## Implementation
 
 We use a free, lightweight, open source MySQL database.
 
