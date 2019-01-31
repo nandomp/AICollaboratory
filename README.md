@@ -356,6 +356,11 @@ X | Y | Z | R
 
 # :orange_book: References
 
+* ...
+*
+*
+*
+
 
 # TODOs 
 
@@ -369,14 +374,12 @@ X | Y | Z | R
 
 *We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
 
-[A]I Collaboratory is powered by:
-
-  <a href="https://www.r-project.org">
+[A]I Collaboratory is powered by: <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
-      alt="R" width = "75"/>
-  </a>   <a href="https://www.mysql.com">
+      alt="R" width = "40"/>
+  </a> &  <a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-      alt="MySQL" width = "75"/>
+      alt="MySQL" width = "40"/>
   </a>
 
 
