@@ -71,7 +71,7 @@ Multidimensional perspective (over a database):
 
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
-      alt="Multidimensial perspective"/>
+      alt="Multidimensial perspective" width = "800"/>
 </div>
 
 Example (simplified) of information stored in the multidimensional model:
