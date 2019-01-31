@@ -366,11 +366,10 @@ X | Y | Z | R
 
   <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
-      alt="R" width = "100"/>
-  </a>
-  <a href="https://www.mysql.com">
+      alt="R" width = "50"/>
+  </a><a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-      alt="MySQL" width = "100"/>
+      alt="MySQL" width = "50"/>
   </a>
 
 
