@@ -1,6 +1,8 @@
 
 <h1 align="center">(A)ICollaboratory</h1>
-
+<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/AICollaboratoryLogo.png"
+      alt="NPM version" />
+	  
 <div align="center">
   :steam_locomotive::train::train::train::train::train:
 </div>
