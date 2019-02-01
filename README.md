@@ -25,7 +25,7 @@ This project is conceived as a pioneering initiative for the development of a co
 
 * [Infraestructure](#page_with_curl-infraestructure) 
 * [Design](#pencil2-design)
-	* [Database](#:books:-database)
+	* [Database](#books-database)
 		* [Multidemensional Schema](#multidimensional-schema)
 		* [Implementation](#implementation)
 * [Data](#file_folder-data)
@@ -384,43 +384,22 @@ A easy way to to populate the database with data from new case studies...
 # TODOs 
 
 **Infraestructure**
-- [x] Set up [AI]Collaboratory web page.
-- [x] Multidimensional database schema design
-- [x] Database implementation in MySQL
-- [ ] Database online access (AWS)
-- 
+	- [x] Set up [AI]Collaboratory web page.
+	- [x] Multidimensional database schema design
+	- [x] Database implementation in MySQL
+	- [ ] Database online access (AWS)
+	- [ ] ...
+	
 **Data**
 - [x] Arcade Learning Environment
-	- [x] Data collection
-	- [x] Data Standardisation
-	- [x] Data stored in [A]Icollaboratory DB
 - [x] OpenML
-	- [x] Data collection
-	- [x] Data standardisation
-	- [x] Data stored in [A]Icollaboratory DB
-- [ ] General Video Game AI Competition
-	- [x] Data collection
-	- [ ] Data standardisation
-	- [ ] Data stored in [A]Icollaboratory DB
 - [ ] Alpha* systems
-	- [x] Data collection
-	- [ ] Data standardisation
-	- [ ] Data stored in [A]Icollaboratory DB
 - [ ] ImageNet
-	- [x] Data collection
-	- [ ] Data standardisation
-	- [ ] Data stored in [A]Icollaboratory DB
 - [ ] Computer Chess Systems
-	- [x] Data collection
-	- [ ] Data standardisation
-	- [ ] Data stored in [A]Icollaboratory DB
 - [ ] Human Data
-	- [x] Human Atari 2600 player.
-	- [ ] ...
 - [ ] Animal Data
-	- [ ] Animal-AI Olympics
-	- [ ] ...
-- [ ] 
+- [ ] ...
+
 **Exploitation Tools**
 - [ ] Querying  
 - [ ] Data analysis  
