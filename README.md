@@ -216,9 +216,16 @@ Code:
 
 Figures: 
 
-Tasks | Systems | Methods | #Results
------ | ------- | ------- | --------
-X | Y | Z | R
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+Weka algorithms | 1315 | 90 | 90 | 424235
+mlr algorithms | 1597 | 92 | 92 | 118190
+Sklearn algorithms | 3326 | 92 | 92 | 68667
+Weka algorithms | 31 | 90 | 90 | 1132
+Weka algorithms | 12 | 3 | 3 | 169
+
+Visualisation examples:
+
 
 
 
@@ -238,9 +245,9 @@ Code:
 
 Figures: 
 
-Tasks | Systems | Methods | #Results
------ | ------- | ------- | --------
-X | Y | Z | R
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+Weka algorithms | X | Y | Z | R
 
 
 
@@ -260,9 +267,9 @@ Code:
 
 Figures: 
 
-Tasks | Systems | Methods | #Results
------ | ------- | ------- | --------
-X | Y | Z | R
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+Weka algorithms | X | Y | Z | R
 
 
 
@@ -281,9 +288,9 @@ Code:
 
 Figures: 
 
-Tasks | Systems | Methods | #Results
------ | ------- | ------- | --------
-X | Y | Z | R
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+Weka algorithms | X | Y | Z | R
 
 
 
@@ -305,9 +312,9 @@ Code:
 * [R code]()
 
 
-Tasks | Systems | Methods | #Results
------ | ------- | ------- | --------
-X | Y | Z | R
+Hierarchy | Tasks | Systems | Methods | #Results
+--------- | ----- | ------- | ------- | --------
+H | X | Y | Z | R
 
 
 
@@ -324,9 +331,9 @@ Engine vs engine chess testing. Web-scraped data from [CCRL](http://www.computer
 * **40/4**: Ponder off, General book (up to 12 moves), 3-4-5 piece EGTB. Time control: Equivalent to 40 moves in 4 minutes on Athlon 64 X2 4600+ (2.4 GHz), about 1.5 minutes on a modern Intel CPU.
 * **404FRC**: Shredder GUI, ChessGUI by Matthias Gemuh, Ponder off, 5-men EGTB, 128MB hash, random openings with switched sides. Time control: Equivalent to 40 moves in 4 minutes on Athlon 64 X2 4600+ (2.4 GHz), about 1.5 minutes on a modern Intel CPU.
 
-Tasks | Systems | Methods | #Results
------ | ------- | ------- | --------
-X | Y | Z | R
+Hierarchy | Tasks | Systems | Methods | #Results
+--------- | ----- | ------- | ------- | --------
+H | X | Y | Z | R
 
 
 ...
