@@ -248,7 +248,7 @@ Figures:
 
 Hierarchy | Agents | Tasks | Methods | #Results
 --------- | ------ | ----- | ------- | --------
-Weka algorithms | X | Y | Z | R
+H | X | Y | Z | R
 
 
 
@@ -270,7 +270,7 @@ Figures:
 
 Hierarchy | Agents | Tasks | Methods | #Results
 --------- | ------ | ----- | ------- | --------
-Weka algorithms | X | Y | Z | R
+H | X | Y | Z | R
 
 
 
@@ -291,7 +291,7 @@ Figures:
 
 Hierarchy | Agents | Tasks | Methods | #Results
 --------- | ------ | ----- | ------- | --------
-Weka algorithms | X | Y | Z | R
+H | X | Y | Z | R
 
 
 
