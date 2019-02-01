@@ -28,10 +28,7 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Database](#database)
 * [Database Design](#books-database-design)
 	* [Multidemensional Schema](#multidimensional-schema)
-		* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
-		* [WHO dimension](#who-dimension-cognitive-system-inventory)
-		* [HOW dimension](#how-dimension-experimentation-repository)
-		* [FACT TABLE](#fact-table)
+	
 	* [Implementation](#implementation)
 		* [ERR diagram](#mysql-err-diagram)
 		* [SQL Create script](#mysql-sql-create-script)
@@ -83,7 +80,9 @@ On top of the infrastructure there will be a series of exploitation tools where 
 
 ## Database
 
-### Multidimensional perspective 
+### Multidimensional Schema
+
+Multidimensional perspective (over a relational database):
 
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
@@ -101,8 +100,6 @@ with a measured score of 23.3
 
 Each dimension has a structure and captures (part of) the information / ontologies / constructs about intelligence / cognition / tests in the literature.
 
-
-### Multidimensional Schema
 
 #### WHAT dimension (Behavioural Test Catalogue)
 
