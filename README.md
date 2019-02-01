@@ -237,17 +237,14 @@ Figures:
 
 Hierarchy | Agents | Tasks | Methods | #Results
 --------- | ------ | ----- | ------- | --------
-Weka algorithms | 1315 | 90 | 90 | 424235
-mlr algorithms | 1597 | 92 | 92 | 118190
-Sklearn algorithms | 3326 | 92 | 92 | 68667
-openML algorithms | 31 | 90 | 90 | 1132
-RM algorithms | 12 | 3 | 3 | 169
+Default | 27 | 57 | 41 | 1878 
 
 Visualisation examples:
 
 <div align="center">
-<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_AUCvsACC.png" alt="ACC vs AUC" width="700" />  <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_pareto_ACCvsTIME.png" alt="Pareto Frontier (ACC vs Training TIME)" width="700" /></a>
+<img src="" alt="ACC vs AUC" width="700" />  <img src="" alt="Pareto Frontier (ACC vs Training TIME)" width="700" /></a>
 </div>
+
 
 #### Case Study: The General Video Game AI Competition
 
@@ -312,9 +309,21 @@ Data has been gathered from the [OpenML Study 14](https://www.openml.org/s/14), 
 
 Data: 
 
-Hierarchy | Tasks | Systems | Methods | #Results
---------- | ----- | ------- | ------- | --------
-H | X | Y | Z | R
+Figures: 
+
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+Weka algorithms | 1315 | 90 | 90 | 424235
+mlr algorithms | 1597 | 92 | 92 | 118190
+Sklearn algorithms | 3326 | 92 | 92 | 68667
+openML algorithms | 31 | 90 | 90 | 1132
+RM algorithms | 12 | 3 | 3 | 169
+
+Visualisation examples:
+
+<div align="center">
+<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_AUCvsACC.png" alt="ACC vs AUC" width="700" />  <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_pareto_ACCvsTIME.png" alt="Pareto Frontier (ACC vs Training TIME)" width="700" /></a>
+</div>
 
 
 
