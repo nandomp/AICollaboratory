@@ -79,11 +79,11 @@ On top of the infrastructure there will be a series of exploitation tools where 
 * **Collaborative tools**: a platform such that new hypotheses, projects, educational material and research papers can evolve from the atlas.
 
 
-# :pencil2: Architecture
+# :pencil2: Design
 
 ## Database
 
-Multidimensional perspective (over a database): 
+### Multidimensional perspective (over a database): 
 
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
@@ -101,11 +101,6 @@ with a measured score of 23.3
 
 Each dimension has a structure and captures (part of) the information / ontologies / constructs about intelligence / cognition / tests in the literature.
 
-
-
-# :books: Design
-
-## Database
 
 ### Multidimensional Schema
 
