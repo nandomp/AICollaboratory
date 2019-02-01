@@ -209,7 +209,32 @@ The Arcade Learning Environment (ALE) was introduced by [Mnih et al, 2015](https
 
 Data: 
 
-We have performed a bibliographical search to find all the papers that include experiments with a wide range of ALE games. 
+We have performed a bibliographical search to find all the papers that include experiments with a wide range of ALE games:
+
+|description                                                                           |link                                                                                      |
+|:-------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
+|Investigating Contingency Awareness
+Using Atari 2600 Games                          |https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/5162/5493                       |
+|The Arcade Learning Environment: An Evaluation Platform for General Agents            |https://arxiv.org/abs/1207.4708v1                                                         |
+|Playing Atari with Deep Reinforcement Learning                                        |https://arxiv.org/abs/1312.5602                                                           |
+|Human-level control through deep reinforcement
+learning                             |https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf|
+|Massively Parallel Methods for Deep Reinforcement Learning                            |https://arxiv.org/abs/1507.04296                                                          |
+|Deep Reinforcement Learning with Double Q-learning                                    |https://arxiv.org/abs/1509.06461v1                                                        |
+|Deep Reinforcement Learning with Double Q-learning                                    |https://arxiv.org/abs/1509.06461v3                                                        |
+|Prioritized Experience Replay                                                         |https://arxiv.org/abs/1511.05952                                                          |
+|Dueling Network Architectures for Deep Reinforcement Learning                         |https://arxiv.org/abs/1511.06581v1                                                        |
+|Dueling Network Architectures for Deep Reinforcement Learning                         |https://arxiv.org/abs/1511.06581v3                                                        |
+|Asynchronous Methods for Deep Reinforcement Learning                                  |https://arxiv.org/abs/1602.01783                                                          |
+|Learning functions across many orders of magnitudes                                   |https://arxiv.org/abs/1602.07714v1                                                        |
+|Unifying Count-Based Exploration and Intrinsic Motivation                             |https://arxiv.org/abs/1606.01868                                                          |
+|#Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning      |https://arxiv.org/abs/1611.04717                                                          |
+|Count-Based Exploration with Neural Density Models                                    |https://arxiv.org/abs/1703.01310v1                                                        |
+|Evolution Strategies as a Scalable Alternative to Reinforcement Learning              |https://arxiv.org/abs/1703.03864v1                                                        |
+|The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning|https://openreview.net/pdf?id=rkHVZWZAZ                                                   |
+|Count-Based Exploration in Feature Space for Reinforcement Learning                   |https://arxiv.org/abs/1706.08090                                                          |
+|A Distributional Perspective on Reinforcement Learning                                |https://arxiv.org/abs/1707.06887                                                          |
+|Rainbow: Combining Improvements in Deep Reinforcement Learning                        |https://arxiv.org/abs/1710.02298                                                          |
 
 
 Code: 
