@@ -67,6 +67,16 @@ The collaboratory will integrate open data and knowledge in four domains:
 
 * **Constructs of Intelligence Corpus**, which will integrate latent and hierarchical models, taxonomical criteria, ontologies, mappings from low to high-level cognition, as well as theories of intelligence.
 
+On top of the infrastructure there will be a series of exploitation tools where actual data science will take place, following state-of-the-art data exploitation tools but customised to the potential users of the atlas:
+
+* **Querying tools**: query languages and interfaces for powerful (dis)aggregation and cross-comparisons, reuse of predefined multidimensional filters, trend analysis along time, heuristic search, etc.
+
+* **Data analysis tools**: a set of modelling tools from statistics and machine learning, integrating off-the-shelf analytical packages and specific analytical tools.
+
+* **Visualisation tools**: a set of interactive interfaces to perform projections, topological representations, depicting trajectories, visual categorisations, iconic representations, conceptual maps, ...
+
+* **Collaborative tools**: a platform such that new hypotheses, projects, educational material and research papers can evolve from the atlas.
+
 
 # :pencil2: Architecture
 
@@ -341,11 +351,20 @@ H | X | Y | Z | R
 
 ## :woman: Human
 
-...
+### Animal-AI Olympics
+
+### Case Study: CHC related data
+
+### ...
+
+
+
 
 ## :hear_no_evil: Animal (non-human)
 
-...
+### Case Study: Animal-AI Olympics
+
+### ...
 
 
 
@@ -371,8 +390,50 @@ A easy way to to populate the database with data from new case studies...
 
 # TODOs 
 
-- [x] ...
-- [ ] ...
+**Infraestructure**
+- [x] Set up [AI]Collaboratory web page.
+- [x] Multidimensional database schema design
+- [x] Database implementation in MySQL
+- [ ] Database online access (AWS)
+- 
+**Data**
+- [x] Arcade Learning Environment
+	- [x] Data collection
+	- [x] Data Standardisation
+	- [x] Data stored in [A]Icollaboratory DB
+- [x] OpenML
+	- [x] Data collection
+	- [x] Data standardisation
+	- [x] Data stored in [A]Icollaboratory DB
+- [ ] General Video Game AI Competition
+	- [x] Data collection
+	- [ ] Data standardisation
+	- [ ] Data stored in [A]Icollaboratory DB
+- [ ] Alpha* systems
+	- [x] Data collection
+	- [ ] Data standardisation
+	- [ ] Data stored in [A]Icollaboratory DB
+- [ ] ImageNet
+	- [x] Data collection
+	- [ ] Data standardisation
+	- [ ] Data stored in [A]Icollaboratory DB
+- [ ] Computer Chess Systems
+	- [x] Data collection
+	- [ ] Data standardisation
+	- [ ] Data stored in [A]Icollaboratory DB
+- [ ] Human Data
+	- [x] Human Atari 2600 player.
+	- [ ] ...
+- [ ] Animal Data
+	- [ ] Animal-AI Olympics
+	- [ ] ...
+- [ ] 
+**Exploitation Tools**
+- [ ] Querying  
+- [ ] Data analysis  
+- [ ] Visualisation  
+- [ ] Collaborative 
+
 
 
 
