@@ -246,7 +246,7 @@ Default | 27 | 57 | 41 | 1878
 Visualisation examples:
 
 <div align="center">
-<img src="" alt="" width="700" />  <img src="" alt="" width="700" /></a>
+<img src="" alt="https://github.com/nandomp/AICollaboratory/blob/master/Figures/ALE_SCOREvsTIME.png" width="700" />  
 </div>
 
 
