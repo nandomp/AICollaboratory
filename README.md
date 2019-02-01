@@ -227,7 +227,7 @@ RM algorithms | 12 | 3 | 3 | 169
 Visualisation examples:
 
 <div align="center">
-<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_AUCvsACC.png" alt="ACC vs AUC" width="450" />  <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_pareto_ACCvsTIME.png" alt="Pareto Frontier (ACC vs Training TIME)" width="450" /></a>
+<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_AUCvsACC.png" alt="ACC vs AUC" width="700" />  <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/openML_pareto_ACCvsTIME.png" alt="Pareto Frontier (ACC vs Training TIME)" width="700" /></a>
 </div>
 
 #### Case Study: The General Video Game AI Competition
