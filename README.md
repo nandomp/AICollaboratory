@@ -186,7 +186,7 @@ using as evaluation METHOD "100,000" episodes, "57" test games and "200M" traini
 obtains a measured score of "23.3"
 ```
 
-### Database Implementation
+### Implementation
 
 We use a free, lightweight, open source [MySQL](https://www.mysql.com/) database.
 
