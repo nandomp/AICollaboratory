@@ -307,11 +307,13 @@ H | X | Y | Z | R
 
 #### Case Study: OpenML 
 
-[OpenML](https://www.openml.org/) is an online machine learning platform for sharing and organizing data, machine learning algorithms and experiments. It is designed to create a frictionless, networked ecosystem, that you can readily integrate into your existing processes/code/environments, allowing people all over the world to collaborate and build directly on each other’s latest ideas, data and results, irrespective of the tools and infrastructure they happen to use.
+[OpenML](https://www.openml.org/)  is an online machine learning platform where researchers can access open data, download and upload data sets, share their machine learning tasks and experiments and organize them online to work and collaborate with other researchers. It is designed to create a frictionless, networked ecosystem, that you can readily integrate into your existing processes/code/environments, allowing people all over the world to collaborate and build directly on each other’s latest ideas, data and results, irrespective of the tools and infrastructure they happen to use.
+
+Data: 
 
 Data has been gathered from the [OpenML Study 14](https://www.openml.org/s/14), a collaborative, reproducible benchmark. This study collects experiments from multiple researchers, run with different tools (mlr, scikit-learn, WEKA,...) and compares them all on a benchmark set of 100 public datasets (the OpenML-100). All algorithms were run with optimized (hyper)parameters using 200 random search iterations.
 
-Data: 
+We have use the [R interface to OpenML](https://github.com/openml/openml-r) which allows the downloading and uploading of data sets, tasks, flows and runs.
 
 Figures: 
 
@@ -391,32 +393,6 @@ Some examples...
 ### Data scraping
 * <code>AICollab_Data_openML.R</code>
 
-
-# TODOs 
-
-**Infraestructure**
-- [x] Set up [AI]Collaboratory web page.
-- [x] Multidimensional database schema design
-- [x] Database implementation in MySQL
-- [ ] Database online access (AWS)
-- [ ] ...
-	
-**Data**
-- [x] Arcade Learning Environment
-- [ ] Alpha* systems
-- [ ] ImageNet
-- [ ] Computer Chess Systems
-- [x] OpenML
-- [ ] Human Data
-- [ ] Animal Data
-- [ ] ...
-
-**Exploitation Tools**
-- [ ] Querying  
-- [ ] Data analysis  
-- [ ] Visualisation  
-- [ ] Collaborative 
-- [ ] ...
 
 
 
