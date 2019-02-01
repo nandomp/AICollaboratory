@@ -24,8 +24,8 @@ This project is conceived as a pioneering initiative for the development of a co
 
 
 * [Infraestructure](#page_with_curl-infraestructure) 
-* [Architecture](#pencil2-architecture)
-	* [Database]
+* [Design](#pencil2-design)
+	* [Database](#database)
 * [Database Design](#books-database-design)
 	* [Multidemensional Schema](#multidimensional-schema)
 		* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
@@ -83,7 +83,7 @@ On top of the infrastructure there will be a series of exploitation tools where 
 
 ## Database
 
-### Multidimensional perspective (over a database): 
+### Multidimensional perspective 
 
 <div align="center">
 <img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
