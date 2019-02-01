@@ -42,6 +42,8 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Human](#woman-human)
 	* [Animal](#hear_no_evil-animal-non-human)
 * [Usage](#hammer-usage)
+	* [Data population](#data-population)
+	* [Data querying](#data-querying)
 * [Code](#-code-r)
 	* [Database manipulation](#database-manipulation)
 	* [Data scraping](#data-scraping)
@@ -374,12 +376,12 @@ H | X | Y | Z | R
 
 A easy way to to populate the database with data from new case studies...
 
-### SQL queries
+### Data querying
 
-* ...
-*
-*
-*
+Some examples...
+
+
+
 # 💾 Code (R)
 
 ### Database manipulation
