@@ -25,13 +25,9 @@ This project is conceived as a pioneering initiative for the development of a co
 
 * [Infraestructure](#page_with_curl-infraestructure) 
 * [Design](#pencil2-design)
-	* [Database](#database)
-* [Database Design](#books-database-design)
-	* [Multidemensional Schema](#multidimensional-schema)
-	
-	* [Implementation](#implementation)
-		* [ERR diagram](#mysql-err-diagram)
-		* [SQL Create script](#mysql-sql-create-script)
+	* [Database](#:books:-database)
+		* [Multidemensional Schema](#multidimensional-schema)
+		* [Implementation](#implementation)
 * [Data](#file_folder-data)
 	* [AI](#computer-ai)
 		* [Deep Learning Architectures](#deep-learning-architectures)
@@ -78,7 +74,7 @@ On top of the infrastructure there will be a series of exploitation tools where 
 
 # :pencil2: Design
 
-## Database
+## :books: Database
 
 ### Multidimensional Schema
 
