@@ -43,6 +43,8 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Animal](#hear_no_evil-animal-non-human)
 * [Usage](#hammer-usage)
 * [Code](#-code-r)
+	* [Database manipulation](#database-manipulation)
+	* [Data scraping](#data-scraping)
 * [References](#orange_book-references)
 * [TODOs](#todos)
 * [Credits](#muscle-credits)
@@ -380,7 +382,7 @@ A easy way to to populate the database with data from new case studies...
 *
 # 💾 Code (R)
 
-### Database funtions
+### Database manipulation
 * <code>AICollab_DB_funcs.R</code>
 * <code>AICollab_DB_populate.R</code>
 
