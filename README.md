@@ -25,6 +25,7 @@ This project is conceived as a pioneering initiative for the development of a co
 
 * [Infraestructure](#page_with_curl-infraestructure) 
 * [Architecture](#pencil2-architecture)
+	* [Database]
 * [Database Design](#books-database-design)
 	* [Multidemensional Schema](#multidimensional-schema)
 		* [WHAT dimension](#what-dimension-behavioural-test-catalogue)
@@ -80,6 +81,8 @@ On top of the infrastructure there will be a series of exploitation tools where 
 
 # :pencil2: Architecture
 
+## Database
+
 Multidimensional perspective (over a database): 
 
 <div align="center">
@@ -100,11 +103,13 @@ Each dimension has a structure and captures (part of) the information / ontologi
 
 
 
-# :books: Database design
+# :books: Design
 
-## Multidimensional Schema
+## Database
 
-### WHAT dimension (Behavioural Test Catalogue)
+### Multidimensional Schema
+
+#### WHAT dimension (Behavioural Test Catalogue)
 
 Entity tables: 
 
@@ -127,7 +132,7 @@ TASK "Winogradschemas" _IS (requires) "Commonsense" (to some extent/weight) acco
 TASK "Gv" (Visual Processing) _IS (composes) "G" (General Intelligence) according to SOURCE "Cattell-Horn_carroll" and _BELONGS_TO the HIERARCHY "CHC"
 ```
 
-### WHO dimension (Cognitive System Inventory)
+#### WHO dimension (Cognitive System Inventory)
 
 * **Agent**: Systems, architectures, algorithms, etc.
 
@@ -152,7 +157,7 @@ Many-tomany relationships:
 * **_HAS**: AGENT possess ATTRIBUTES (PK: Ag x A)
 * **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: Ag x H)
 
-### HOW dimension (Experimentation Repository)
+#### HOW dimension (Experimentation Repository)
 
 Entity tables: 
 
@@ -171,7 +176,7 @@ METHOD "Cross-Validation-Anneal" _HAS "5" number of folds and "2" repetitions ac
 METHOD "PriorDuel-noop" _HAS  "no-op actions" as procedure, "57" games in testing phase and "200M" training frames according to SOURCE "Wang et al, 2015"
 ```
 
-### Fact table
+#### Fact table
 
 Measures:
 
@@ -186,15 +191,15 @@ using as evaluation METHOD "100,000" episodes, "57" test games and "200M" traini
 obtains a measured score of "23.3"
 ```
 
-## Implementation
+### Database Implementation
 
 We use a free, lightweight, open source [MySQL](https://www.mysql.com/) database.
 
-### MySQL ERR diagram
+#### MySQL ERR diagram
 
 ![ERR](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_ERR_v1.png)
 
-### MySQL SQL Create script
+#### MySQL SQL Create script
 
 [SQL script](https://github.com/nandomp/AICollaboratory/blob/master/MySQL/Atlas_schema_v1.sql)
 
