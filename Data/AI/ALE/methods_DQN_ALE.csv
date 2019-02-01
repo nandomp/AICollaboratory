@@ -1,0 +1,36 @@
+"method","source","Procedure","Games_Train_Params","Frames_Train","Frames_Train_Type","Games_Test"
+"SARSA","SARSA","Other",5,2,"M",46
+"Best Linear","Best Linear","Other",5,0.15,"M",50
+"DQN best","DQN","Other",7,50,"M",7
+"Nature DQN","DQN-Nature","noop",5,50,"M",49
+"Gorila","Gorilla","hs",5,200,"M",49
+"DQN noop","Double DQN","noop",0,200,"M",49
+"DQN hs","Double DQN","hs",0,200,"M",49
+"DDQN (tuned) hs","Double DQN-tuned","hs",0,200,"M",57
+"Prior hs","Prior DQN","hs",7,200,"M",49
+"Prior noop","Prior DQN","noop",7,200,"M",49
+"Duel noop","Duel DQN","noop",0,200,"M",57
+"DDQN (tuned) noop","Duel DQN-tuned","noop",0,200,"M",57
+"Duel hs","Duel DQN","hs",0,200,"M",57
+"Prior+Duel noop","Prior Duel DQN","noop",0,200,"M",57
+"Prior+Duel hs","Prior Duel DQN","hs",0,200,"M",57
+"A3C LSTM hs","A3C-LSTM","hs",6,200,"M",57
+"A3C FF hs","A3C-FF","hs",6,200,"M",57
+"A3C FF (1 day) hs","A3C-FF","hs",6,50,"M",57
+"DDQN+Pop-Art noop","Double DQN-Pop-Art","noop",8,200,"M",49
+"A3C-CTS","A3C-CTS","Other",0,200,"M",60
+"TRPO-hash","TRPO-hash","Other",0,50,"M",6
+"DQN-CTS","DQN-CTS","Other",0,150,"M",57
+"DQN-PixelCNN","DQN-PixelCNN","Other",0,150,"M",57
+"ES FF (1 hour) noop","ES","noop",0,1000,"M",51
+"REACTOR hs","REACTOR","hs",7,200,"M",57
+"REACTOR ND hs","REACTOR-ND","hs",7,200,"M",57
+"REACTOR 500 hs","REACTOR","hs",7,500,"M",57
+"REACTOR noop","REACTOR","noop",7,200,"M",57
+"REACTOR ND noop","REACTOR-ND","noop",7,200,"M",57
+"REACTOR 500 noop","REACTOR","noop",7,500,"M",57
+"SARSA-e","SARSA-e","noop",0,100,"M",5
+"SARSA-f-EB","Sarsa-f-EB","noop",0,100,"M",5
+"C51 noop","C51","noop",5,200,"M",57
+"RAINBOW hs","RAINBOW","hs",0,200,"M",54
+"RAINBOW noop","RAINBOW","noop",0,200,"M",54

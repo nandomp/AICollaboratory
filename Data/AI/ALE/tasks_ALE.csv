@@ -1,0 +1,60 @@
+task,task_is,weight,hierarchy_belongs,source,Year,Genre,Notes,Platform,Resolution
+Alien,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Amidar,Atari 2600 game,1,Default,Best Linear,1982,Action,licensed by Konami,Atari 2600,260 x 160
+Assault,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Asterix,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Asteroids,Atari 2600 game,1,Default,Best Linear,1981,Action,,Atari 2600,260 x 160
+Atlantis,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Bank Heist,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Battle Zone,Atari 2600 game,1,Default,Best Linear,1983,Simulation,,Atari 2600,260 x 160
+Beam Rider,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Berzerk,Atari 2600 game,1,Default,Best Linear,1982,Action,Licensed by Stern Electronics,Atari 2600,260 x 160
+Bowling,Atari 2600 game,1,Default,Best Linear,1979,Sports,,Atari 2600,260 x 160
+Boxing,Atari 2600 game,1,Default,Best Linear,1980,Sports,,Atari 2600,260 x 160
+Breakout,Atari 2600 game,1,Default,Best Linear,1978,Action,,Atari 2600,260 x 160
+Centipede,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Chopper Command,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Crazy Climber,Atari 2600 game,1,Default,Best Linear,1982,Action,Licensed by Nihon Bussan Co.,Atari 2600,260 x 160
+Defender,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Demon Attack,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Double Dunk,Atari 2600 game,1,Default,Best Linear,1989,Sports,,Atari 2600,260 x 160
+Enduro,Atari 2600 game,1,Default,Best Linear,1983,Racing,,Atari 2600,260 x 160
+Fishing Derby,Atari 2600 game,1,Default,Best Linear,1980,Sports,,Atari 2600,260 x 160
+Freeway,Atari 2600 game,1,Default,Best Linear,1981,Action,,Atari 2600,260 x 160
+Frostbite,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Gopher,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Gravitar,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+HERO,Atari 2600 game,1,Default,Best Linear,1984,Action,,Atari 2600,260 x 160
+Ice Hockey,Atari 2600 game,1,Default,Best Linear,1981,Sports,,Atari 2600,260 x 160
+James Bond,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Kangaroo,Atari 2600 game,1,Default,Best Linear,1983,Action,Licensed by Sun Electronics,Atari 2600,260 x 160
+Krull,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Kung-Fu Master,Atari 2600 game,1,Default,Best Linear,1987,Action,licensed by Data East USA,Atari 2600,260 x 160
+Montezuma Revenge,Atari 2600 game,1,Default,Best Linear,1984,Action,,Atari 2600,260 x 160
+Ms. Pacman,Atari 2600 game,1,Default,Best Linear,1983,Action,Licensed by Bally Midway,Atari 2600,260 x 160
+Name This Game,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Phoenix,Atari 2600 game,1,Default,Best Linear,1982,Action,Licensed by Amstar Electronics.,Atari 2600,260 x 160
+Pitfall!,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Pong,Atari 2600 game,1,Default,Best Linear,1977,Action,One of the nine Atari 2600 launch titles,Atari 2600,260 x 160
+Private Eye,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Q*Bert,Atari 2600 game,1,Default,Best Linear,1983,Action,Reissued by Atari in 1988 (CX-26150),Atari 2600,260 x 160
+River Raid,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Road Runner,Atari 2600 game,1,Default,Best Linear,1989,Racing,,Atari 2600,260 x 160
+Robotank,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Seaquest,Atari 2600 game,1,Default,Best Linear,1983,Action,,Atari 2600,260 x 160
+Skiing,Atari 2600 game,1,Default,Best Linear,1980,Sports,,Atari 2600,260 x 160
+Solaris,Atari 2600 game,1,Default,Best Linear,1986,Action,,Atari 2600,260 x 160
+Space Invaders,Atari 2600 game,1,Default,Best Linear,1980,Action,Licensed by Taito,Atari 2600,260 x 160
+Star Gunner,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Surround,Atari 2600 game,1,Default,Best Linear,1977,Action,One of the nine Atari 2600 launch titles,Atari 2600,260 x 160
+Tennis,Atari 2600 game,1,Default,Best Linear,1981,Sports,,Atari 2600,260 x 160
+Time Pilot,Atari 2600 game,1,Default,Best Linear,1983,Action,licensed by Konami,Atari 2600,260 x 160
+Tutankham,Atari 2600 game,1,Default,Best Linear,1983,Action,licensed by Konami,Atari 2600,260 x 160
+Up and Down,Atari 2600 game,1,Default,Best Linear,1984,Racing,,Atari 2600,260 x 160
+Venture,Atari 2600 game,1,Default,Best Linear,1982,Action,Licensed by Exidy; reissued by Atari in 1988 (CX-26145),Atari 2600,260 x 160
+Video Pinball,Atari 2600 game,1,Default,Best Linear,1980,Pinball,,Atari 2600,260 x 160
+Wizard of Wor,Atari 2600 game,1,Default,Best Linear,1982,Action,licensed by Bally Midway,Atari 2600,260 x 160
+Yars Revenge,Atari 2600 game,1,Default,Best Linear,1982,Action,,Atari 2600,260 x 160
+Zaxxon,Atari 2600 game,1,Default,Best Linear,1982,Action,licensed by Sega,Atari 2600,260 x 160
+Atari 2600 game,Atari Learning Environment,1,Default,Best Linear,NA,,,,
+Atari Learning Environment,,1,Default,Best Linear,NA,,,,
