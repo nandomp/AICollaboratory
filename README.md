@@ -384,11 +384,11 @@ A easy way to to populate the database with data from new case studies...
 # TODOs 
 
 **Infraestructure**
-	- [x] Set up [AI]Collaboratory web page.
-	- [x] Multidimensional database schema design
-	- [x] Database implementation in MySQL
-	- [ ] Database online access (AWS)
-	- [ ] ...
+- [x] Set up [AI]Collaboratory web page.
+- [x] Multidimensional database schema design
+- [x] Database implementation in MySQL
+- [ ] Database online access (AWS)
+- [ ] ...
 	
 **Data**
 - [x] Arcade Learning Environment
@@ -405,7 +405,7 @@ A easy way to to populate the database with data from new case studies...
 - [ ] Data analysis  
 - [ ] Visualisation  
 - [ ] Collaborative 
-
+- [ ] ...
 
 
 
