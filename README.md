@@ -246,7 +246,7 @@ Default | 27 | 57 | 41 | 1878
 Visualisation examples:
 
 <div align="center">
-<img src="" alt="https://github.com/nandomp/AICollaboratory/blob/master/Figures/ALE_SCOREvsTIME.png" width="700" />  
+<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/ALE_SCOREvsTIME.png" alt="median SCORE vs TIME" width="700" />  
 </div>
 
 
