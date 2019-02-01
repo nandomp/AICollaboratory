@@ -242,7 +242,7 @@ Default | 27 | 57 | 41 | 1878
 Visualisation examples:
 
 <div align="center">
-<img src="" alt="ACC vs AUC" width="700" />  <img src="" alt="Pareto Frontier (ACC vs Training TIME)" width="700" /></a>
+<img src="" alt="" width="700" />  <img src="" alt="" width="700" /></a>
 </div>
 
 
@@ -380,10 +380,12 @@ A easy way to to populate the database with data from new case studies...
 *
 # 💾 Code (R)
 
-* ...
-*
-*
-*
+### Database funtions
+* <code>AICollab_DB_funcs.R</code>
+* <code>AICollab_DB_populate.R</code>
+
+### Data scraping
+* <code>AICollab_Data_openML.R</code>
 
 
 # TODOs 
@@ -397,10 +399,10 @@ A easy way to to populate the database with data from new case studies...
 	
 **Data**
 - [x] Arcade Learning Environment
-- [x] OpenML
 - [ ] Alpha* systems
 - [ ] ImageNet
 - [ ] Computer Chess Systems
+- [x] OpenML
 - [ ] Human Data
 - [ ] Animal Data
 - [ ] ...
