@@ -221,12 +221,13 @@ Hierarchy | Agents | Tasks | Methods | #Results
 Weka algorithms | 1315 | 90 | 90 | 424235
 mlr algorithms | 1597 | 92 | 92 | 118190
 Sklearn algorithms | 3326 | 92 | 92 | 68667
-Weka algorithms | 31 | 90 | 90 | 1132
-Weka algorithms | 12 | 3 | 3 | 169
+openML algorithms | 31 | 90 | 90 | 1132
+RM algorithms | 12 | 3 | 3 | 169
 
 Visualisation examples:
 
-
+<div align="center">
+<img src="" alt="ACC vs AUC" width="400" />  <img src="" alt="Pareto Frontier (ACC vs Training TIME)" width="400" /></a>
 
 
 #### Case Study: The General Video Game AI Competition
