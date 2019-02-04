@@ -409,6 +409,8 @@ Some examples...
 
 [A]I Collaboratory is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
 
+[A]I Collaboratory is inspired by the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) project, from [LCFI](http://lcfi.ac.uk/) ([Universisty of Cambridge](https://www.cam.ac.uk/)).
+
 *We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
 
 [A]I Collaboratory is powered by <a href="https://www.r-project.org">
