@@ -313,7 +313,7 @@ Data:
 
 Data has been gathered from the [OpenML Study 14](https://www.openml.org/s/14), a collaborative, reproducible benchmark. This study collects experiments from multiple researchers, run with different tools (mlr, scikit-learn, WEKA,...) and compares them all on a benchmark set of 100 public datasets (the OpenML-100). All algorithms were run with optimized (hyper)parameters using 200 random search iterations.
 
-We have use the [R interface to OpenML](https://github.com/openml/openml-r) which allows the downloading and uploading of data sets, tasks, flows and runs.
+We have used the [R interface to OpenML](https://github.com/openml/openml-r) which allows the downloading and uploading of data sets, tasks, flows and runs.
 
 Figures: 
 
