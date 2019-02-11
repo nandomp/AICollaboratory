@@ -374,11 +374,15 @@ H | X | Y | Z | R
 
 # :hammer: Usage
 
-### Database population
+## Database population
 
 A easy way to to populate the database with data from new case studies is to generate four flat tables (.csv) containing info about sources, agents, methods and results. 
 
 **Sources**
+
+Description:
+
+*name* can be found in *link* and is described as follows (*description*).
 
 Required fields:
 
@@ -390,9 +394,32 @@ Example:
 
 name | link | description 
 ---- | ---- | -----------
+Best Linear	| https://arxiv.org/abs/1207.4708v1	| The Arcade Learning Environment: An Evaluation Platform for General Agents
 DQN	| https://arxiv.org/abs/1312.5602 | Playing Atari with Deep Reinforcement Learning
 Gorilla | https://arxiv.org/abs/1507.04296 | Massively Parallel Methods for Deep Reinforcement Learning
 ... | ... | ...
+
+
+**Tasks**
+
+Description:
+
+A *task* is (*weight*) *taks_is* according to *source*, belongs to *hierarchy_belongs*, and has *att_1* ... *att_n* attributes.
+
+Required fields:
+
+* *task*: TAKS identifier
+* *task_is*:  X (*task*) is/belongs to Y (*task_is*) according to Z (*source*)
+* *weight*: X (*task*) is Y (*task_is*) to some extent (weight between 0 and 1)
+* *hierarchy_belongs*: HIERARCHY the task belongs to (if not in the database, it will be created)
+* *source*: name of the SOURCE.
+* *att_1* ... *att_n*: descriptive attributes (as many as necessary)
+
+task | task_is | weight | hierarchy_belongs | source | Year | Genre | Notes
+---- | ------- | ------ | ----------------- | ------ | ---- | ----- | ----- 
+Alien | Atari 2600 game | 1 | Default | Best Linear | 1982 | Action | 
+Amidar | Atari 2600 game | 1 | Default | Best Linear | 1982 | Action | licensed by Konami
+...
 
 
 **Agents**
@@ -404,10 +431,10 @@ An *agent* is (*weight*) *agent_is* according to *source*, belongs to *hierarchy
 Required fields:
 
 * *agent*: AGENT identifier
-* *agent_is*:  X (agent) is/belongs to Y (agent_is) according to Z (source)
-* *weight*: X (agent) is Y (agent_is) to some extent (weight between 0 and 1)
-* *hierarchy_belongs*: Hierarchy the agent belongs to (if not in the database, it will be created)
-* *source*: name of the source.
+* *agent_is*:  X (*agent*) is/belongs to Y (*agent_is*) according to Z (*source*)
+* *weight*: X (*agent*) is Y (*agent_is*) to some extent (weight between 0 and 1)
+* *hierarchy_belongs*: HIERARCHY the agent belongs to (if not in the database, it will be created)
+* *source*: name of the SOURCE.
 * *att_1* ... *att_n*: descriptive attributes (as many as necessary)
 
 agent | agent_is | weight | hierarchy_belongs | source | Date_Start | Date_End | Authors | Approach | Human_Data | Replicability | HW | Parallelism | Workers | Hyperparameters | Rewards
@@ -418,11 +445,55 @@ Gorilla | Deep Reinforcement Learning | 1 | Default | Gorilla | 2015-07-15 | 201
 
 **Methods**
 
+Description:
+
+A testing procedure *method* is described in *source* having the following *att_1* ... *att_n* attributes.
+
+Required fields:
+
+* *method*: METHOD identifier
+* *source*: name of the SOURCE.
+* *att_1* ... *att_n*: descriptive attributes (as many as necessary)
+
+method | source | Procedure | Games_Train_Params | Frames_Train | Frames_Train_Type | Games_Test
+------ | ------ | --------- | ------------------ | ------------ | ----------------- | ---------- 
+DQN best | DQN | Other | 7 | 50 | M | 7
+Gorila | Gorilla | hs | 5 | 200 | M | 49
+...
+
+
 **Results**
+
+Description:
+
+An *agent* obtains *result* (*metric*) in *task* using the testing procedure *method*
+
+Required fields:
+
+* *agent*: AGENT identifier
+* *task*: name of the SOURCE.
+* *method* ... *att_n*: descriptive attributes (as many as necessary)
+
+agent | task | method | result | metric
+----- | ---- | ------ | ------ | ------
+DQN | Beam Rider | DQN best | 5184 | score
+DQN | Breakout | DQN best | 225 | score
+DQN | Enduro | DQN best | 661 | score
+DQN | Pong | DQN best | 21 | score
+Gorilla | Alien | Gorila | 813.5 | score
+Gorilla | Amidar | Gorila | 189.2 | score
+Gorilla | Assault | Gorila | 1195.8 | score
+Gorilla | Asterix | Gorila | 3324.7 | score
+...
+
+
 
 insert_Atlas(sourceTable, agentTable, methodTable, taskTable, resultsTable)
 
-### Data querying
+
+
+
+## Data querying
 
 Some examples...
 
