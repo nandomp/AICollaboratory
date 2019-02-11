@@ -135,6 +135,12 @@ Entity tables:
 * **HIERARCHY**: agent hierarchy.
 * **ATTRIBUTES**: parallelism, hiperparameters, approach, batch, fit, etc.
 
+Many-tomany relationships: 
+
+* **_IS**: AGENT belongs to FAMILY in SOURCE (PK: Ag x F x S)
+* **_HAS**: AGENT possess ATTRIBUTES (PK: Ag x A)
+* **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: Ag x H)
+
 Examples of rows:
 
 ```
@@ -142,12 +148,6 @@ AGENT "RAINBOW" _IS a "Deep Learning architecture" according to SOURCE "Hessel e
 AGENT "weka.PART(1)_65" _IS "PART" technique according to SOURCE "OpenML".
 AGENT "Human Atari gamer" IS " Homo sapiens" according to SOURCE "Bellamare et al., 2013" and _BELONGS_TO the HIERARCHY "Hominoidea"
 ```
-
-Many-tomany relationships: 
-
-* **_IS**: AGENT belongs to FAMILY in SOURCE (PK: Ag x F x S)
-* **_HAS**: AGENT possess ATTRIBUTES (PK: Ag x A)
-* **_BELONGS_TO**: AGENT belongs to HIERARCHY (PK: Ag x H)
 
 #### HOW dimension (Experimentation Repository)
 
@@ -376,7 +376,51 @@ H | X | Y | Z | R
 
 ### Database population
 
-A easy way to to populate the database with data from new case studies...
+A easy way to to populate the database with data from new case studies is to generate four flat tables (.csv) containing info about sources, agents, methods and results. 
+
+**Sources**
+
+Required fields:
+
+* *name*: identifier
+* *link*: url, DOI, etc.
+* *description*: further information
+
+Example: 
+
+name | link | description 
+---- | ---- | -----------
+DQN	| https://arxiv.org/abs/1312.5602 | Playing Atari with Deep Reinforcement Learning
+Gorilla | https://arxiv.org/abs/1507.04296 | Massively Parallel Methods for Deep Reinforcement Learning
+... | ... | ...
+
+
+**Agents**
+
+Description:
+
+An *agent* is (*weight*) *agent_is* according to *source*, belongs to *hierarchy_belongs*, and has *att_1* ... *att_n* attributes.
+
+Required fields:
+
+* *agent*: AGENT identifier
+* *agent_is*:  X (agent) is/belongs to Y (agent_is) according to Z (source)
+* *weight*: X (agent) is Y (agent_is) to some extent (weight between 0 and 1)
+* *hierarchy_belongs*: Hierarchy the agent belongs to (if not in the database, it will be created)
+* *source*: name of the source.
+* *att_1* ... *att_n*: descriptive attributes (as many as necessary)
+
+agent | agent_is | weight | hierarchy_belongs | source | Date_Start | Date_End | Authors | Approach | Human_Data | Replicability | HW | Parallelism | Workers | Hyperparameters | Rewards
+----- | -------- | ------ | ----------------- | ------ | ---------- | -------- | ------- | -------- | ---------- | ------------- | -- | ----------- | ------- | --------------- | -------
+DQN | Deep Reinforcement Learning | 1 | Default | DQN | 2013-12-19 | 2013-12-19 | 7 | DQN | Yes | 1 | GPU | No | 1 | Learned | Normalised
+Gorilla | Deep Reinforcement Learning | 1 | Default | Gorilla | 2015-07-15 | 2015-07-15 | 14 | DQN | Reused | 1 | GPU | Yes | 100 | Learned | Normalised
+...
+
+**Methods**
+
+**Results**
+
+insert_Atlas(sourceTable, agentTable, methodTable, taskTable, resultsTable)
 
 ### Data querying
 
