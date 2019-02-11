@@ -372,11 +372,30 @@ H | X | Y | Z | R
 
 
 
+
+
+# 💾 Code (R)
+
+### Database manipulation
+* <code>AICollab_DB_funcs.R</code>
+* <code>AICollab_DB_populate.R</code>
+
+### Data scraping
+* <code>AICollab_Data_openML.R</code>
+
+
+
+
+
+
 # :hammer: Usage
 
 ## Database population
 
-A easy way to to populate the database with data from new case studies is to generate four flat tables (.csv) containing info about sources, agents, methods and results. 
+A easy way to to populate the database with data from new case studies is to generate four flat tables (.csv) containing info about sources, agents, methods and results and then use:
+
+
+<code>insert_Atlas(sourceTable, agentTable, methodTable, taskTable, resultsTable)</code>
 
 **Sources**
 
@@ -488,8 +507,6 @@ Gorilla | Asterix | Gorila | 3324.7 | score
 
 
 
-insert_Atlas(sourceTable, agentTable, methodTable, taskTable, resultsTable)
-
 
 
 
@@ -497,16 +514,6 @@ insert_Atlas(sourceTable, agentTable, methodTable, taskTable, resultsTable)
 
 Some examples...
 
-
-
-# 💾 Code (R)
-
-### Database manipulation
-* <code>AICollab_DB_funcs.R</code>
-* <code>AICollab_DB_populate.R</code>
-
-### Data scraping
-* <code>AICollab_Data_openML.R</code>
 
 
 
