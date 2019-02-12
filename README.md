@@ -548,8 +548,9 @@ European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/communit
 
 <div align="center">
 <a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png?sanitize=true&raw=true" alt="CE" width="100" />  <img src="https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx?sanitize=true&raw=true" alt="Humaint" width="400" /></a>
+</div>
 
-Vicerrectorado de lnvestigaci6n, lnnovación y Transferencia de la Universitat Politècnica de València (PAID-06-18)
+[Vicerrectorado de lnvestigación, lnnovación y Transferencia](http://www.upv.es/entidades/VIIT/), [Universitat Politècnica de València](http://www.upv.es) (PAID-06-18)
 
 <div align="center">
 <a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://www.upv.es/perfiles/pas-pdi/imagenes/MarcaUPV50a_color.jpg" alt="UPV" width="100" /></a>
