@@ -553,5 +553,5 @@ European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/communit
 [Vicerrectorado de lnvestigación, lnnovación y Transferencia](http://www.upv.es/entidades/VIIT/), [Universitat Politècnica de València](http://www.upv.es) (PAID-06-18)
 
 <div align="center">
-<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://www.upv.es/perfiles/pas-pdi/imagenes/MarcaUPV50a_color.jpg" alt="UPV" width="100" /></a>
+<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://www.upv.es/perfiles/pas-pdi/imagenes/MarcaUPV50a_color.jpg" alt="UPV" width="300" /></a>
 </div>
