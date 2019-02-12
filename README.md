@@ -17,7 +17,7 @@
 <br />
 
 
-This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of [A]I systems. This project will create a unifying setting that incorporates data, knowledge and measurements to characterise all kinds of intelligence, including humans, non-human animals, AI systems, hybrids and collectives thereof. The firt prototype of the collaboratory will allow the study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of [A]I systems, covering, in the longer term, the current and future panorama of the [A]I. 
+This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of [A]I systems. This project will create a unifying setting that incorporates data, knowledge and measurements to characterise all kinds of intelligence, including humans, non-human animals, AI systems, hybrids and collectives thereof. The first prototype of the collaboratory will make it possible to study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of [A]I systems, covering, in the longer term, the current and future intelligence landscape. 
 
 
 :triangular_flag_on_post: **Table of contents**
@@ -61,11 +61,11 @@ The collaboratory will integrate open data and knowledge in four domains:
 
 * **Behavioural Test Catalogue**, which will integrate a series of behavioural tests, the dimensions they measure and for which kinds of systems, the possible interfaces and testing apparatus. The catalogue, largely automated and accessible online, will help researchers apply or reproduce the tests.
 
-* **Repository of experimentation**, which will record the results (measurements) of a wide range of systems (natural, artificial, hybrid or collective) for several tests and benchmarks, as the main data source of the atlas. Data will be contributed from scientific papers, experiments, psychometric repositories, AI/robotic competitions, etc. 
+* **Repository of experimentation**, which will record the results (measurements) of a wide range of systems (natural, artificial, hybrid or collective) for several tests and benchmarks, as the main data source of the repository. Data will be contributed from scientific papers, experiments, psychometric repositories, AI/robotic competitions, etc. 
 
 * **Constructs of Intelligence Corpus**, which will integrate latent and hierarchical models, taxonomical criteria, ontologies, mappings from low to high-level cognition, as well as theories of intelligence.
 
-On top of the infrastructure there will be a series of exploitation tools where actual data science will take place, following state-of-the-art data exploitation tools but customised to the potential users of the atlas:
+On top of the infrastructure there will be a series of exploitation tools where actual data science will take place, following state-of-the-art data exploitation tools but customised to the potential users of the repository:
 
 * **Querying tools**: query languages and interfaces for powerful (dis)aggregation and cross-comparisons, reuse of predefined multidimensional filters, trend analysis along time, heuristic search, etc.
 
@@ -73,7 +73,7 @@ On top of the infrastructure there will be a series of exploitation tools where 
 
 * **Visualisation tools**: a set of interactive interfaces to perform projections, topological representations, depicting trajectories, visual categorisations, iconic representations, conceptual maps, ...
 
-* **Collaborative tools**: a platform such that new hypotheses, projects, educational material and research papers can evolve from the atlas.
+* **Collaborative tools**: a platform such that new hypotheses, projects, educational material and research papers can evolve from the repository.
 
 
 # :pencil2: Design
@@ -355,8 +355,6 @@ H | X | Y | Z | R
 
 ## :woman: Human
 
-### Animal-AI Olympics
-
 ### Case Study: CHC related data
 
 ### ...
@@ -531,7 +529,7 @@ Some examples...
 
 [A]I Collaboratory is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
 
-[A]I Collaboratory is inspired by the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) project, from [LCFI](http://lcfi.ac.uk/) ([Universisty of Cambridge](https://www.cam.ac.uk/)).
+[A]I Collaboratory is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
 
 *We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
 
@@ -549,5 +547,10 @@ Some examples...
 European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/community/humaint) project within the [JRC's Centre for Advanced Studies](https://ec.europa.eu/jrc/en/research/centre-advanced-studies)
 
 <div align="center">
-<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png?sanitize=true&raw=true" alt="Example" width="100" />  <img src="https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx?sanitize=true&raw=true" alt="Example" width="400" /></a>
+<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://ec.europa.eu/jrc/communities/sites/jrccties/themes/jrccities_subtheme/logo.png?sanitize=true&raw=true" alt="CE" width="100" />  <img src="https://ec.europa.eu/jrc/communities/sites/jrccties/files/styles/community_banner/public/banner_0.jpg?itok=Q15FvEkx?sanitize=true&raw=true" alt="Humaint" width="400" /></a>
+
+Vicerrectorado de lnvestigaci6n, lnnovación y Transferencia de la Universitat Politècnica de València (PAID-06-18)
+
+<div align="center">
+<a href="https://ec.europa.eu/jrc/communities/en/community/humaint"><img src="https://www.upv.es/perfiles/pas-pdi/imagenes/MarcaUPV50a_color.jpg" alt="UPV" width="100" /></a>
 </div>
