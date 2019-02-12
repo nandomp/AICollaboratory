@@ -85,7 +85,7 @@ On top of the infrastructure there will be a series of exploitation tools where 
 Multidimensional perspective (over a relational database):
 
 <div align="center">
-<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimensionalCollaboratory.png"
+<img src="https://github.com/nandomp/AICollaboratory/blob/master/Figures/MultidimCollaboratory.png"
       alt="Multidimensial perspective" width = "700"/>
 </div>
 <br>
