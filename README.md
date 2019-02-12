@@ -41,14 +41,13 @@ This project is conceived as a pioneering initiative for the development of a co
 			* [Computer Chess Rating List](#case-study-ccrl-computer-chess-rating-lists)
 	* [Human](#woman-human)
 	* [Animal](#hear_no_evil-animal-non-human)
-* [Usage](#hammer-usage)
-	* [Data population](#data-population)
-	* [Data querying](#data-querying)
 * [Code](#-code-r)
 	* [Database manipulation](#database-manipulation)
 	* [Data scraping](#data-scraping)
+* [Usage](#hammer-usage)
+	* [Database population](#database-population)
+	* [Database querying](#database-querying)
 * [References](#orange_book-references)
-* [TODOs](#todos)
 * [Credits](#muscle-credits)
 * [Acknowledgements](#heart-aknowledgements)
 
@@ -508,7 +507,7 @@ Gorilla | Asterix | Gorila | 3324.7 | score
 
 
 
-## Data querying
+## Database querying
 
 Some examples...
 
