@@ -120,7 +120,7 @@ for (i  in 1:length(allTasks)){
   
   t = allTasks[i]
 
-  # For each task in OpenML (it includes a dataset and a wide variate of runs/evaluaions of a number of flows (algorithms) with different setups)
+  # For each task in OpenML (it includes a dataset and a wide variety of runs/evaluaions of a number of flows (algorithms) with different setups)
   
   task_temp <- getOMLTask(task.id = t)
   d <- task_temp$input$data.set$desc$id

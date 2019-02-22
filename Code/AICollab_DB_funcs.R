@@ -212,7 +212,6 @@ delete_Atlas <- function(){
 
 # Send SQL
 send_SQL <- function(db, query){
-  # Execute the query on the storiesDb that we connected to above.
   rs <- dbSendQuery(db, query)
   res <- dbFetch(rs)
   # Clear the result.
