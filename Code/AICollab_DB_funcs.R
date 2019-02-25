@@ -28,14 +28,16 @@
 # -----------------------------------------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------------------------------------
 
-#install.packages("tidyverse", dependencies = T)
-library(tidyverse)
-library(readxl)
-library(data.table)
-#install.packages("RMariaDB")
-library(RMariaDB)
-library(plyr)
-library(dplyr)
+options("scipen"=1000000)
+options( java.parameters = "-Xmx6g" )
+
+.lib<- c("tidyverse", "readxl", "data.table", "RMariaDB", "plyr", "dplyr")
+
+.inst <- .lib %in% installed.packages()
+if (length(.lib[!.inst])>0) install.packages(.lib[!.inst], repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com")) 
+lapply(.lib, require, character.only=TRUE)
+
+set.seed(288)
 
 # -----------------------------------------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------------------------------------
