@@ -41,13 +41,38 @@ db <- connectAtlasDB()
 
 
 # -----------------------------------------------------------------------------------------------------------------------
+# Get Agents/Task current hierarchies
+# -----------------------------------------------------------------------------------------------------------------------
+
+get_Agent_hierarchy  <- function(){
+  
+  db <- connectAtlasDB()
+  query <-paste0("SELECT * FROM atlasofintelligence.agent_hierarchy")
+  datos <- send_SQL(db,query)
+  dbDisconnect(db)
+  return(datos)
+  
+}
+
+get_Task_hierarchy  <- function(){
+  
+  db <- connectAtlasDB()
+  query <-paste0("SELECT * FROM atlasofintelligence.task_hierarchy")
+  datos <- send_SQL(db,query)
+  dbDisconnect(db)
+  return(datos)
+  
+}
+
+
+# -----------------------------------------------------------------------------------------------------------------------
 # Get Agents/Task by hierarchy
 # -----------------------------------------------------------------------------------------------------------------------
 
 # agent_h = "Default"
 # task_h = "%" 
 
-get_AgentTask_hierarchy  <- function(agent_h, task_h){
+get_AgentTask_hierarchy  <- function(agent_h, task_h, verbose = FALSE){
 
   db <- connectAtlasDB()
   
@@ -74,7 +99,9 @@ get_AgentTask_hierarchy  <- function(agent_h, task_h){
                 LEFT JOIN method_attribute_value AS mav ON mav.attribute_value_id = mh.attribute_value_id
                 LEFT JOIN method_attribute AS ma ON ma.attribute_id = mav.attribute_id
                 WHERE ah.name LIKE '",agent_h,"' AND th.name LIKE '",task_h,"'
-                GROUP by r.value, a.name, t.name, m.name")
+                GROUP by a1.name, t.name, m.name, r.metric")
+  
+  if(verbose){print(query)}
   
   datos <- send_SQL(db,query)
   
@@ -90,6 +117,49 @@ get_AgentTask_hierarchy  <- function(agent_h, task_h){
   
 }
 
+
+get_AgentTask_hierarchy_2  <- function(agent_h, task_h, verbose = FALSE){
+  
+  db <- connectAtlasDB()
+  
+  query <-paste0("SELECT
+                a1.name AS agent,
+                a2.name AS agent_is,
+                t.name AS task,
+                m.name AS method,
+                r.metric AS metric,
+                r.value AS value,
+                ah.name AS hierarchy_agent,
+                th.name AS hierarchy_task
+                FROM
+                results AS r
+                LEFT JOIN agent_is AS ai ON r.agent_is_id = ai.is_id
+                LEFT JOIN agent AS a1 ON ai.agent_id = a1.agent_id
+                LEFT JOIN agent AS a2 ON ai.agent_id_in = a2.agent_id
+                LEFT JOIN agent_belongs_to_hierarchy AS abh ON abh.is_id = ai.is_id
+                LEFT JOIN agent_hierarchy AS ah ON ah.hierarchy_id = abh.hierarchy_id
+                LEFT JOIN task_is AS ti ON r.task_is_id = ti.is_id
+                LEFT JOIN task AS t ON ti.task_id = t.task_id
+                LEFT JOIN task_belongs_to_hierarchy AS tbh ON tbh.is_id = ti.is_id
+                LEFT JOIN task_hierarchy AS th ON th.hierarchy_id = tbh.hierarchy_id
+                LEFT JOIN method AS m ON r.method_id = m.method_id
+                LEFT JOIN method_has AS mh ON mh.method_id = m.method_id
+                LEFT JOIN method_attribute_value AS mav ON mav.attribute_value_id = mh.attribute_value_id
+                LEFT JOIN method_attribute AS ma ON ma.attribute_id = mav.attribute_id
+                WHERE ah.name LIKE '",agent_h,"' AND th.name LIKE '",task_h,"'
+                GROUP by a1.name, t.name, m.name, r.metric")
+  
+  if(verbose){print(query)}
+  
+  datos <- send_SQL(db,query)
+  dbDisconnect(db)
+ 
+  return(datos)
+  
+}
+
+
+# get_AgentTask_hierarchy_2(agent_h, task_h)
 
 # -----------------------------------------------------------------------------------------------------------------------
 # Get Agent attributes
