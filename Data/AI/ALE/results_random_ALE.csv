@@ -1,115 +1,115 @@
-"agent","task","method","result","metric"
-"random","Alien","random hs","128.3","Score"
-"random","Amidar","random hs","11.8","Score"
-"random","Assault","random hs","166.9","Score"
-"random","Asterix","random hs","164.5","Score"
-"random","Asteroids","random hs","871.3","Score"
-"random","Atlantis","random hs","13463","Score"
-"random","Bank Heist","random hs","21.7","Score"
-"random","Battle Zone","random hs","3560","Score"
-"random","Beam Rider","random hs","254.6","Score"
-"random","Berzerk","random hs","196.1","Score"
-"random","Bowling","random hs","35.2","Score"
-"random","Boxing","random hs","-1.5","Score"
-"random","Breakout","random hs","1.6","Score"
-"random","Centipede","random hs","1925.5","Score"
-"random","Chopper Command","random hs","644","Score"
-"random","Crazy Climber","random hs","9337","Score"
-"random","Defender","random hs","1965.5","Score"
-"random","Demon Attack","random hs","208.3","Score"
-"random","Double Dunk","random hs","-16","Score"
-"random","Enduro","random hs","-81.8","Score"
-"random","Fishing Derby","random hs","-77.1","Score"
-"random","Freeway","random hs","0.1","Score"
-"random","Frostbite","random hs","66.4","Score"
-"random","Gopher","random hs","250","Score"
-"random","Gravitar","random hs","245.5","Score"
-"random","HERO","random hs","1580.3","Score"
-"random","Ice Hockey","random hs","-9.7","Score"
-"random","James Bond","random hs","33.5","Score"
-"random","Kangaroo","random hs","100","Score"
-"random","Krull","random hs","1151.9","Score"
-"random","Kung-Fu Master","random hs","304","Score"
-"random","Montezuma's Revenge","random hs","25","Score"
-"random","Ms. Pacman","random hs","197.8","Score"
-"random","Name This Game","random hs","1747.8","Score"
-"random","Phoenix","random hs","1134.4","Score"
-"random","Pitfall!","random hs","-348.8","Score"
-"random","Pong","random hs","-18","Score"
-"random","Private Eye","random hs","662.8","Score"
-"random","Q*Bert","random hs","183","Score"
-"random","River Raid","random hs","588.3","Score"
-"random","Road Runner","random hs","200","Score"
-"random","Robotank","random hs","2.4","Score"
-"random","Seaquest","random hs","215.5","Score"
-"random","Skiing","random hs","-15287.4","Score"
-"random","Solaris","random hs","2047.2","Score"
-"random","Space Invaders","random hs","182.6","Score"
-"random","Star Gunner","random hs","697","Score"
-"random","Surround","random hs","-9.7","Score"
-"random","Tennis","random hs","-21.4","Score"
-"random","Time Pilot","random hs","3273","Score"
-"random","Tutankham","random hs","12.7","Score"
-"random","Up and Down","random hs","707.2","Score"
-"random","Venture","random hs","18","Score"
-"random","Video Pinball","random hs","20452","Score"
-"random","Wizard of Wor","random hs","804","Score"
-"random","Yars Revenge","random hs","1476.9","Score"
-"random","Zaxxon","random hs","475","Score"
-"random","Alien","random noop","227.8","Score"
-"random","Amidar","random noop","5.8","Score"
-"random","Assault","random noop","222.4","Score"
-"random","Asterix","random noop","210","Score"
-"random","Asteroids","random noop","719.1","Score"
-"random","Atlantis","random noop","12850","Score"
-"random","Bank Heist","random noop","14.2","Score"
-"random","Battle Zone","random noop","2360","Score"
-"random","Beam Rider","random noop","363.9","Score"
-"random","Berzerk","random noop","123.7","Score"
-"random","Bowling","random noop","23.1","Score"
-"random","Boxing","random noop","0.1","Score"
-"random","Breakout","random noop","1.7","Score"
-"random","Centipede","random noop","2090.9","Score"
-"random","Chopper Command","random noop","811","Score"
-"random","Crazy Climber","random noop","10780.5","Score"
-"random","Defender","random noop","2874.5","Score"
-"random","Demon Attack","random noop","152.1","Score"
-"random","Double Dunk","random noop","-18.6","Score"
-"random","Enduro","random noop","0","Score"
-"random","Fishing Derby","random noop","-91.7","Score"
-"random","Freeway","random noop","0","Score"
-"random","Frostbite","random noop","65.2","Score"
-"random","Gopher","random noop","257.6","Score"
-"random","Gravitar","random noop","173","Score"
-"random","HERO","random noop","1027","Score"
-"random","Ice Hockey","random noop","-11.2","Score"
-"random","James Bond","random noop","29","Score"
-"random","Kangaroo","random noop","52","Score"
-"random","Krull","random noop","1598","Score"
-"random","Kung-Fu Master","random noop","258.5","Score"
-"random","Montezuma's Revenge","random noop","0","Score"
-"random","Ms. Pacman","random noop","307.3","Score"
-"random","Name This Game","random noop","2292.3","Score"
-"random","Phoenix","random noop","761.4","Score"
-"random","Pitfall!","random noop","-229.4","Score"
-"random","Pong","random noop","-20.7","Score"
-"random","Private Eye","random noop","24.9","Score"
-"random","Q*Bert","random noop","163.9","Score"
-"random","River Raid","random noop","1338.5","Score"
-"random","Road Runner","random noop","11.5","Score"
-"random","Robotank","random noop","2.2","Score"
-"random","Seaquest","random noop","68.4","Score"
-"random","Skiing","random noop","-17098.1","Score"
-"random","Solaris","random noop","1236.3","Score"
-"random","Space Invaders","random noop","148","Score"
-"random","Star Gunner","random noop","664","Score"
-"random","Surround","random noop","-10","Score"
-"random","Tennis","random noop","-23.8","Score"
-"random","Time Pilot","random noop","3568","Score"
-"random","Tutankham","random noop","11.4","Score"
-"random","Up and Down","random noop","533.4","Score"
-"random","Venture","random noop","0","Score"
-"random","Video Pinball","random noop","16256.9","Score"
-"random","Wizard of Wor","random noop","563.5","Score"
-"random","Yars Revenge","random noop","3092.9","Score"
-"random","Zaxxon","random noop","32.5","Score"
+agent,task,method,result,metric
+random,Alien,random hs,128.3,score
+random,Amidar,random hs,11.8,score
+random,Assault,random hs,166.9,score
+random,Asterix,random hs,164.5,score
+random,Asteroids,random hs,871.3,score
+random,Atlantis,random hs,13463,score
+random,Bank Heist,random hs,21.7,score
+random,Battle Zone,random hs,3560,score
+random,Beam Rider,random hs,254.6,score
+random,Berzerk,random hs,196.1,score
+random,Bowling,random hs,35.2,score
+random,Boxing,random hs,-1.5,score
+random,Breakout,random hs,1.6,score
+random,Centipede,random hs,1925.5,score
+random,Chopper Command,random hs,644,score
+random,Crazy Climber,random hs,9337,score
+random,Defender,random hs,1965.5,score
+random,Demon Attack,random hs,208.3,score
+random,Double Dunk,random hs,-16,score
+random,Enduro,random hs,-81.8,score
+random,Fishing Derby,random hs,-77.1,score
+random,Freeway,random hs,0.1,score
+random,Frostbite,random hs,66.4,score
+random,Gopher,random hs,250,score
+random,Gravitar,random hs,245.5,score
+random,HERO,random hs,1580.3,score
+random,Ice Hockey,random hs,-9.7,score
+random,James Bond,random hs,33.5,score
+random,Kangaroo,random hs,100,score
+random,Krull,random hs,1151.9,score
+random,Kung-Fu Master,random hs,304,score
+random,Montezuma's Revenge,random hs,25,score
+random,Ms. Pacman,random hs,197.8,score
+random,Name This Game,random hs,1747.8,score
+random,Phoenix,random hs,1134.4,score
+random,Pitfall!,random hs,-348.8,score
+random,Pong,random hs,-18,score
+random,Private Eye,random hs,662.8,score
+random,Q*Bert,random hs,183,score
+random,River Raid,random hs,588.3,score
+random,Road Runner,random hs,200,score
+random,Robotank,random hs,2.4,score
+random,Seaquest,random hs,215.5,score
+random,Skiing,random hs,-15287.4,score
+random,Solaris,random hs,2047.2,score
+random,Space Invaders,random hs,182.6,score
+random,Star Gunner,random hs,697,score
+random,Surround,random hs,-9.7,score
+random,Tennis,random hs,-21.4,score
+random,Time Pilot,random hs,3273,score
+random,Tutankham,random hs,12.7,score
+random,Up and Down,random hs,707.2,score
+random,Venture,random hs,18,score
+random,Video Pinball,random hs,20452,score
+random,Wizard of Wor,random hs,804,score
+random,Yars Revenge,random hs,1476.9,score
+random,Zaxxon,random hs,475,score
+random,Alien,random noop,227.8,score
+random,Amidar,random noop,5.8,score
+random,Assault,random noop,222.4,score
+random,Asterix,random noop,210,score
+random,Asteroids,random noop,719.1,score
+random,Atlantis,random noop,12850,score
+random,Bank Heist,random noop,14.2,score
+random,Battle Zone,random noop,2360,score
+random,Beam Rider,random noop,363.9,score
+random,Berzerk,random noop,123.7,score
+random,Bowling,random noop,23.1,score
+random,Boxing,random noop,0.1,score
+random,Breakout,random noop,1.7,score
+random,Centipede,random noop,2090.9,score
+random,Chopper Command,random noop,811,score
+random,Crazy Climber,random noop,10780.5,score
+random,Defender,random noop,2874.5,score
+random,Demon Attack,random noop,152.1,score
+random,Double Dunk,random noop,-18.6,score
+random,Enduro,random noop,0,score
+random,Fishing Derby,random noop,-91.7,score
+random,Freeway,random noop,0,score
+random,Frostbite,random noop,65.2,score
+random,Gopher,random noop,257.6,score
+random,Gravitar,random noop,173,score
+random,HERO,random noop,1027,score
+random,Ice Hockey,random noop,-11.2,score
+random,James Bond,random noop,29,score
+random,Kangaroo,random noop,52,score
+random,Krull,random noop,1598,score
+random,Kung-Fu Master,random noop,258.5,score
+random,Montezuma's Revenge,random noop,0,score
+random,Ms. Pacman,random noop,307.3,score
+random,Name This Game,random noop,2292.3,score
+random,Phoenix,random noop,761.4,score
+random,Pitfall!,random noop,-229.4,score
+random,Pong,random noop,-20.7,score
+random,Private Eye,random noop,24.9,score
+random,Q*Bert,random noop,163.9,score
+random,River Raid,random noop,1338.5,score
+random,Road Runner,random noop,11.5,score
+random,Robotank,random noop,2.2,score
+random,Seaquest,random noop,68.4,score
+random,Skiing,random noop,-17098.1,score
+random,Solaris,random noop,1236.3,score
+random,Space Invaders,random noop,148,score
+random,Star Gunner,random noop,664,score
+random,Surround,random noop,-10,score
+random,Tennis,random noop,-23.8,score
+random,Time Pilot,random noop,3568,score
+random,Tutankham,random noop,11.4,score
+random,Up and Down,random noop,533.4,score
+random,Venture,random noop,0,score
+random,Video Pinball,random noop,16256.9,score
+random,Wizard of Wor,random noop,563.5,score
+random,Yars Revenge,random noop,3092.9,score
+random,Zaxxon,random noop,32.5,score
