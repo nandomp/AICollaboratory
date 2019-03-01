@@ -158,6 +158,48 @@ get_AgentTask_hierarchy_2  <- function(agent_h, task_h, verbose = FALSE){
   
 }
 
+get_AgentTask_hierarchy_3  <- function(agent_h, task_h, verbose = FALSE){
+  
+  db <- connectAtlasDB()
+  
+  query <-paste0("SELECT
+                a1.name AS agent,
+                a2.name AS agent_is,
+                t1.name AS task,
+                t2.name AS task_is,
+                m.name AS method,
+                r.metric AS metric,
+                r.value AS value,
+                ah.name AS hierarchy_agent,
+                th.name AS hierarchy_task
+                FROM
+                results AS r
+                LEFT JOIN agent_is AS ai ON r.agent_is_id = ai.is_id
+                LEFT JOIN agent AS a1 ON ai.agent_id = a1.agent_id
+                LEFT JOIN agent AS a2 ON ai.agent_id_in = a2.agent_id
+                LEFT JOIN agent_belongs_to_hierarchy AS abh ON abh.is_id = ai.is_id
+                LEFT JOIN agent_hierarchy AS ah ON ah.hierarchy_id = abh.hierarchy_id
+                LEFT JOIN task_is AS ti ON r.task_is_id = ti.is_id
+                LEFT JOIN task AS t1 ON ti.task_id = t1.task_id
+                LEFT JOIN task AS t2 ON ti.task_id_in = t2.task_id
+                LEFT JOIN task_belongs_to_hierarchy AS tbh ON tbh.is_id = ti.is_id
+                LEFT JOIN task_hierarchy AS th ON th.hierarchy_id = tbh.hierarchy_id
+                LEFT JOIN method AS m ON r.method_id = m.method_id
+                LEFT JOIN method_has AS mh ON mh.method_id = m.method_id
+                LEFT JOIN method_attribute_value AS mav ON mav.attribute_value_id = mh.attribute_value_id
+                LEFT JOIN method_attribute AS ma ON ma.attribute_id = mav.attribute_id
+                WHERE ah.name LIKE '",agent_h,"' AND th.name LIKE '",task_h,"'
+                GROUP by a1.name, t1.name, m.name, r.metric")
+  
+  if(verbose){print(query)}
+  
+  datos <- send_SQL(db,query)
+  dbDisconnect(db)
+  
+  return(datos)
+  
+}
+
 
 # get_AgentTask_hierarchy_2(agent_h, task_h)
 
@@ -354,6 +396,48 @@ get_Results_Task  <- function(task){
 
 
 
+#-----------------------------------------------------------------------------------------------------------------------
+# Get Results from AGENT_IS to plot if Agent selected
+# -----------------------------------------------------------------------------------------------------------------------
+
+# agent_is = "Deep Reinforcement Learning"
+# task = "Frostbite"
+
+get_Results_Agent_is  <- function(agent_is, task){
+  
+  db <- connectAtlasDB()
+  
+  query <- paste0("SELECT 
+                a1.name AS agent,
+                a2. name AS agent_is, 
+                r.value AS value,
+                r.metric AS metric,
+                t.name AS task,
+                m.name AS method
+                FROM
+                results AS r
+                LEFT JOIN agent_is AS ai ON r.agent_is_id = ai.is_id
+                LEFT JOIN agent AS a1 ON ai.agent_id = a1.agent_id
+                LEFT JOIN agent AS a2 ON ai.agent_id_in = a2.agent_id
+                LEFT JOIN task_is AS ti ON r.task_is_id = ti.is_id
+                LEFT JOIN task AS t ON ti.task_id = t.task_id
+                LEFT JOIN method AS m ON r.method_id = m.method_id
+                WHERE
+                a2.name LIKE '",agent_is,"' AND t.name LIKE'",task,"'")
+  
+  datos <- send_SQL(db,query)
+  dbDisconnect(db)
+  
+  return(datos)
+  
+}
+
+
+
+# results <- get_Results_Agent_is("IBk", "soybean")
+# plot_Results(results, agent = F)
+
+
 # -----------------------------------------------------------------------------------------------------------------------
 # Plot complete results to plot if Agent/Task selected
 # -----------------------------------------------------------------------------------------------------------------------
@@ -362,7 +446,9 @@ plot_Results <- function(results, agent = TRUE, metric = "", method, howMany = 1
   # Result:  value metric agent task method
   
   require(ggplot2)
-  if(metric == ""){metric <- results$metric[1]}
+  print("PLOT RESULTS")
+  print(metric)
+  if(length(metric) == 0 | metric == "" | is.null(metric)){metric <- results$metric[1]}
   results <- results[results$metric == metric,]
   
   results$task.T <- strtrim(results$task, 30)
@@ -433,5 +519,4 @@ plot_Results <- function(results, agent = TRUE, metric = "", method, howMany = 1
 # ggplotly(p)
 
 
-
-
+#
