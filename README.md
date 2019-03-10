@@ -49,7 +49,7 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Database querying](#database-querying)
 * [References](#orange_book-references)
 * [Credits](#muscle-credits)
-* [Acknowledgements](#heart-aknowledgements)
+* [Acknowledgements](#heart-acknowledgements)
 
 # :page_with_curl: Infraestructure
 
@@ -562,7 +562,7 @@ Some examples...
   </a>
 
 
-# :heart: Aknowledgements
+# :heart: Acknowledgements
 
 European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/community/humaint) project within the [JRC's Centre for Advanced Studies](https://ec.europa.eu/jrc/en/research/centre-advanced-studies)
 
