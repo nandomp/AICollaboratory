@@ -24,6 +24,8 @@
 	* [AI](#computer-ai)
 		* [Games](#games)
 			* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
+			* [The General Video Game AI Competition](#case-study-arcade-learning-environment-atari-2600-games)
+			* [Alpha* systems](#case-study-arcade-learning-environment-atari-2600-games)
 
 
 			
@@ -83,4 +85,37 @@ Visualisation examples:
 
 
 
+
+#### Case Study: The General Video Game AI Competition
+
+The [General Video Game AI](http://www.gvgai.net/) (GVGAI) competition is a benchmark which comprises a large number of real-time 2D grid games such as puzzles, shooters, classic arcades and many more. The games can also differ in the way players are able to interact with the environment (actions), the scoring systems, the objects that are part of a game or the conditions to end the game. Unlike ALE, GVGAI was created to avoid participants tailoring their submissions to a few well-known games. Instead, participants are pitted against a number of unseen games. Another difference is that controllers are able to access an abstract representation of the game state (so complex perception is not needed) as well
+as a simulator so that (look-ahead) tree search algorithms and other planning approaches can be used. This environment is usually addressed by non-deterministic learning algorithms such as Monte-Carlo Tree Search (MCTS) and Evolutionary Algorithms (EA). Still as of yet, there has not been an approach able to consistently be successful on all games, showing that all the techniques used have their strengths and weaknesses.
+
+Data: 
+
+We have gathered the scores of 49 games and the 23 controllers (agents) that were submitted to the 2015 GVGAI competition [31]. Each game has 5 levels,
+and each level was attempted 5 times. This makes a total of 23×49×5×5 = 28175 trials. For each trial the data includes the win/loss achieved by the controller.
+
+Figures: 
+
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+H | X | Y | Z | R
+
+
+
+#### Case Study: Alpha* systems
+
+Alpha* refers to a series of papers and associated techniques by DeepMind to play board games. We analyzed the whole series, from *AlphaGo* [33] (including the Fan and Lee versions, used against Fan Hui and Lee Sedol, respectively, and its latest version, *AlphaGo Master*, which won 60 straight online games against professional Go players), *AlphaGo Zero* [35] (a version created without using data from human games) and *AlphaZero* [34] (which uses an approach similar to AlphaGo Zero to master not just Go, but also chess and shogi).
+
+Data: 
+
+We have performed a bibliographical search to find all the papers that include experiments performed by Alpha* systems:
+
+
+Figures: 
+
+Hierarchy | Agents | Tasks | Methods | #Results
+--------- | ------ | ----- | ------- | --------
+H | X | Y | Z | R
 
