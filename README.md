@@ -16,6 +16,7 @@
 
 <br />
 
+![](Figures/demo_27052019.gif)
 [AI Collaboratory](https://safe-tools.dsic.upv.es/shiny/AIcollab/) 
 
 <br />
