@@ -31,7 +31,7 @@
 
 ## :computer: AI
 
-### Games
+#### Games
 
 #### Case Study: Arcade Learning Environment (Atari 2600 games)
 

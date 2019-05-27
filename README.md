@@ -206,12 +206,12 @@ We use a free, lightweight, open source [MySQL](https://www.mysql.com/) database
 
 ## :computer: AI
 
-### [Games](https://github.com/nandomp/AICollaboratory/blob/master/README_DATA_AI.rmd)  
-### Computer Vision
-### Medical 
-### NLP
-### Speech
-### ...
+* [Games](https://github.com/nandomp/AICollaboratory/blob/master/README_DATA_AI.md#games)  
+* Computer Vision
+* Medical 
+* NLP
+* Speech
+* ...
 
 
 # 💾 Code (R)
