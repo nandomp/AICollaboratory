@@ -213,6 +213,17 @@ We use a free, lightweight, open source [MySQL](https://www.mysql.com/) database
 * Speech
 * ...
 
+## :woman: Human
+
+* ...
+
+
+## :hear_no_evil: Animal (non-human)
+
+* ...
+
+
+
 
 # 💾 Code (R)
 
