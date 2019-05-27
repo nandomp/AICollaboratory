@@ -24,12 +24,9 @@ This project is conceived as a pioneering initiative for the development of a co
 ![](Figures/demo_27052019.gif)
 
 <div align="center">
-<img src="Figures/demo_27052019.gif"
-      alt="R Shiny app" width = "700"/>
 <a href="https://safe-tools.dsic.upv.es/shiny/AIcollab/">R Shiny application </a>	  
 </div>
 
-[R Shiny application](https://safe-tools.dsic.upv.es/shiny/AIcollab/) 
 
 <br />
 
