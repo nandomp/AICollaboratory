@@ -20,12 +20,10 @@
 
 :triangular_flag_on_post: **Table of contents**
 
-* [Data](#file_folder-data)
-	* [AI](#computer-ai)
-		* [Games](#games)
-			* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
-			* [The General Video Game AI Competition](#case-study-arcade-learning-environment-atari-2600-games)
-			* [Alpha* systems](#case-study-arcade-learning-environment-atari-2600-games)
+* [Games](#games)
+	* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
+	* [The General Video Game AI Competition](#case-study-arcade-learning-environment-atari-2600-games)
+	* [Alpha* systems](#case-study-arcade-learning-environment-atari-2600-games)
 
 
 			
