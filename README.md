@@ -14,6 +14,7 @@
 </div>
 
 
+<br />
 
 
 This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of [A]I systems. This project will create a unifying setting that incorporates data, knowledge and measurements to characterise all kinds of intelligence, including humans, non-human animals, AI systems, hybrids and collectives thereof. The first prototype of the collaboratory will make it possible to study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of [A]I systems, covering, in the longer term, the current and future intelligence landscape. 
@@ -27,7 +28,6 @@ This project is conceived as a pioneering initiative for the development of a co
 <a href="https://safe-tools.dsic.upv.es/shiny/AIcollab/">R Shiny application </a>	  
 </div>
 
-
 <br />
 
 
@@ -40,16 +40,7 @@ This project is conceived as a pioneering initiative for the development of a co
 		* [Multidemensional Schema](#multidimensional-schema)
 		* [Implementation](#implementation)
 * [Data](#file_folder-data)
-	* [AI](#computer-ai)
-		* [Deep Learning Architectures](#deep-learning-architectures)
-			* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
-			* [General Video Game AI Competition](#case-study-the-general-video-game-ai-competition)
-			* [Alpha* systems](#case-study-alpha-systems)
-			* [ImageNet](#case-study-imagenet)
-		* [Machine Learning algorithms](#machine-learning-algorithms)
-			* [OpenML](#case-study-openml)
-		* [Computer Chess Systems](#computer-chess-systems)
-			* [Computer Chess Rating List](#case-study-ccrl-computer-chess-rating-lists)
+	* [AI](https://github.com/nandomp/AICollaboratory/blob/master/README_DATA_AI.md)
 	* [Human](#woman-human)
 	* [Animal](#hear_no_evil-animal-non-human)
 * [Code](#-code-r)
@@ -120,7 +111,7 @@ Entity tables:
 * **HIERARCHY**: task hierarchy.
 * **ATTRIBUTES**: platform, format, #classes, format, etc.
 
-Many-tomany relationships: 
+Many-to-many relationships: 
 
 * **_IS**: TASK belongs to TEST in SOURCE (PK: T x T x S)
 * **_HAS**: AGENT possess ATTRIBUTES (PK: T x A)
@@ -145,7 +136,7 @@ Entity tables:
 * **HIERARCHY**: agent hierarchy.
 * **ATTRIBUTES**: parallelism, hiperparameters, approach, batch, fit, etc.
 
-Many-tomany relationships: 
+Many-to-many relationships: 
 
 * **_IS**: AGENT belongs to FAMILY in SOURCE (PK: Ag x F x S)
 * **_HAS**: AGENT possess ATTRIBUTES (PK: Ag x A)
@@ -167,7 +158,7 @@ Entity tables:
 * **SOURCE**: description, author, year, etc.
 * **ATTRIBUTES**: frames, estimation procedure, folds, repeats, frames, etc.
 
-Many-tomany relationships: 
+Many-to-many relationships: 
 
 * **_HAS**: METHOD possess ATTRIBUTES (PK: M x A)
 
