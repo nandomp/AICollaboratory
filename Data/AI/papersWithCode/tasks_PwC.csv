@@ -1,0 +1,1351 @@
+"task","task_is","weight","hierarchy_belongs","source","Description"
+"3D Room Layouts From A Single Rgb Panorama","3D Reconstruction","1","Computer Vision","paperswithcode",""
+"Sentence Compression","Sentence Embeddings","1","Methodology","paperswithcode","Sentence compression produces a shorter sentence by removing redundant information,
+preserving the grammatically and the important content of the original sentence."
+"Visual Object Tracking","Object Tracking","1","Computer Vision","paperswithcode",""
+"Multimodal Unsupervised Image-To-Image Translation","Image-to-Image Translation","1","Computer Vision","paperswithcode","Multimodal unsupervised image-to-image translation is the task of producing multiple translations to one domain from a single image in another domain."
+"Synthetic-to-Real Translation","Image-to-Image Translation","1","Computer Vision","paperswithcode","Synthetic-to-real translation is the task of domain adaptation from synthetic (or virtual) data to real data."
+"Unsupervised Image-To-Image Translation","Image-to-Image Translation","1","Computer Vision","paperswithcode","Unsupervised image-to-image translation is the task of doing image-to-image translation without ground truth image-to-image pairings."
+"3D Face Reconstruction","Face Reconstruction","1","Computer Vision","paperswithcode","3D face reconstruction is the task of reconstructing a face from an image into a 3D form (or mesh)."
+"Smile Recognition","Facial Expression Recognition","1","Computer Vision","paperswithcode","Smile recognition is the task of recognising a smiling face in a photo or video."
+"Disguised Face Verification","Face Verification","1","Computer Vision","paperswithcode",""
+"Occluded Face Detection","Face Detection","1","Computer Vision","paperswithcode",""
+"Age-Invariant Face Recognition","Face Recognition","1","Computer Vision","paperswithcode","Age-invariant face recognition is the task of performing face recognition that is invariant to differences in age."
+"Human Instance Segmentation","Instance Segmentation","1","Computer Vision","paperswithcode",""
+"Few-Shot Image Classification","Meta-Learning","1","Methodology","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"Multi-Human Parsing","Human Parsing","1","Computer Vision","paperswithcode","Multi-human parsing is the task of parsing multiple humans in crowded scenes."
+"License Plate Recognition","Image Recognition","1","Computer Vision","paperswithcode",""
+"3D Reconstruction","3D","1","Computer Vision","paperswithcode",""
+"Document Image Classification","Image Classification","1","Computer Vision","paperswithcode","Document image classification is the task of classifying documents based on images of their contents."
+"Unsupervised image classification","Image Classification","1","Computer Vision","paperswithcode","Models that learn to label each image (i.e. cluster the dataset into its ground truth classes) without seeing the ground truth labels."
+"Sequential Image Classification","Image Classification","1","Computer Vision","paperswithcode","Sequential image classification is the task of classifying a sequence of images."
+"Hyperspectral Image Classification","Image Classification","1","Computer Vision","paperswithcode","Hyperspectral image classification is the task of classifying a class label to every pixel in an image that was captured using (hyper)spectral sensors."
+"Fine-Grained Image Classification","Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"Semi-Supervised Image Classification","Image Classification","1","Computer Vision","paperswithcode",""
+"Few-Shot Image Classification","Image Classification","1","Computer Vision","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"Depiction Invariant Object Recognition","Object Recognition","1","Computer Vision","paperswithcode","Depiction invariant object recognition is the task of recognising objects irrespective of how they are visually depicted (line drawing, realistic shaded drawing, photograph etc.)."
+"3D Object Recognition","Object Recognition","1","Computer Vision","paperswithcode","3D object recognition is the task of recognising objects from 3D data."
+"Extractive Document Summarization","Text Summarization","1","Natural Language Processing","paperswithcode",""
+"Document Summarization","Text Summarization","1","Natural Language Processing","paperswithcode",""
+"Hyperspectral Image Classification","Hyperspectral","1","Computer Vision","paperswithcode","Hyperspectral image classification is the task of classifying a class label to every pixel in an image that was captured using (hyper)spectral sensors."
+"Image Denoising","Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"Head Pose Estimation","Pose Estimation","1","Computer Vision","paperswithcode","Estimating the head pose of a person is a crucial problem that has a large amount of applications such as aiding in gaze estimation, modeling attention, fitting 3D models to video and performing face alignment."
+"6D Pose Estimation","Pose Estimation","1","Computer Vision","paperswithcode","6D pose estimation is the task of detecting the 6D pose of an object, which include its location and orientation. This is an important task in robotics, where a robotic arm needs to know the location and orientation to detect and move objects in its vicinity successfully.  This allows the robot to operate safely and effectively alongside humans. The awareness of the position and orientation of objects in a scene is sometimes referred to as 6D, where the D stands for degrees of freedom pose."
+"Keypoint Detection","Pose Estimation","1","Computer Vision","paperswithcode","Keypoint detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on."
+"Hand Pose Estimation","Pose Estimation","1","Computer Vision","paperswithcode","Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames."
+"Multi-Person Pose Estimation","Pose Estimation","1","Computer Vision","paperswithcode","Multi-person pose estimation is the task of estimating the pose of multiple people in one frame."
+"3D Human Pose Estimation","Pose Estimation","1","Computer Vision","paperswithcode","3D Human Pose Estimation is the task of estimating the pose of a human from a picture or set of video frames."
+"Abstract Anaphora Resolution","Anaphora Resolution","1","Natural Language Processing","paperswithcode","Abstract Anaphora Resolution aims to resolve nominal expressions (e.g., this result, those two actions) and pronominal expressions (e.g. this, that, it) that refer to abstract-object-antecedents such as facts, events, plans, actions, or situations."
+"3D Object Reconstruction","Object Reconstruction","1","Computer Vision","paperswithcode",""
+"Object Skeleton Detection","Object Detection","1","Computer Vision","paperswithcode","Object skeleton detection is the task of detecting the skeleton of an object in an image."
+"Video Object Detection","Object Detection","1","Computer Vision","paperswithcode","Video object detection is the task of detecting objects from a video as opposed to images."
+"Medical Object Detection","Object Detection","1","Computer Vision","paperswithcode","Medical object detection is the task of identifying medical-based objects within an image."
+"Object Proposal Generation","Object Detection","1","Computer Vision","paperswithcode","Object proposal generation is a preprocessing technique that has been widely used in current object detection pipelines to guide the search of objects and avoid exhaustive sliding window search across images."
+"Weakly Supervised Object Detection","Object Detection","1","Computer Vision","paperswithcode","Weakly Supervised Object Detection (WSOD) is the task of training object detectors with only image tag supervisions."
+"3D Object Detection","Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"Real-Time Object Detection","Object Detection","1","Computer Vision","paperswithcode","Real-time object detection is the task of doing object detection in real-time with fast inference while maintaining a base level of accuracy."
+"Facial Inpainting","Image Inpainting","1","Computer Vision","paperswithcode","Facial inpainting (or face completion) is the task of generating plausible facial structures for missing pixels in a face image."
+"Collaborative Filtering","Recommendation Systems","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"Cross-Lingual Document Classification","Cross-Lingual","1","Natural Language Processing","paperswithcode",""
+"Cross-Modal Retrieval","Multi-Modal","1","Miscellaneous","paperswithcode",""
+"Unsupervised Domain Adaptation","Domain Adaptation","1","Methodology","paperswithcode",""
+"Curved Text Detection","Scene Text Detection","1","Computer Vision","paperswithcode",""
+"Citation Intent Classification","Text Classification","1","Natural Language Processing","paperswithcode",""
+"Emotion Classification","Text Classification","1","Natural Language Processing","paperswithcode","Given a tweet, classify it as neutral or no emotion or as one, or more, of eleven given emotions that best represent the mental state of the tweeter."
+"Sentence Classification","Text Classification","1","Natural Language Processing","paperswithcode",""
+"Document Classification","Text Classification","1","Natural Language Processing","paperswithcode",""
+"Nested Named Entity Recognition","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode",""
+"Chinese Named Entity Recognition","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode",""
+"Multimodal Sentiment Analysis","Sentiment Analysis","1","Audio","paperswithcode","Multimodal sentiment analysis is the task of performing sentiment analysis with multiple data sources - e.g. a camera feed of someones face and their recorded speech."
+"Aspect-Based Sentiment Analysis","Sentiment Analysis","1","Audio","paperswithcode","Aspect-based sentiment analysis is the task of identifying fine-grained opinion polarity towards a specific aspect associated with a given target."
+"Grammatical Error Detection","Grammatical Error Correction","1","Natural Language Processing","paperswithcode",""
+"Semantic Role Labeling (predicted predicates)","Semantic Role Labeling","1","Natural Language Processing","paperswithcode","PropBank semantic role labeling with predicted predicates."
+"Predicate Detection","Semantic Role Labeling","1","Natural Language Processing","paperswithcode","Detecting predicates in sentences. Semantic frames are defined with respect to predicates. This task is a prerequisite to semantic role labeling."
+"Hand Pose Estimation","Hand","1","Computer Vision","paperswithcode","Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames."
+"Emotion Recognition in Conversation","Emotion Recognition","1","Computer Vision","paperswithcode",""
+"Multimodal Emotion Recognition","Emotion Recognition","1","Computer Vision","paperswithcode",""
+"Weakly-Supervised Object Localization","Object Localization","1","Computer Vision","paperswithcode",""
+"Unsupervised semantic segmentation","Semantic Segmentation","1","Computer Vision","paperswithcode","Models that learn to segment each image (i.e. cluster the pixels into their ground truth classes) without seeing the ground truth labels."
+"Scene Segmentation","Semantic Segmentation","1","Computer Vision","paperswithcode","Scene segmentation is the task of splitting a scene into its various object components.
+
+Image adapted from [Temporally coherent 4D reconstruction of complex dynamic scenes](https:paperswithcode.compapertemporally-coherent-4d-reconstruction-of2)."
+"Real-Time Semantic Segmentation","Semantic Segmentation","1","Computer Vision","paperswithcode","Real-time semantic segmentation is the task of achieving computationally efficient semantic segmentation (while maintaining a base level of accuracy)."
+"Temporal Information Extraction","Information Extraction","1","Natural Language Processing","paperswithcode","Temporal information extraction is the identification of chunkstokens corresponding to temporal intervals, and the extraction and determination of the temporal relations between those. The entities extracted may be temporal expressions (timexes), eventualities (events), or auxiliary signals that support the interpretation of an entity or relation. Relations may be temporal links (tlinks), describing the order of events and times, or subordinate links (slinks) describing modality and other subordinative acti"
+"Volumetric Medical Image Segmentation","Medical Image Segmentation","1","Medical","paperswithcode",""
+"Cell Segmentation","Medical Image Segmentation","1","Medical","paperswithcode",""
+"Infant Brain Mri Segmentation","Medical Image Segmentation","1","Medical","paperswithcode",""
+"Skin Cancer Segmentation","Medical Image Segmentation","1","Medical","paperswithcode",""
+"Lung Nodule Segmentation","Medical Image Segmentation","1","Medical","paperswithcode",""
+"Pancreas Segmentation","Medical Image Segmentation","1","Medical","paperswithcode","Pancreas segmentation is the task of segmenting out the pancreas from medical imaging."
+"3D Medical Imaging Segmentation","Medical Image Segmentation","1","Medical","paperswithcode","3D medical imaging segmentation is the task of segmenting medical objects of interest from 3D medical imaging."
+"Retinal Vessel Segmentation","Medical Image Segmentation","1","Medical","paperswithcode","Retinal vessel segmentation is the task of segmenting vessels in retina imagery."
+"Brain Tumor Segmentation","Medical Image Segmentation","1","Medical","paperswithcode","Brain tumor segmentation is the task of segmenting tumors from other brain artefacts in MRI image of the brain."
+"Lesion Segmentation","Medical Image Segmentation","1","Medical","paperswithcode","Lesion segmentation is the task of segmenting out lesions from other objects in medical based images."
+"Crowd Counting","Crowds","1","Computer Vision","paperswithcode",""
+"Sentence Embeddings","Representation Learning","1","Methodology","paperswithcode",""
+"Open Knowledge Graph Canonicalization","Knowledge Graphs","1","Knowledge Base","paperswithcode","Open Information Extraction approaches leads to creation of large Knowledge bases (KB) from the web. The problem with such methods is that their entities and relations are not canonicalized, which leads to storage of redundant and ambiguous facts. For example, an Open KB storing *\<Barack Obama, was born in, Honolulu\>* and *\<Obama, took birth in, Honolulu\>* doesnt know that *Barack Obama* and *Obama* mean the same entity. Similarly, *took birth in* and *was born in* also refer to the same relation. Probl"
+"Table-to-text Generation","Text Generation","1","Natural Language Processing","paperswithcode",""
+"Data-to-Text Generation","Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"Dialogue Generation","Text Generation","1","Natural Language Processing","paperswithcode",""
+"Cross-Lingual Natural Language Inference","Natural Language Inference","1","Natural Language Processing","paperswithcode",""
+"Multivariate Time Series Forecasting","Time Series Forecasting","1","Time Series","paperswithcode",""
+"Open-Domain Question Answering","Question Answering","1","Computer Vision","paperswithcode","Open-domain question answering is the task of question answering on open-domain datasets such as Wikipedia."
+"Multi-Task Learning","Transfer Learning","1","Methodology","paperswithcode","Multi-task learning aims to learn multiple different tasks simultaneously while maximizing
+performance on one or all of the tasks."
+"Action Recognition In Videos","Action Recognition","1","Computer Vision","paperswithcode",""
+"Video Super-Resolution","Video","1","Computer Vision","paperswithcode","Video super-resolution is the task of upscaling a video from a low-resolution to a high-resolution."
+"Action Recognition In Videos","Video","1","Computer Vision","paperswithcode",""
+"Object Tracking","Video","1","Computer Vision","paperswithcode","Object tracking is the task of taking an initial set of object detections, creating a unique ID for each of the initial detections, and then tracking each of the objects as they move around frames in a video, maintaining the ID assignment."
+"Facial Inpainting","Image Generation","1","Computer Vision","paperswithcode","Facial inpainting (or face completion) is the task of generating plausible facial structures for missing pixels in a face image."
+"Text-to-Image Generation","Image Generation","1","Computer Vision","paperswithcode","Text-to-image generation is the task of generating images from text descriptions or captions."
+"Conditional Image Generation","Image Generation","1","Computer Vision","paperswithcode","Conditional image generation is the task of generating new images from a dataset conditional on their class."
+"Image-to-Image Translation","Image Generation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"Dialogue Act Classification","Dialogue","1","Computer Vision","paperswithcode","Dialogue act classification is the task of classifying an utterance with respect to the fuction it serves in a dialogue, i.e. the act the speaker is performing. Dialogue acts are a type of speech acts (for Speech Act Theory, see [Austin (1975)](http:www.hup.harvard.educatalog.php?isbn=9780674411524) and [Searle (1969)](https:www.cambridge.orgcorebooksspeech-actsD2D7B03E472C8A390ED60B86E08640E7))."
+"Dialogue State Tracking","Dialogue","1","Computer Vision","paperswithcode","Dialogue state tacking consists of determining at each turn of a dialogue the
+full representation of what the user wants at that point in the dialogue,
+which contains a goal constraint, a set of requested slots, and the users dialogue act."
+"Dialogue Generation","Dialogue","1","Computer Vision","paperswithcode",""
+"Accented Speech Recognition","Speech Recognition","1","Speech","paperswithcode",""
+"Distant Speech Recognition","Speech Recognition","1","Speech","paperswithcode",""
+"Noisy Speech Recognition","Speech Recognition","1","Speech","paperswithcode",""
+"Face Sketch Synthesis","Sketch","1","Computer Vision","paperswithcode","Face sketch synthesis is the task of generating a sketch from an input face photo."
+"Pedestrian Attribute Recognition","Autonomous Vehicles","1","Computer Vision","paperswithcode","Pedestrian attribution recognition is the task of recognising pedestrian features - such as whether they are talking on a phone, whether they have a backpack, and so on."
+"Traffic Sign Recognition","Autonomous Vehicles","1","Computer Vision","paperswithcode","Traffic sign recognition is the task of recognising traffic signs in an image or video."
+"Lane Detection","Autonomous Vehicles","1","Computer Vision","paperswithcode","Lane detection is the task of detecting lanes on a road from a camera."
+"Pedestrian Detection","Autonomous Vehicles","1","Computer Vision","paperswithcode","Pedestrian detection is the task of detecting pedestrians from a camera.
+
+Further state-of-the-art results (e.g. on the KITTI dataset) can be found at [3D Object Detection](https:paperswithcode.comtaskobject-detection)."
+"Facial Beauty Prediction","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial beauty prediction is the task of predicting the attractiveness of a face."
+"Facial Action Unit Detection","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial action unit detection is the task of detecting action units from a video of a face - for example, lip tightening and cheek raising."
+"Face Sketch Synthesis","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Face sketch synthesis is the task of generating a sketch from an input face photo."
+"Face Anti-Spoofing","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial anti-spoofing is the task of preventing false facial verification by using a photo, video, mask or a different substitute for an authorized person’s face. Some examples of attacks:
+
+- **Print attack**: The attacker uses someone’s photo. The image is printed or displayed on a digital device.
+
+- **Replayvideo attack**: A more sophisticated way to trick the system, which usually requires a looped video of a victim’s face. This approach ensures behaviour and facial movements to look more ‘natural’ co"
+"Facial Inpainting","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial inpainting (or face completion) is the task of generating plausible facial structures for missing pixels in a face image."
+"Age Estimation","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"Facial Landmark Detection","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial landmark detection is the task of detecting key landmarks on the face and tracking them (being robust to rigid and non-rigid facial deformations due to head movements and facial expressions)."
+"Face Reconstruction","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Face reconstruction is the task of recovering the facial geometry of a face from an image."
+"Face Identification","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Face identification is the task of matching a given face image to one in an existing database of faces. It is the second part of face recognition (the first part being detection). It is a one-to-many mapping: you have to find an unknown person in a database to find who that person is."
+"Facial Expression Recognition","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial expression recognition is the task of classifying the expressions on face images into various categories such as anger, fear, surprise, sadness, happiness and so on."
+"Face Alignment","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Face alignment is the task of identifying the geometric structure of faces in digital images, and attempting to obtain a canonical alignment of the face based on translation, scale, and rotation."
+"Face Verification","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"Face Detection","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"Face Recognition","Facial Recognition and Modelling","1","Computer Vision","paperswithcode","Facial recognition is the task of making a positive identification of a face in a photo or video image against a pre-existing database of faces. It begins with detection - distinguishing human faces from other objects in the image - and then works on identification of those detected faces.
+
+The state of the art tables for this task are contained mainly in the consistent parts of the task : the face verification and face identification tasks."
+"Video Super-Resolution","Super Resolution","1","Computer Vision","paperswithcode","Video super-resolution is the task of upscaling a video from a low-resolution to a high-resolution."
+"Image Super-Resolution","Super Resolution","1","Computer Vision","paperswithcode","Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Usually the benchmarks are single-image super-resolution (SISR) tasks."
+"Unsupervised Machine Translation","Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"Novel View Synthesis","AI task","1","Computer Vision","paperswithcode","Synthesize a target image with an arbitrary target camera pose from given source images and their camera poses."
+"Instance Segmentation","AI task","1","Computer Vision","paperswithcode","Instance segmentation is the task of detecting and delineating each distinct object of interest appearing in an image."
+"Participant Intervention Comparison Outcome Extraction","AI task","1","Medical","paperswithcode",""
+"Metric Learning","AI task","1","Methodology","paperswithcode",""
+"Query Wellformedness","AI task","1","Natural Language Processing","paperswithcode",""
+"Line segment detection","AI task","1","Computer Vision","paperswithcode",""
+"Click-Through Rate Prediction","AI task","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"Safety Perception Recognition","AI task","1","Computer Vision","paperswithcode","City safety perception recognition"
+"Mortality Prediction","AI task","1","Medical","paperswithcode","Mortality prediction is the task of predicting the mortality of patients. It is important in medical decision support systems in order to prioritise the patients who have a high risk of mortality."
+"Birds Eye View Object Detection","AI task","1","Computer Vision","paperswithcode","KITTI birds eye view detection task"
+"Surgical Skills Evaluation","AI task","1","Medical","paperswithcode","The task is to classify surgical skills using data that is recorded during the surgical intervention."
+"Node Classification","AI task","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"Language Acquisition","AI task","1","Natural Language Processing","paperswithcode",""
+"Passage Re-Ranking","AI task","1","Natural Language Processing","paperswithcode",""
+"Meta-Learning","AI task","1","Methodology","paperswithcode","Meta-learning is a methodology considered with learning to learn machine learning algorithms."
+"Human Parsing","AI task","1","Computer Vision","paperswithcode","Human parsing is the task of segmenting a human image into different fine-grained semantic parts such as head, torso, arms and legs."
+"Image Recognition","AI task","1","Computer Vision","paperswithcode",""
+"3D","AI task","1","Computer Vision","paperswithcode",""
+"SQL-to-Text","AI task","1","Computer Code","paperswithcode",""
+"Cross-Lingual Bitext Mining","AI task","1","Natural Language Processing","paperswithcode",""
+"Image Classification","AI task","1","Computer Vision","paperswithcode",""
+"Causal Inference","AI task","1","Miscellaneous","paperswithcode","Causal inference is the task of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect."
+"Traffic Prediction","AI task","1","Time Series","paperswithcode","Traffic prediction is the task of predicting traffic volumes, utilising historical speed and volume data."
+"Paraphrase Identification","AI task","1","Natural Language Processing","paperswithcode",""
+"Multi-Armed Bandits","AI task","1","Miscellaneous","paperswithcode","Multi-armed bandits refer to a task where a fixed amount of resources must be allocated between competing resources that maximizes expected gain. Typically these problems involve an explorationexploitation trade-off."
+"Object Recognition","AI task","1","Computer Vision","paperswithcode","Object recognition is a computer vision technique for detecting + classifying objects in images or videos. Since this is a combined task of object detection plus image classification, the state-of-the-art tables are recorded for each component task [here](https:www.paperswithcode.comtaskobject-detection) and  [here](https:www.paperswithcode.comtaskimage-classification2)."
+"Human Part Segmentation","AI task","1","Computer Vision","paperswithcode",""
+"Text Summarization","AI task","1","Natural Language Processing","paperswithcode",""
+"Gaze Estimation","AI task","1","Computer Vision","paperswithcode",""
+"Graph Classification","AI task","1","Graphs","paperswithcode",""
+"Pain Intensity Regression","AI task","1","Methodology","paperswithcode",""
+"Constituency Parsing","AI task","1","Natural Language Processing","paperswithcode","Consituency parsing aims to extract a constituency-based parse tree from a sentence that
+represents its syntactic structure according to a [phrase structure grammar](https:en.wikipedia.orgwikiPhrase_structure_grammar).
+
+Example:
+
+                 Sentence (S)
+                     |
+       +-------------+------------+
+       |                          |
+     Noun (N)                Verb Phrase (VP)
+       |                          |
+     John                 +-------+--------+
+                          |   "
+"Amr Parsing","AI task","1","Natural Language Processing","paperswithcode","Each AMR is a single rooted, directed graph. AMRs include PropBank semantic roles, within-sentence coreference, named entities and types, modality, negation, questions, quantities, and so on. [See](https:amr.isi.eduindex.html)."
+"Chunking","AI task","1","Natural Language Processing","paperswithcode","Chunking, also known as shallow parsing, identifies continuous spans of tokens that form syntactic units such as noun phrases or verb phrases.
+
+Example:
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| B-NLP| I-NP | I-NP | I-NP | I-NP |"
+"CCG Supertagging","AI task","1","Natural Language Processing","paperswithcode","Combinatory Categorical Grammar (CCG; [Steedman, 2000](http:www.citeulike.orggroup14833article8971002)) is a
+highly lexicalized formalism. The standard parsing model of [Clark and Curran (2007)](https:www.mitpressjournals.orgdoiabs10.1162coli.2007.33.4.493)
+uses over 400 lexical categories (or _supertags_), compared to about 50 part-of-speech tags for typical parsers.
+
+Example:
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| N| , | NN | N | (S[adj]\ NP)\ NP |"
+"Hyperspectral","AI task","1","Computer Vision","paperswithcode",""
+"Denoising","AI task","1","Computer Vision","paperswithcode","Denoising is the task of removing noise from an image."
+"Pose Estimation","AI task","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"Anaphora Resolution","AI task","1","Natural Language Processing","paperswithcode",""
+"Object Reconstruction","AI task","1","Computer Vision","paperswithcode",""
+"Object Detection","AI task","1","Computer Vision","paperswithcode","Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos."
+"Optical Flow Estimation","AI task","1","Computer Vision","paperswithcode",""
+"Entity Resolution","AI task","1","Natural Language Processing","paperswithcode",""
+"Coreference Resolution","AI task","1","Natural Language Processing","paperswithcode","Coreference resolution is the task of clustering mentions in text that refer to the same underlying real world entities.
+
+Example:
+
+```
+               +-----------+
+               |           |
+I voted for Obama because he was most aligned with my values, she said.
+ |                                                 |            |
+ +-------------------------------------------------+------------+
+```
+
+I, my, and she belong to the same cluster and Obama and he belong to the same cluster."
+"Image Inpainting","AI task","1","Computer Vision","paperswithcode",""
+"Recommendation Systems","AI task","1","Miscellaneous","paperswithcode","The recommendation systems task is to produce a list of recommendations for a user."
+"Image Reconstruction","AI task","1","Computer Vision","paperswithcode",""
+"Cross-Lingual","AI task","1","Natural Language Processing","paperswithcode",""
+"Multi-Modal","AI task","1","Miscellaneous","paperswithcode",""
+"Multi-Label Text Classification","AI task","1","Methodology","paperswithcode",""
+"Nested Mention Recognition","AI task","1","Natural Language Processing","paperswithcode",""
+"Architecture Search","AI task","1","Methodology","paperswithcode",""
+"Domain Adaptation","AI task","1","Methodology","paperswithcode","Domain adaptation is the task of adapting models between domains."
+"Subjectivity Analysis","AI task","1","Natural Language Processing","paperswithcode","A related task to sentiment analysis is the subjectivity analysis with the goal of labeling an opinion as either subjective or objective."
+"Image Retrieval","AI task","1","Computer Vision","paperswithcode","Image retrieval systems aim to find similar images to a query image among an image dataset."
+"Ad-Hoc Information Retrieval","AI task","1","Natural Language Processing","paperswithcode",""
+"Scene Text Detection","AI task","1","Computer Vision","paperswithcode",""
+"Sarcasm Detection","AI task","1","Natural Language Processing","paperswithcode",""
+"Text Classification","AI task","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"Relationship Extraction (Distant Supervised)","AI task","1","Natural Language Processing","paperswithcode","Relationship extraction is the task of extracting semantic relationships from a text. Extracted relationships usually
+occur between two or more entities of a certain type (e.g. Person, Organisation, Location) and fall into a number of
+semantic categories (e.g. married to, employed by, lives in)."
+"Named Entity Recognition (NER)","AI task","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"Sentiment Analysis","AI task","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Dependency Parsing","AI task","1","Natural Language Processing","paperswithcode","Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical
+structure and defines the relationships between head words and words, which modify those heads.
+
+Example:
+
+```
+     root
+      |
+      | +-------dobj---------+
+      | |                    |
+nsubj | |   +------det-----+ | +-----nmod------+
++--+  | |   |              | | |               |
+|  |  | |   |      +-nmod-+| | |      +-case-+ |
++  |  + |   +      +      || + |      +      | |
+I  prefer  the "
+"Grammatical Error Correction","AI task","1","Natural Language Processing","paperswithcode","Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors. 
+
+GEC is typically formulated as a sentence correction task. A GEC system takes a potentially erroneous sentence as input and is expected to transform it to its corrected version. See the example given below: 
+
+| Input (Erroneous)          | Output (Corrected)     |
+| -------------------------  | ---------------------- |
+|She see Tom is catched by"
+"Semantic Parsing","AI task","1","Natural Language Processing","paperswithcode",""
+"Semantic Textual Similarity","AI task","1","Natural Language Processing","paperswithcode","Semantic textual similarity deals with determining how similar two pieces of texts are.
+This can take the form of assigning a score from 1 to 5. Related tasks are paraphrase or duplicate identification."
+"Semantic Role Labeling","AI task","1","Natural Language Processing","paperswithcode","Semantic role labeling aims to model the predicate-argument structure of a sentence
+and is often described as answering Who did what to whom. BIO notation is typically
+used for semantic role labeling.
+
+Example:
+
+| Housing | starts | are | expected | to | quicken | a | bit | from | August’s | pace | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| B-ARG1 | I-ARG1 | O |  O  |  O  |   V  | B-ARG2 | I-ARG2 | B-ARG3 | I-ARG3 | I-ARG3 |"
+"Lexical Normalization","AI task","1","Natural Language Processing","paperswithcode","Lexical normalization is the task of translatingtransforming a non standard text to a standard register.
+
+Example:
+
+```
+new pix comming tomoroe
+new pictures coming tomorrow
+```
+
+Datasets usually consists of tweets, since these naturally contain a fair amount of 
+these phenomena.
+
+For lexical normalization, only replacements on the word-level are annotated.
+Some corpora include annotation for 1-N and N-1 replacements. However, word
+insertiondeletion and reordering is not part of the task."
+"Hand","AI task","1","Computer Vision","paperswithcode",""
+"Emotion Recognition","AI task","1","Computer Vision","paperswithcode",""
+"Object Localization","AI task","1","Computer Vision","paperswithcode",""
+"Semantic Segmentation","AI task","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"Relation Extraction","AI task","1","Natural Language Processing","paperswithcode",""
+"Information Extraction","AI task","1","Natural Language Processing","paperswithcode",""
+"Edge Detection","AI task","1","Computer Vision","paperswithcode",""
+"Stance Detection","AI task","1","Natural Language Processing","paperswithcode","Stance detection is the extraction of a subjects reaction to a claim made by a primary actor. It is a core part of a set of approaches to fake news assessment.
+
+Example:
+
+* Source: Apples are the most delicious fruit in existence
+* Reply: Obviously not, because that is a reuben from Katzs
+* Stance: deny"
+"Speech Synthesis","AI task","1","Speech","paperswithcode","Speech synthesis is the task of generating speech from text. 
+
+Please note that the state-of-the-art tables here are not really comparable between studies - as they use mean opinion score as a metric and collect different samples from Amazon Mechnical Turk."
+"Medical Image Segmentation","AI task","1","Medical","paperswithcode","Medical image segmentation is the task of segmenting objects of interest in a medical image - for example organs or lesions."
+"Drug Discovery","AI task","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"Language Modelling","AI task","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"Word Sense Disambiguation","AI task","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"Common Sense Reasoning","AI task","1","Reasoning","paperswithcode","Common sense reasoning tasks are intended to require the model to go beyond pattern 
+recognition. Instead, the model should use common sense or world knowledge
+to make inferences."
+"Crowds","AI task","1","Computer Vision","paperswithcode",""
+"Representation Learning","AI task","1","Methodology","paperswithcode","Representation learning is concerned with training machine learning algorithms to learn useful representations, e.g. those that are interpretable, have latent features, or can be used for transfer learning."
+"Knowledge Graphs","AI task","1","Knowledge Base","paperswithcode",""
+"Text Generation","AI task","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"Natural Language Inference","AI task","1","Natural Language Processing","paperswithcode","Natural language inference is the task of determining whether a hypothesis is 
+true (entailment), false (contradiction), or undetermined (neutral) given a premise.
+
+Example:
+
+| Premise | Label | Hypothesis |
+| --- | ---| --- |
+| A man inspects the uniform of a figure in some East Asian country. | contradiction | The man is sleeping. |
+| An older and younger man smiling. | neutral  | Two men are smiling and laughing at the cats playing on the floor. |
+| A soccer game with multiple males playing. | e"
+"Time Series Forecasting","AI task","1","Time Series","paperswithcode","Time series forecasting is the task of predicting future values of a time series (as well as uncertainty bounds)."
+"Visual Question Answering","AI task","1","Computer Vision","paperswithcode",""
+"Question Answering","AI task","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Transfer Learning","AI task","1","Methodology","paperswithcode","Transfer learning is a methodology where weights from a model trained on one task are taken and either used (a) to construct a fixed feature extractor, (b) as weight initialization andor fine-tuning."
+"Action Recognition","AI task","1","Computer Vision","paperswithcode",""
+"Video","AI task","1","Computer Vision","paperswithcode",""
+"Person Re-Identification","AI task","1","Computer Vision","paperswithcode","Person re-identification is the task of associating images of the same person taken from different cameras or from the same camera in different occasions."
+"Image Generation","AI task","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"Hypernym Discovery","AI task","1","Natural Language Processing","paperswithcode","Given a corpus and a target term (hyponym), the task of hypernym discovery consists of extracting a set of its most appropriate hypernyms from the corpus. For example, for the input word “dog”, some valid hypernyms would be “canine”, “mammal” or “animal”."
+"Dialogue","AI task","1","Computer Vision","paperswithcode","Dialogue is notoriously hard to evaluate. Past approaches have used human evaluation."
+"Part-Of-Speech Tagging","AI task","1","Natural Language Processing","paperswithcode","Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech.
+A part of speech is a category of words with similar grammatical properties. Common English
+parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.
+
+Example: 
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| NNP | , | CD | NNS | JJ |"
+"Speech Recognition","AI task","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"Sketch","AI task","1","Computer Vision","paperswithcode",""
+"Autonomous Vehicles","AI task","1","Computer Vision","paperswithcode","Autonomous vehicles is the task of making a vehicle that can guide itself without human conduction.
+
+Many of the state-of-the-art results can be found at more general task pages such as [3D Object Detection](https:paperswithcode.comtask3d-object-detection) and [Semantic Segmentation](https:paperswithcode.comtasksemantic-segmentation)."
+"Facial Recognition and Modelling","AI task","1","Computer Vision","paperswithcode","Facial tasks in machine learning operate based on images or video frames (or other datasets) focussed on human faces."
+"Super Resolution","AI task","1","Computer Vision","paperswithcode","Super resolution is the task of taking an input of a low resolution (LR) and upscaling it to that of a high resolution."
+"Link Prediction","AI task","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"Machine Translation","AI task","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"Trajectory Prediction","AI task","1","Computer Vision","paperswithcode",""
+"ShapeNet Car","Novel View Synthesis","1","Computer Vision","paperswithcode","Synthesize a target image with an arbitrary target camera pose from given source images and their camera poses."
+"ShapeNet Chair","Novel View Synthesis","1","Computer Vision","paperswithcode","Synthesize a target image with an arbitrary target camera pose from given source images and their camera poses."
+"Synthia Novel View Synthesis","Novel View Synthesis","1","Computer Vision","paperswithcode","Synthesize a target image with an arbitrary target camera pose from given source images and their camera poses."
+"KITTI Novel View Synthesis","Novel View Synthesis","1","Computer Vision","paperswithcode","Synthesize a target image with an arbitrary target camera pose from given source images and their camera poses."
+"OCHuman","Human Instance Segmentation","1","Computer Vision","paperswithcode",""
+"NYU Depth v2","Instance Segmentation","1","Computer Vision","paperswithcode","Instance segmentation is the task of detecting and delineating each distinct object of interest appearing in an image."
+"COCO","Instance Segmentation","1","Computer Vision","paperswithcode","Instance segmentation is the task of detecting and delineating each distinct object of interest appearing in an image."
+"EBM-NLP","Participant Intervention Comparison Outcome Extraction","1","Medical","paperswithcode",""
+"CARS196","Metric Learning","1","Methodology","paperswithcode",""
+"Query Wellformedness","Query Wellformedness","1","Natural Language Processing","paperswithcode",""
+"wireframe dataset","Line segment detection","1","Computer Vision","paperswithcode",""
+"Criteo","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"Amazon","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"MovieLens 20M","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"Company*","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"iPinYou","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"Dianping","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"Bing News","Click-Through Rate Prediction","1","Miscellaneous","paperswithcode","Click-through rate prediction is the task of predicting the likelihood that something on a website (such as an advertisement) will be clicked."
+"Google Street Images","Safety Perception Recognition","1","Computer Vision","paperswithcode","City safety perception recognition"
+"MIMIC-III","Mortality Prediction","1","Medical","paperswithcode","Mortality prediction is the task of predicting the mortality of patients. It is important in medical decision support systems in order to prioritise the patients who have a high risk of mortality."
+"KITTI Cars Moderate","Birds Eye View Object Detection","1","Computer Vision","paperswithcode","KITTI birds eye view detection task"
+"KITTI Cyclists Moderate","Birds Eye View Object Detection","1","Computer Vision","paperswithcode","KITTI birds eye view detection task"
+"KITTI Pedestrians Moderate","Birds Eye View Object Detection","1","Computer Vision","paperswithcode","KITTI birds eye view detection task"
+"JIGSAWS","Surgical Skills Evaluation","1","Medical","paperswithcode","The task is to classify surgical skills using data that is recorded during the surgical intervention."
+"Citeseer","Node Classification","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"Pubmed","Node Classification","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"Cora","Node Classification","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"Wikipedia","Node Classification","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"NELL","Node Classification","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"BlogCatalog","Node Classification","1","Graphs","paperswithcode","The node classification task is one where the algorithm has to determine the labelling of samples (represented as nodes) by looking at the labels of their neighbours."
+"SLAM 2018","Language Acquisition","1","Natural Language Processing","paperswithcode",""
+"MS MARCO","Passage Re-Ranking","1","Natural Language Processing","paperswithcode",""
+"Mini-ImageNet - 5-Shot Learning","Few-Shot Image Classification","1","Methodology","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"OMNIGLOT - 5-Shot Learning","Few-Shot Image Classification","1","Methodology","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"OMNIGLOT - 1-Shot Learning","Few-Shot Image Classification","1","Methodology","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"CUB-200 - 0-Shot Learning","Few-Shot Image Classification","1","Methodology","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"Mini-ImageNet - 1-Shot Learning","Few-Shot Image Classification","1","Methodology","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"MHP v2.0","Multi-Human Parsing","1","Computer Vision","paperswithcode","Multi-human parsing is the task of parsing multiple humans in crowded scenes."
+"PASCAL-Person-Part","Multi-Human Parsing","1","Computer Vision","paperswithcode","Multi-human parsing is the task of parsing multiple humans in crowded scenes."
+"MHP v1.0","Multi-Human Parsing","1","Computer Vision","paperswithcode","Multi-human parsing is the task of parsing multiple humans in crowded scenes."
+"Chinese License Plates","License Plate Recognition","1","Computer Vision","paperswithcode",""
+"PanoContext","3D Room Layouts From A Single Rgb Panorama","1","Computer Vision","paperswithcode",""
+"Stanford 2D-3D","3D Room Layouts From A Single Rgb Panorama","1","Computer Vision","paperswithcode",""
+"Realtor360","3D Room Layouts From A Single Rgb Panorama","1","Computer Vision","paperswithcode",""
+"Scan2CAD","3D Reconstruction","1","Computer Vision","paperswithcode",""
+"WikiSQL","SQL-to-Text","1","Computer Code","paperswithcode",""
+"BUCC French-to-English","Cross-Lingual Bitext Mining","1","Natural Language Processing","paperswithcode",""
+"BUCC German-to-English","Cross-Lingual Bitext Mining","1","Natural Language Processing","paperswithcode",""
+"RVL-CDIP","Document Image Classification","1","Computer Vision","paperswithcode","Document image classification is the task of classifying documents based on images of their contents."
+"STL-10","Unsupervised image classification","1","Computer Vision","paperswithcode","Models that learn to label each image (i.e. cluster the dataset into its ground truth classes) without seeing the ground truth labels."
+"CIFAR-10","Unsupervised image classification","1","Computer Vision","paperswithcode","Models that learn to label each image (i.e. cluster the dataset into its ground truth classes) without seeing the ground truth labels."
+"CIFAR-20","Unsupervised image classification","1","Computer Vision","paperswithcode","Models that learn to label each image (i.e. cluster the dataset into its ground truth classes) without seeing the ground truth labels."
+"MNIST","Unsupervised image classification","1","Computer Vision","paperswithcode","Models that learn to label each image (i.e. cluster the dataset into its ground truth classes) without seeing the ground truth labels."
+"Sequential MNIST","Sequential Image Classification","1","Computer Vision","paperswithcode","Sequential image classification is the task of classifying a sequence of images."
+"Pavia University","Hyperspectral Image Classification","1","Computer Vision","paperswithcode","Hyperspectral image classification is the task of classifying a class label to every pixel in an image that was captured using (hyper)spectral sensors."
+"Indian Pines","Hyperspectral Image Classification","1","Computer Vision","paperswithcode","Hyperspectral image classification is the task of classifying a class label to every pixel in an image that was captured using (hyper)spectral sensors."
+"NABirds","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"Oxford 102 Flowers","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"Caltech-101","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"FGVC Aircraft","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"Stanford Cars","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"CompCars","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"Oxford-IIIT Pets","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"Stanford Dogs","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+" CUB-200-2011","Fine-Grained Image Classification","1","Computer Vision","paperswithcode","The Fine-Grained Image Classification task focuses on differentiating between hard-to-distinguish object classes, such as species of birds, flowers, or animals; and identifying the makes or models of vehicles."
+"CIFAR-10, 4000 Labels","Semi-Supervised Image Classification","1","Computer Vision","paperswithcode",""
+"SVHN, 1000 labels","Semi-Supervised Image Classification","1","Computer Vision","paperswithcode",""
+"STL-10","Semi-Supervised Image Classification","1","Computer Vision","paperswithcode",""
+"Mini-ImageNet - 5-Shot Learning","Few-Shot Image Classification","1","Computer Vision","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"OMNIGLOT - 5-Shot Learning","Few-Shot Image Classification","1","Computer Vision","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"OMNIGLOT - 1-Shot Learning","Few-Shot Image Classification","1","Computer Vision","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"CUB-200 - 0-Shot Learning","Few-Shot Image Classification","1","Computer Vision","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"Mini-ImageNet - 1-Shot Learning","Few-Shot Image Classification","1","Computer Vision","paperswithcode","Few-shot image classification is the task of doing image classification with only a few examples for each category (typically < 6 examples)."
+"CIFAR-10","Image Classification","1","Computer Vision","paperswithcode",""
+"iNaturalist","Image Classification","1","Computer Vision","paperswithcode",""
+"MultiMNIST","Image Classification","1","Computer Vision","paperswithcode",""
+"CIFAR-100","Image Classification","1","Computer Vision","paperswithcode",""
+"STL-10","Image Classification","1","Computer Vision","paperswithcode",""
+"MSRC-21 (per-class)","Image Classification","1","Computer Vision","paperswithcode",""
+"MSRC-21 (per-pixel)","Image Classification","1","Computer Vision","paperswithcode",""
+"SVHN","Image Classification","1","Computer Vision","paperswithcode",""
+"ImageNet","Image Classification","1","Computer Vision","paperswithcode",""
+"Fashion-MNIST","Image Classification","1","Computer Vision","paperswithcode",""
+"MNIST","Image Classification","1","Computer Vision","paperswithcode",""
+"IDHP","Causal Inference","1","Miscellaneous","paperswithcode","Causal inference is the task of drawing a conclusion about a causal connection based on the conditions of the occurrence of an effect."
+"METR-LA","Traffic Prediction","1","Time Series","paperswithcode","Traffic prediction is the task of predicting traffic volumes, utilising historical speed and volume data."
+"Quora Question Pairs","Paraphrase Identification","1","Natural Language Processing","paperswithcode",""
+"Mushroom","Multi-Armed Bandits","1","Miscellaneous","paperswithcode","Multi-armed bandits refer to a task where a fixed amount of resources must be allocated between competing resources that maximizes expected gain. Typically these problems involve an explorationexploitation trade-off."
+"Photo-Art-50","Depiction Invariant Object Recognition","1","Computer Vision","paperswithcode","Depiction invariant object recognition is the task of recognising objects irrespective of how they are visually depicted (line drawing, realistic shaded drawing, photograph etc.)."
+"ModelNet40","3D Object Recognition","1","Computer Vision","paperswithcode","3D object recognition is the task of recognising objects from 3D data."
+"CIHP","Human Part Segmentation","1","Computer Vision","paperswithcode",""
+"MHP v2.0","Human Part Segmentation","1","Computer Vision","paperswithcode",""
+"CNN  Daily Mail","Extractive Document Summarization","1","Natural Language Processing","paperswithcode",""
+"CNN  Daily Mail","Document Summarization","1","Natural Language Processing","paperswithcode",""
+"DUC 2004 Task 1","Text Summarization","1","Natural Language Processing","paperswithcode",""
+"GigaWord","Text Summarization","1","Natural Language Processing","paperswithcode",""
+"MPII Gaze","Gaze Estimation","1","Computer Vision","paperswithcode",""
+"RT-GENE","Gaze Estimation","1","Computer Vision","paperswithcode",""
+"UT Multi-view","Gaze Estimation","1","Computer Vision","paperswithcode",""
+"RE-M5K","Graph Classification","1","Graphs","paperswithcode",""
+"D&D","Graph Classification","1","Graphs","paperswithcode",""
+"RE-M12K","Graph Classification","1","Graphs","paperswithcode",""
+"MUTAG","Graph Classification","1","Graphs","paperswithcode",""
+"NCI1","Graph Classification","1","Graphs","paperswithcode",""
+"PROTEINS","Graph Classification","1","Graphs","paperswithcode",""
+"ENZYMES","Graph Classification","1","Graphs","paperswithcode",""
+"COLLAB","Graph Classification","1","Graphs","paperswithcode",""
+"IMDb-B","Graph Classification","1","Graphs","paperswithcode",""
+"IMDb-M","Graph Classification","1","Graphs","paperswithcode",""
+"UNBC-McMaster ShoulderPain dataset","Pain Intensity Regression","1","Methodology","paperswithcode",""
+"Penn Treebank","Constituency Parsing","1","Natural Language Processing","paperswithcode","Consituency parsing aims to extract a constituency-based parse tree from a sentence that
+represents its syntactic structure according to a [phrase structure grammar](https:en.wikipedia.orgwikiPhrase_structure_grammar).
+
+Example:
+
+                 Sentence (S)
+                     |
+       +-------------+------------+
+       |                          |
+     Noun (N)                Verb Phrase (VP)
+       |                          |
+     John                 +-------+--------+
+                          |   "
+"LDC2014T12:","Amr Parsing","1","Natural Language Processing","paperswithcode","Each AMR is a single rooted, directed graph. AMRs include PropBank semantic roles, within-sentence coreference, named entities and types, modality, negation, questions, quantities, and so on. [See](https:amr.isi.eduindex.html)."
+"Penn Treebank","Chunking","1","Natural Language Processing","paperswithcode","Chunking, also known as shallow parsing, identifies continuous spans of tokens that form syntactic units such as noun phrases or verb phrases.
+
+Example:
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| B-NLP| I-NP | I-NP | I-NP | I-NP |"
+"CCGBank","CCG Supertagging","1","Natural Language Processing","paperswithcode","Combinatory Categorical Grammar (CCG; [Steedman, 2000](http:www.citeulike.orggroup14833article8971002)) is a
+highly lexicalized formalism. The standard parsing model of [Clark and Curran (2007)](https:www.mitpressjournals.orgdoiabs10.1162coli.2007.33.4.493)
+uses over 400 lexical categories (or _supertags_), compared to about 50 part-of-speech tags for typical parsers.
+
+Example:
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| N| , | NN | N | (S[adj]\ NP)\ NP |"
+"BSD68 sigma15","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD68 sigma25","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD68 sigma10","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"Urban100 sigma50","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"Urban100 sigma70","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD68 sigma50","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"Urban100 sigma30","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD200 sigma50","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD68 sigma30","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD68 sigma70","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD200 sigma30","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD200 sigma70","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"BSD200 sigma10","Image Denoising","1","Computer Vision","paperswithcode","Image Denoising is the task of removing noise from an image, e.g. the application of Gaussian noise to an image."
+"AFLW2000","Head Pose Estimation","1","Computer Vision","paperswithcode","Estimating the head pose of a person is a crucial problem that has a large amount of applications such as aiding in gaze estimation, modeling attention, fitting 3D models to video and performing face alignment."
+"BIWI","Head Pose Estimation","1","Computer Vision","paperswithcode","Estimating the head pose of a person is a crucial problem that has a large amount of applications such as aiding in gaze estimation, modeling attention, fitting 3D models to video and performing face alignment."
+"T-LESS","6D Pose Estimation","1","Computer Vision","paperswithcode","6D pose estimation is the task of detecting the 6D pose of an object, which include its location and orientation. This is an important task in robotics, where a robotic arm needs to know the location and orientation to detect and move objects in its vicinity successfully.  This allows the robot to operate safely and effectively alongside humans. The awareness of the position and orientation of objects in a scene is sometimes referred to as 6D, where the D stands for degrees of freedom pose."
+"YCB-Video","6D Pose Estimation","1","Computer Vision","paperswithcode","6D pose estimation is the task of detecting the 6D pose of an object, which include its location and orientation. This is an important task in robotics, where a robotic arm needs to know the location and orientation to detect and move objects in its vicinity successfully.  This allows the robot to operate safely and effectively alongside humans. The awareness of the position and orientation of objects in a scene is sometimes referred to as 6D, where the D stands for degrees of freedom pose."
+"LineMOD","6D Pose Estimation","1","Computer Vision","paperswithcode","6D pose estimation is the task of detecting the 6D pose of an object, which include its location and orientation. This is an important task in robotics, where a robotic arm needs to know the location and orientation to detect and move objects in its vicinity successfully.  This allows the robot to operate safely and effectively alongside humans. The awareness of the position and orientation of objects in a scene is sometimes referred to as 6D, where the D stands for degrees of freedom pose."
+"OCCLUSION","6D Pose Estimation","1","Computer Vision","paperswithcode","6D pose estimation is the task of detecting the 6D pose of an object, which include its location and orientation. This is an important task in robotics, where a robotic arm needs to know the location and orientation to detect and move objects in its vicinity successfully.  This allows the robot to operate safely and effectively alongside humans. The awareness of the position and orientation of objects in a scene is sometimes referred to as 6D, where the D stands for degrees of freedom pose."
+"OccludedLINEMOD","6D Pose Estimation","1","Computer Vision","paperswithcode","6D pose estimation is the task of detecting the 6D pose of an object, which include its location and orientation. This is an important task in robotics, where a robotic arm needs to know the location and orientation to detect and move objects in its vicinity successfully.  This allows the robot to operate safely and effectively alongside humans. The awareness of the position and orientation of objects in a scene is sometimes referred to as 6D, where the D stands for degrees of freedom pose."
+"COCO","Keypoint Detection","1","Computer Vision","paperswithcode","Keypoint detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on."
+" Pascal3D+","Keypoint Detection","1","Computer Vision","paperswithcode","Keypoint detection involves simultaneously detecting people and localizing their keypoints. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image. They are invariant to image rotation, shrinkage, translation, distortion, and so on."
+"ICVL Hands","Hand Pose Estimation","1","Computer Vision","paperswithcode","Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames."
+"MSRA Hands","Hand Pose Estimation","1","Computer Vision","paperswithcode","Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames."
+"HANDS 2017","Hand Pose Estimation","1","Computer Vision","paperswithcode","Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames."
+"NYU Hands","Hand Pose Estimation","1","Computer Vision","paperswithcode","Hand pose estimation is the task of finding the joints of the hand from an image or set of video frames."
+"COCO","Multi-Person Pose Estimation","1","Computer Vision","paperswithcode","Multi-person pose estimation is the task of estimating the pose of multiple people in one frame."
+"WAF","Multi-Person Pose Estimation","1","Computer Vision","paperswithcode","Multi-person pose estimation is the task of estimating the pose of multiple people in one frame."
+"MPII Multi-Person","Multi-Person Pose Estimation","1","Computer Vision","paperswithcode","Multi-person pose estimation is the task of estimating the pose of multiple people in one frame."
+"CHALL H80K","3D Human Pose Estimation","1","Computer Vision","paperswithcode","3D Human Pose Estimation is the task of estimating the pose of a human from a picture or set of video frames."
+"Human3.6M","3D Human Pose Estimation","1","Computer Vision","paperswithcode","3D Human Pose Estimation is the task of estimating the pose of a human from a picture or set of video frames."
+"DensePose-COCO","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"FLIC Elbows","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+" ITOP front-view","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"ITOP top-view","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"FLIC Wrists","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"MPII Human Pose","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"Leeds Sports Poses","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"COCO","Pose Estimation","1","Computer Vision","paperswithcode","Pose Estimation is a general problem in Computer Vision where we detect the position and orientation of an object."
+"The ARRAU Corpus","Abstract Anaphora Resolution","1","Natural Language Processing","paperswithcode","Abstract Anaphora Resolution aims to resolve nominal expressions (e.g., this result, those two actions) and pronominal expressions (e.g. this, that, it) that refer to abstract-object-antecedents such as facts, events, plans, actions, or situations."
+"Data3D-R2N2","3D Object Reconstruction","1","Computer Vision","paperswithcode",""
+"SK-LARGE","Object Skeleton Detection","1","Computer Vision","paperswithcode","Object skeleton detection is the task of detecting the skeleton of an object in an image."
+"ImageNet VID","Video Object Detection","1","Computer Vision","paperswithcode","Video object detection is the task of detecting objects from a video as opposed to images."
+"Barrett’s Esophagus","Medical Object Detection","1","Computer Vision","paperswithcode","Medical object detection is the task of identifying medical-based objects within an image."
+"PASCAL VOC 2012, 60 proposals per image","Object Proposal Generation","1","Computer Vision","paperswithcode","Object proposal generation is a preprocessing technique that has been widely used in current object detection pipelines to guide the search of objects and avoid exhaustive sliding window search across images."
+"PASCAL VOC 2012","Weakly Supervised Object Detection","1","Computer Vision","paperswithcode","Weakly Supervised Object Detection (WSOD) is the task of training object detectors with only image tag supervisions."
+"PASCAL VOC 2007","Weakly Supervised Object Detection","1","Computer Vision","paperswithcode","Weakly Supervised Object Detection (WSOD) is the task of training object detectors with only image tag supervisions."
+"ImageNet","Weakly Supervised Object Detection","1","Computer Vision","paperswithcode","Weakly Supervised Object Detection (WSOD) is the task of training object detectors with only image tag supervisions."
+"COCO","Weakly Supervised Object Detection","1","Computer Vision","paperswithcode","Weakly Supervised Object Detection (WSOD) is the task of training object detectors with only image tag supervisions."
+"KITTI Cars Hard","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Pedestrians Moderate","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Cars Moderate","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"NYU Depth v2","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Pedestrians Easy","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"SUN-RGBD","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Pedestrians Hard","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Cyclists Hard","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Cyclists Moderate","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Cars Easy","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"KITTI Cyclists Easy","3D Object Detection","1","Computer Vision","paperswithcode","3D object detection classifies the object category and estimates oriented 3D bounding boxes of physical objects from 3D sensor data."
+"COCO","Real-Time Object Detection","1","Computer Vision","paperswithcode","Real-time object detection is the task of doing object detection in real-time with fast inference while maintaining a base level of accuracy."
+"PASCAL VOC 2007","Real-Time Object Detection","1","Computer Vision","paperswithcode","Real-time object detection is the task of doing object detection in real-time with fast inference while maintaining a base level of accuracy."
+"COCO","Object Detection","1","Computer Vision","paperswithcode","Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos."
+"ImageNet Detection","Object Detection","1","Computer Vision","paperswithcode","Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos."
+"PASCAL VOC 2007","Object Detection","1","Computer Vision","paperswithcode","Object detection is a computer technology related to computer vision and image processing that deals with detecting instances of semantic objects of a certain class (such as humans, buildings, or cars) in digital images and videos."
+"Sintel-final","Optical Flow Estimation","1","Computer Vision","paperswithcode",""
+"Sintel-clean","Optical Flow Estimation","1","Computer Vision","paperswithcode",""
+"CoNLL 2003 (English)","Entity Resolution","1","Natural Language Processing","paperswithcode",""
+"CoNLL 2012","Coreference Resolution","1","Natural Language Processing","paperswithcode","Coreference resolution is the task of clustering mentions in text that refer to the same underlying real world entities.
+
+Example:
+
+```
+               +-----------+
+               |           |
+I voted for Obama because he was most aligned with my values, she said.
+ |                                                 |            |
+ +-------------------------------------------------+------------+
+```
+
+I, my, and she belong to the same cluster and Obama and he belong to the same cluster."
+"VggFace2","Facial Inpainting","1","Computer Vision","paperswithcode","Facial inpainting (or face completion) is the task of generating plausible facial structures for missing pixels in a face image."
+"WebFace","Facial Inpainting","1","Computer Vision","paperswithcode","Facial inpainting (or face completion) is the task of generating plausible facial structures for missing pixels in a face image."
+"Douban","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"Netflix","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"Flixster","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"MovieLens 10M","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"Million Song Dataset","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"YahooMusic","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"MovieLens 1M","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"MovieLens 100K","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"MovieLens 20M","Collaborative Filtering","1","Miscellaneous","paperswithcode","Collaborative filtering is a recommendation system that uses users past behaviour (items previously purchased or selected andor numerical ratings given to those items) as well as similar decisions made by other users. This model is then used to predict items (or ratings for items) that the user may have an interest in."
+"Edge-to-Handbags","Image Reconstruction","1","Computer Vision","paperswithcode",""
+"Edge-to-Shoes","Image Reconstruction","1","Computer Vision","paperswithcode",""
+"MLDoc Zero-Shot English-to-Spanish","Cross-Lingual Document Classification","1","Natural Language Processing","paperswithcode",""
+"MLDoc Zero-Shot English-to-German","Cross-Lingual Document Classification","1","Natural Language Processing","paperswithcode",""
+"MLDoc Zero-Shot English-to-French","Cross-Lingual Document Classification","1","Natural Language Processing","paperswithcode",""
+"COCO 2014","Cross-Modal Retrieval","1","Miscellaneous","paperswithcode",""
+"20NEWS","Multi-Label Text Classification","1","Methodology","paperswithcode",""
+"ACE 2005","Nested Mention Recognition","1","Natural Language Processing","paperswithcode",""
+"ACE 2004","Nested Mention Recognition","1","Natural Language Processing","paperswithcode",""
+"CIFAR-10 Image Classification","Architecture Search","1","Methodology","paperswithcode",""
+"VisDA2017","Unsupervised Domain Adaptation","1","Methodology","paperswithcode",""
+"Office-31","Unsupervised Domain Adaptation","1","Methodology","paperswithcode",""
+"ImageCLEF-DA","Unsupervised Domain Adaptation","1","Methodology","paperswithcode",""
+"SUBJ","Subjectivity Analysis","1","Natural Language Processing","paperswithcode","A related task to sentiment analysis is the subjectivity analysis with the goal of labeling an opinion as either subjective or objective."
+"Oxf105k","Image Retrieval","1","Computer Vision","paperswithcode","Image retrieval systems aim to find similar images to a query image among an image dataset."
+"Stanford Cars","Image Retrieval","1","Computer Vision","paperswithcode","Image retrieval systems aim to find similar images to a query image among an image dataset."
+"Par6k","Image Retrieval","1","Computer Vision","paperswithcode","Image retrieval systems aim to find similar images to a query image among an image dataset."
+"Par106k","Image Retrieval","1","Computer Vision","paperswithcode","Image retrieval systems aim to find similar images to a query image among an image dataset."
+"Oxf5k","Image Retrieval","1","Computer Vision","paperswithcode","Image retrieval systems aim to find similar images to a query image among an image dataset."
+"TREC Robust04","Ad-Hoc Information Retrieval","1","Natural Language Processing","paperswithcode",""
+"SCUT-CTW1500","Curved Text Detection","1","Computer Vision","paperswithcode",""
+"IC15","Scene Text Detection","1","Computer Vision","paperswithcode",""
+"IC17-MLT","Scene Text Detection","1","Computer Vision","paperswithcode",""
+"SARC (pol-unbal)","Sarcasm Detection","1","Natural Language Processing","paperswithcode",""
+"SARC (pol-bal)","Sarcasm Detection","1","Natural Language Processing","paperswithcode",""
+"SARC (all-bal)","Sarcasm Detection","1","Natural Language Processing","paperswithcode",""
+"ACL-ARC","Citation Intent Classification","1","Natural Language Processing","paperswithcode",""
+"SciCite","Citation Intent Classification","1","Natural Language Processing","paperswithcode",""
+"SemEval 2018 Task 1E-c","Emotion Classification","1","Natural Language Processing","paperswithcode","Given a tweet, classify it as neutral or no emotion or as one, or more, of eleven given emotions that best represent the mental state of the tweeter."
+"SciCite","Sentence Classification","1","Natural Language Processing","paperswithcode",""
+"PubMed 20k RCT","Sentence Classification","1","Natural Language Processing","paperswithcode",""
+"ACL-ARC","Sentence Classification","1","Natural Language Processing","paperswithcode",""
+"Paper Field","Sentence Classification","1","Natural Language Processing","paperswithcode",""
+"ScienceCite","Sentence Classification","1","Natural Language Processing","paperswithcode",""
+"WOS-11967","Document Classification","1","Natural Language Processing","paperswithcode",""
+"WOS-5736","Document Classification","1","Natural Language Processing","paperswithcode",""
+"WOS-46985","Document Classification","1","Natural Language Processing","paperswithcode",""
+"Reuters-21578","Document Classification","1","Natural Language Processing","paperswithcode",""
+"IMDb","Document Classification","1","Natural Language Processing","paperswithcode",""
+"20NEWS","Document Classification","1","Natural Language Processing","paperswithcode",""
+"IMDb","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"TREC-50","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"AG News","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"TREC-6","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"R52","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"20NEWS","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"Ohsumed","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"Yahoo! Answers","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"Sogou News","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"R8","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"DBpedia","Text Classification","1","Natural Language Processing","paperswithcode","Text classification is the task of assigning a sentence or document an appropriate category. The categories depend on the chosen dataset and can range from topics."
+"New York Times Corpus","Relationship Extraction (Distant Supervised)","1","Natural Language Processing","paperswithcode","Relationship extraction is the task of extracting semantic relationships from a text. Extracted relationships usually
+occur between two or more entities of a certain type (e.g. Person, Organisation, Location) and fall into a number of
+semantic categories (e.g. married to, employed by, lives in)."
+"ACE 2004","Nested Named Entity Recognition","1","Natural Language Processing","paperswithcode",""
+"MSRA","Chinese Named Entity Recognition","1","Natural Language Processing","paperswithcode",""
+"OntoNotes 4","Chinese Named Entity Recognition","1","Natural Language Processing","paperswithcode",""
+"Weibo NER","Chinese Named Entity Recognition","1","Natural Language Processing","paperswithcode",""
+"Resume NER","Chinese Named Entity Recognition","1","Natural Language Processing","paperswithcode",""
+"SighanNER","Chinese Named Entity Recognition","1","Natural Language Processing","paperswithcode",""
+"Long-tail emerging entities","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"CoNLL 2003 (English)","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"Ontonotes v5 (English)","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"SciERC","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"BC5CDR","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"JNLPBA","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"NCBI-disease","Named Entity Recognition (NER)","1","Natural Language Processing","paperswithcode","Named entity recognition (NER) is the task of tagging entities in text with their corresponding type.
+Approaches typically use BIO notation, which differentiates the beginning (B) and the inside (I) of entities.
+O is used for non-entity tokens.
+
+Example:
+
+| Mark | Watney | visited | Mars |
+| --- | ---| --- | --- |
+| B-PER | I-PER | O | B-LOC |"
+"MOSI","Multimodal Sentiment Analysis","1","Audio","paperswithcode","Multimodal sentiment analysis is the task of performing sentiment analysis with multiple data sources - e.g. a camera feed of someones face and their recorded speech."
+"Sentihood","Aspect-Based Sentiment Analysis","1","Audio","paperswithcode","Aspect-based sentiment analysis is the task of identifying fine-grained opinion polarity towards a specific aspect associated with a given target."
+"SemEval 2014 Task 4 Sub Task 2","Aspect-Based Sentiment Analysis","1","Audio","paperswithcode","Aspect-based sentiment analysis is the task of identifying fine-grained opinion polarity towards a specific aspect associated with a given target."
+"SST-5 Fine-grained classification","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Yelp Fine-grained classification","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"SST-2 Binary classification","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"SemEval","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"IMDb","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"MR","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"MPQA","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Amazon Review Polarity","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Amazon Review Full","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Yelp Binary classification","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Multi-Domain Sentiment Dataset","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Sogou News","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"CR","Sentiment Analysis","1","Audio","paperswithcode","Sentiment analysis is the task of classifying the polarity of a given text."
+"Penn Treebank","Dependency Parsing","1","Natural Language Processing","paperswithcode","Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical
+structure and defines the relationships between head words and words, which modify those heads.
+
+Example:
+
+```
+     root
+      |
+      | +-------dobj---------+
+      | |                    |
+nsubj | |   +------det-----+ | +-----nmod------+
++--+  | |   |              | | |               |
+|  |  | |   |      +-nmod-+| | |      +-case-+ |
++  |  + |   +      +      || + |      +      | |
+I  prefer  the "
+"GENIA - LAS","Dependency Parsing","1","Natural Language Processing","paperswithcode","Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical
+structure and defines the relationships between head words and words, which modify those heads.
+
+Example:
+
+```
+     root
+      |
+      | +-------dobj---------+
+      | |                    |
+nsubj | |   +------det-----+ | +-----nmod------+
++--+  | |   |              | | |               |
+|  |  | |   |      +-nmod-+| | |      +-case-+ |
++  |  + |   +      +      || + |      +      | |
+I  prefer  the "
+"GENIA - UAS","Dependency Parsing","1","Natural Language Processing","paperswithcode","Dependency parsing is the task of extracting a dependency parse of a sentence that represents its grammatical
+structure and defines the relationships between head words and words, which modify those heads.
+
+Example:
+
+```
+     root
+      |
+      | +-------dobj---------+
+      | |                    |
+nsubj | |   +------det-----+ | +-----nmod------+
++--+  | |   |              | | |               |
+|  |  | |   |      +-nmod-+| | |      +-case-+ |
++  |  + |   +      +      || + |      +      | |
+I  prefer  the "
+"FCE","Grammatical Error Detection","1","Natural Language Processing","paperswithcode",""
+"JFLEG","Grammatical Error Detection","1","Natural Language Processing","paperswithcode",""
+"CoNLL-2014 A2","Grammatical Error Detection","1","Natural Language Processing","paperswithcode",""
+"CoNLL-2014 A1","Grammatical Error Detection","1","Natural Language Processing","paperswithcode",""
+"Restricted","Grammatical Error Correction","1","Natural Language Processing","paperswithcode","Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors. 
+
+GEC is typically formulated as a sentence correction task. A GEC system takes a potentially erroneous sentence as input and is expected to transform it to its corrected version. See the example given below: 
+
+| Input (Erroneous)          | Output (Corrected)     |
+| -------------------------  | ---------------------- |
+|She see Tom is catched by"
+"Unrestricted","Grammatical Error Correction","1","Natural Language Processing","paperswithcode","Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors. 
+
+GEC is typically formulated as a sentence correction task. A GEC system takes a potentially erroneous sentence as input and is expected to transform it to its corrected version. See the example given below: 
+
+| Input (Erroneous)          | Output (Corrected)     |
+| -------------------------  | ---------------------- |
+|She see Tom is catched by"
+"_Restricted_","Grammatical Error Correction","1","Natural Language Processing","paperswithcode","Grammatical Error Correction (GEC) is the task of correcting different kinds of errors in text such as spelling, punctuation, grammatical, and word choice errors. 
+
+GEC is typically formulated as a sentence correction task. A GEC system takes a potentially erroneous sentence as input and is expected to transform it to its corrected version. See the example given below: 
+
+| Input (Erroneous)          | Output (Corrected)     |
+| -------------------------  | ---------------------- |
+|She see Tom is catched by"
+"spider","Semantic Parsing","1","Natural Language Processing","paperswithcode",""
+"SentEval","Semantic Textual Similarity","1","Natural Language Processing","paperswithcode","Semantic textual similarity deals with determining how similar two pieces of texts are.
+This can take the form of assigning a score from 1 to 5. Related tasks are paraphrase or duplicate identification."
+"STS Benchmark","Semantic Textual Similarity","1","Natural Language Processing","paperswithcode","Semantic textual similarity deals with determining how similar two pieces of texts are.
+This can take the form of assigning a score from 1 to 5. Related tasks are paraphrase or duplicate identification."
+"CoNLL 2005","Semantic Role Labeling (predicted predicates)","1","Natural Language Processing","paperswithcode","PropBank semantic role labeling with predicted predicates."
+"CoNLL 2012","Semantic Role Labeling (predicted predicates)","1","Natural Language Processing","paperswithcode","PropBank semantic role labeling with predicted predicates."
+"CoNLL 2012","Predicate Detection","1","Natural Language Processing","paperswithcode","Detecting predicates in sentences. Semantic frames are defined with respect to predicates. This task is a prerequisite to semantic role labeling."
+"CoNLL 2005","Predicate Detection","1","Natural Language Processing","paperswithcode","Detecting predicates in sentences. Semantic frames are defined with respect to predicates. This task is a prerequisite to semantic role labeling."
+"OntoNotes","Semantic Role Labeling","1","Natural Language Processing","paperswithcode","Semantic role labeling aims to model the predicate-argument structure of a sentence
+and is often described as answering Who did what to whom. BIO notation is typically
+used for semantic role labeling.
+
+Example:
+
+| Housing | starts | are | expected | to | quicken | a | bit | from | August’s | pace | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| B-ARG1 | I-ARG1 | O |  O  |  O  |   V  | B-ARG2 | I-ARG2 | B-ARG3 | I-ARG3 | I-ARG3 |"
+"CoNLL 2005","Semantic Role Labeling","1","Natural Language Processing","paperswithcode","Semantic role labeling aims to model the predicate-argument structure of a sentence
+and is often described as answering Who did what to whom. BIO notation is typically
+used for semantic role labeling.
+
+Example:
+
+| Housing | starts | are | expected | to | quicken | a | bit | from | August’s | pace | 
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| B-ARG1 | I-ARG1 | O |  O  |  O  |   V  | B-ARG2 | I-ARG2 | B-ARG3 | I-ARG3 | I-ARG3 |"
+"LexNorm","Lexical Normalization","1","Natural Language Processing","paperswithcode","Lexical normalization is the task of translatingtransforming a non standard text to a standard register.
+
+Example:
+
+```
+new pix comming tomoroe
+new pictures coming tomorrow
+```
+
+Datasets usually consists of tweets, since these naturally contain a fair amount of 
+these phenomena.
+
+For lexical normalization, only replacements on the word-level are annotated.
+Some corpora include annotation for 1-N and N-1 replacements. However, word
+insertiondeletion and reordering is not part of the task."
+"IEMOCAP","Emotion Recognition in Conversation","1","Computer Vision","paperswithcode",""
+"IEMOCAP","Multimodal Emotion Recognition","1","Computer Vision","paperswithcode",""
+"Monologue","Multimodal Emotion Recognition","1","Computer Vision","paperswithcode",""
+" CUB-200-2011","Weakly-Supervised Object Localization","1","Computer Vision","paperswithcode",""
+"ILSVRC 2015","Weakly-Supervised Object Localization","1","Computer Vision","paperswithcode",""
+"ILSVRC 2016","Weakly-Supervised Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Cars Easy","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Pedestrians Easy","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Pedestrians Hard","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Cyclists Hard","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Cars Hard","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Cyclists Moderate","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Pedestrians Moderate","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Cyclists Easy","Object Localization","1","Computer Vision","paperswithcode",""
+"KITTI Cars Moderate","Object Localization","1","Computer Vision","paperswithcode",""
+"COCO-Stuff-15","Unsupervised semantic segmentation","1","Computer Vision","paperswithcode","Models that learn to segment each image (i.e. cluster the pixels into their ground truth classes) without seeing the ground truth labels."
+"COCO-Stuff-3","Unsupervised semantic segmentation","1","Computer Vision","paperswithcode","Models that learn to segment each image (i.e. cluster the pixels into their ground truth classes) without seeing the ground truth labels."
+"Potsdam","Unsupervised semantic segmentation","1","Computer Vision","paperswithcode","Models that learn to segment each image (i.e. cluster the pixels into their ground truth classes) without seeing the ground truth labels."
+"Potsdam-3","Unsupervised semantic segmentation","1","Computer Vision","paperswithcode","Models that learn to segment each image (i.e. cluster the pixels into their ground truth classes) without seeing the ground truth labels."
+"ScanNet","Scene Segmentation","1","Computer Vision","paperswithcode","Scene segmentation is the task of splitting a scene into its various object components.
+
+Image adapted from [Temporally coherent 4D reconstruction of complex dynamic scenes](https:paperswithcode.compapertemporally-coherent-4d-reconstruction-of2)."
+"SUN-RGBD","Scene Segmentation","1","Computer Vision","paperswithcode","Scene segmentation is the task of splitting a scene into its various object components.
+
+Image adapted from [Temporally coherent 4D reconstruction of complex dynamic scenes](https:paperswithcode.compapertemporally-coherent-4d-reconstruction-of2)."
+"CamVid","Real-Time Semantic Segmentation","1","Computer Vision","paperswithcode","Real-time semantic segmentation is the task of achieving computationally efficient semantic segmentation (while maintaining a base level of accuracy)."
+"Cityscapes","Real-Time Semantic Segmentation","1","Computer Vision","paperswithcode","Real-time semantic segmentation is the task of achieving computationally efficient semantic segmentation (while maintaining a base level of accuracy)."
+"NYU Depth v2","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"PASCAL VOC 2012","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"ADE20K","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"CamVid","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"ShapeNet","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"PASCAL Context","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"Cityscapes","Semantic Segmentation","1","Computer Vision","paperswithcode","The idea of semantic segmentation is to recognize and understand what is in an image at the pixel-level."
+"TACRED","Relation Extraction","1","Natural Language Processing","paperswithcode",""
+"SciERC","Relation Extraction","1","Natural Language Processing","paperswithcode",""
+"ChemProt","Relation Extraction","1","Natural Language Processing","paperswithcode",""
+"TimeBank","Temporal Information Extraction","1","Natural Language Processing","paperswithcode","Temporal information extraction is the identification of chunkstokens corresponding to temporal intervals, and the extraction and determination of the temporal relations between those. The entities extracted may be temporal expressions (timexes), eventualities (events), or auxiliary signals that support the interpretation of an entity or relation. Relations may be temporal links (tlinks), describing the order of events and times, or subordinate links (slinks) describing modality and other subordinative acti"
+"TempEval-3","Temporal Information Extraction","1","Natural Language Processing","paperswithcode","Temporal information extraction is the identification of chunkstokens corresponding to temporal intervals, and the extraction and determination of the temporal relations between those. The entities extracted may be temporal expressions (timexes), eventualities (events), or auxiliary signals that support the interpretation of an entity or relation. Relations may be temporal links (tlinks), describing the order of events and times, or subordinate links (slinks) describing modality and other subordinative acti"
+"SBD","Edge Detection","1","Computer Vision","paperswithcode",""
+"Cityscapes","Edge Detection","1","Computer Vision","paperswithcode",""
+"RumourEval","Stance Detection","1","Natural Language Processing","paperswithcode","Stance detection is the extraction of a subjects reaction to a claim made by a primary actor. It is a core part of a set of approaches to fake news assessment.
+
+Example:
+
+* Source: Apples are the most delicious fruit in existence
+* Reply: Obviously not, because that is a reuben from Katzs
+* Stance: deny"
+"Mandarin Chinese","Speech Synthesis","1","Speech","paperswithcode","Speech synthesis is the task of generating speech from text. 
+
+Please note that the state-of-the-art tables here are not really comparable between studies - as they use mean opinion score as a metric and collect different samples from Amazon Mechnical Turk."
+"North American English","Speech Synthesis","1","Speech","paperswithcode","Speech synthesis is the task of generating speech from text. 
+
+Please note that the state-of-the-art tables here are not really comparable between studies - as they use mean opinion score as a metric and collect different samples from Amazon Mechnical Turk."
+"PROMISE 2012","Volumetric Medical Image Segmentation","1","Medical","paperswithcode",""
+"PhC-U373","Cell Segmentation","1","Medical","paperswithcode",""
+"DIC-HeLa","Cell Segmentation","1","Medical","paperswithcode",""
+"iSEG 2017 Challenge","Infant Brain Mri Segmentation","1","Medical","paperswithcode",""
+"Kaggle Skin Lesion Segmentation","Skin Cancer Segmentation","1","Medical","paperswithcode",""
+"LUNA","Lung Nodule Segmentation","1","Medical","paperswithcode",""
+"CT-150","Pancreas Segmentation","1","Medical","paperswithcode","Pancreas segmentation is the task of segmenting out the pancreas from medical imaging."
+"TCIA Pancreas-CT","3D Medical Imaging Segmentation","1","Medical","paperswithcode","3D medical imaging segmentation is the task of segmenting medical objects of interest from 3D medical imaging."
+"CHASE_DB1","Retinal Vessel Segmentation","1","Medical","paperswithcode","Retinal vessel segmentation is the task of segmenting vessels in retina imagery."
+"DRIVE","Retinal Vessel Segmentation","1","Medical","paperswithcode","Retinal vessel segmentation is the task of segmenting vessels in retina imagery."
+"STARE","Retinal Vessel Segmentation","1","Medical","paperswithcode","Retinal vessel segmentation is the task of segmenting vessels in retina imagery."
+"BRATS-2013","Brain Tumor Segmentation","1","Medical","paperswithcode","Brain tumor segmentation is the task of segmenting tumors from other brain artefacts in MRI image of the brain."
+"BRATS-2015","Brain Tumor Segmentation","1","Medical","paperswithcode","Brain tumor segmentation is the task of segmenting tumors from other brain artefacts in MRI image of the brain."
+"ISIC 2017","Lesion Segmentation","1","Medical","paperswithcode","Lesion segmentation is the task of segmenting out lesions from other objects in medical based images."
+"ISIC 2018","Lesion Segmentation","1","Medical","paperswithcode","Lesion segmentation is the task of segmenting out lesions from other objects in medical based images."
+"BUS 2017 Dataset B","Lesion Segmentation","1","Medical","paperswithcode","Lesion segmentation is the task of segmenting out lesions from other objects in medical based images."
+"ISBI 2012 EM Segmentation","Medical Image Segmentation","1","Medical","paperswithcode","Medical image segmentation is the task of segmenting objects of interest in a medical image - for example organs or lesions."
+"iSEG 2017 Challenge","Medical Image Segmentation","1","Medical","paperswithcode","Medical image segmentation is the task of segmenting objects of interest in a medical image - for example organs or lesions."
+"PCBA","Drug Discovery","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"ToxCast","Drug Discovery","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"QM9","Drug Discovery","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"Tox21","Drug Discovery","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"MUV","Drug Discovery","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"HIV dataset","Drug Discovery","1","Medical","paperswithcode","Drug discovery is the task of applying machine learning to discover new candidate drugs."
+"Penn Treebank (Word Level)","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"enwiki8","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"Sequential MNIST","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"WikiText-103","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"One Billion Word","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"Penn Treebank (Character Level)","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"Text8","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"Hutter Prize","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"WikiText-2","Language Modelling","1","Natural Language Processing","paperswithcode","Language modeling is the task of predicting the next word or character in a document.
+
+\* indicates models using dynamic evaluation; where, at test time, models may adapt to seen tokens in order to improve performance on following tokens. ([Mikolov et al., (2010)](https:www.fit.vutbr.czresearchgroupsspeechpubli2010mikolov_interspeech2010_IS100722.pdf), [Kraus et al., (2017)](https:arxiv.orgpdf1709.07432))"
+"Supervised:","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SemEval 2007 Task 17","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SensEval 2","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"Knowledge-based:","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SemEval 2013 Task 12","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SensEval 3 Task 1","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SemEval 2015 Task 13","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SemEval 2007 Task 7","Word Sense Disambiguation","1","Natural Language Processing","paperswithcode","The task of Word Sense Disambiguation (WSD) consists of associating words in context with their most suitable entry in a pre-defined sense inventory. The de-facto sense inventory for English in WSD is [WordNet](https:wordnet.princeton.edu).
+For example, given the word “mouse” and the following sentence:
+
+“A mouse consists of an object held in ones hand, with one or more buttons.” 
+
+we would assign “mouse”  with its electronic device sense ([the 4th sense in the WordNet sense inventory](http:wordnetweb.princ"
+"SWAG","Common Sense Reasoning","1","Reasoning","paperswithcode","Common sense reasoning tasks are intended to require the model to go beyond pattern 
+recognition. Instead, the model should use common sense or world knowledge
+to make inferences."
+"Winograd Schema Challenge","Common Sense Reasoning","1","Reasoning","paperswithcode","Common sense reasoning tasks are intended to require the model to go beyond pattern 
+recognition. Instead, the model should use common sense or world knowledge
+to make inferences."
+"Event2Mind","Common Sense Reasoning","1","Reasoning","paperswithcode","Common sense reasoning tasks are intended to require the model to go beyond pattern 
+recognition. Instead, the model should use common sense or world knowledge
+to make inferences."
+"ShanghaiTech A","Crowd Counting","1","Computer Vision","paperswithcode",""
+"UCF CC 50","Crowd Counting","1","Computer Vision","paperswithcode",""
+"ShanghaiTech B","Crowd Counting","1","Computer Vision","paperswithcode",""
+"Google Dataset","Sentence Compression","1","Methodology","paperswithcode","Sentence compression produces a shorter sentence by removing redundant information,
+preserving the grammatically and the important content of the original sentence."
+"Noun Phrase Canonicalization","Open Knowledge Graph Canonicalization","1","Knowledge Base","paperswithcode","Open Information Extraction approaches leads to creation of large Knowledge bases (KB) from the web. The problem with such methods is that their entities and relations are not canonicalized, which leads to storage of redundant and ambiguous facts. For example, an Open KB storing *\<Barack Obama, was born in, Honolulu\>* and *\<Obama, took birth in, Honolulu\>* doesnt know that *Barack Obama* and *Obama* mean the same entity. Similarly, *took birth in* and *was born in* also refer to the same relation. Probl"
+"WikiBio","Table-to-text Generation","1","Natural Language Processing","paperswithcode",""
+"RotoWire (Content Ordering)","Data-to-Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"Rotowire (Content Selection)","Data-to-Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"WebNLG","Data-to-Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"SR11Deep","Data-to-Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"RotoWire (Relation Generation)","Data-to-Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"RotoWire","Data-to-Text Generation","1","Natural Language Processing","paperswithcode","Data-to-text generation is the task of generating text from a data source."
+"Ubuntu Dialogue (Tense)","Dialogue Generation","1","Natural Language Processing","paperswithcode",""
+"Ubuntu Dialogue (Cmd)","Dialogue Generation","1","Natural Language Processing","paperswithcode",""
+"Twitter Dialogue (Noun)","Dialogue Generation","1","Natural Language Processing","paperswithcode",""
+"Ubuntu Dialogue (Entity)","Dialogue Generation","1","Natural Language Processing","paperswithcode",""
+"Twitter Dialogue (Tense)","Dialogue Generation","1","Natural Language Processing","paperswithcode",""
+"Ubuntu Dialogue (Activity)","Dialogue Generation","1","Natural Language Processing","paperswithcode",""
+"COCO Captions","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"Chinese Poems","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"Yahoo Questions","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"DailyDialog","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"LDC2016E25","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"CMU-SE","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"EMNLP2017 WMT","Text Generation","1","Natural Language Processing","paperswithcode","Text generation is the task of generating text with the goal of appearing indistinguishable to human-written text."
+"XNLI Zero-Shot English-to-French","Cross-Lingual Natural Language Inference","1","Natural Language Processing","paperswithcode",""
+"XNLI Zero-Shot English-to-Spanish","Cross-Lingual Natural Language Inference","1","Natural Language Processing","paperswithcode",""
+"XNLI Zero-Shot English-to-German","Cross-Lingual Natural Language Inference","1","Natural Language Processing","paperswithcode",""
+"SciTail","Natural Language Inference","1","Natural Language Processing","paperswithcode","Natural language inference is the task of determining whether a hypothesis is 
+true (entailment), false (contradiction), or undetermined (neutral) given a premise.
+
+Example:
+
+| Premise | Label | Hypothesis |
+| --- | ---| --- |
+| A man inspects the uniform of a figure in some East Asian country. | contradiction | The man is sleeping. |
+| An older and younger man smiling. | neutral  | Two men are smiling and laughing at the cats playing on the floor. |
+| A soccer game with multiple males playing. | e"
+"MultiNLI","Natural Language Inference","1","Natural Language Processing","paperswithcode","Natural language inference is the task of determining whether a hypothesis is 
+true (entailment), false (contradiction), or undetermined (neutral) given a premise.
+
+Example:
+
+| Premise | Label | Hypothesis |
+| --- | ---| --- |
+| A man inspects the uniform of a figure in some East Asian country. | contradiction | The man is sleeping. |
+| An older and younger man smiling. | neutral  | Two men are smiling and laughing at the cats playing on the floor. |
+| A soccer game with multiple males playing. | e"
+"Quora Question Pairs","Natural Language Inference","1","Natural Language Processing","paperswithcode","Natural language inference is the task of determining whether a hypothesis is 
+true (entailment), false (contradiction), or undetermined (neutral) given a premise.
+
+Example:
+
+| Premise | Label | Hypothesis |
+| --- | ---| --- |
+| A man inspects the uniform of a figure in some East Asian country. | contradiction | The man is sleeping. |
+| An older and younger man smiling. | neutral  | Two men are smiling and laughing at the cats playing on the floor. |
+| A soccer game with multiple males playing. | e"
+"V-SNLI","Natural Language Inference","1","Natural Language Processing","paperswithcode","Natural language inference is the task of determining whether a hypothesis is 
+true (entailment), false (contradiction), or undetermined (neutral) given a premise.
+
+Example:
+
+| Premise | Label | Hypothesis |
+| --- | ---| --- |
+| A man inspects the uniform of a figure in some East Asian country. | contradiction | The man is sleeping. |
+| An older and younger man smiling. | neutral  | Two men are smiling and laughing at the cats playing on the floor. |
+| A soccer game with multiple males playing. | e"
+"SNLI","Natural Language Inference","1","Natural Language Processing","paperswithcode","Natural language inference is the task of determining whether a hypothesis is 
+true (entailment), false (contradiction), or undetermined (neutral) given a premise.
+
+Example:
+
+| Premise | Label | Hypothesis |
+| --- | ---| --- |
+| A man inspects the uniform of a figure in some East Asian country. | contradiction | The man is sleeping. |
+| An older and younger man smiling. | neutral  | Two men are smiling and laughing at the cats playing on the floor. |
+| A soccer game with multiple males playing. | e"
+"BPI challenge 12","Multivariate Time Series Forecasting","1","Time Series","paperswithcode",""
+"Helpdesk","Multivariate Time Series Forecasting","1","Time Series","paperswithcode",""
+"COCO Visual Question Answering (VQA) real images 2.0 open ended","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"Visual7W","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"COCO Visual Question Answering (VQA) real images 1.0 multiple choice","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"Visual Genome (subjects)","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"Visual Genome (pairs)","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"COCO Visual Question Answering (VQA) abstract images 1.0 open ended","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"COCO Visual Question Answering (VQA) abstract 1.0 multiple choice","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"COCO Visual Question Answering (VQA) real images 1.0 open ended","Visual Question Answering","1","Computer Vision","paperswithcode",""
+"Quasar","Open-Domain Question Answering","1","Computer Vision","paperswithcode","Open-domain question answering is the task of question answering on open-domain datasets such as Wikipedia."
+"SearchQA","Open-Domain Question Answering","1","Computer Vision","paperswithcode","Open-domain question answering is the task of question answering on open-domain datasets such as Wikipedia."
+"TrecQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"CliCR","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"SimpleQuestions","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"SQuAD1.1","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"MCTest-160","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Natural Questions","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"WikiHop","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"bAbi","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"SemEvalCQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"QASent","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"CoQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"YahooCQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"MS MARCO","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"MCTest-500","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Story Cloze Test","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"WebQuestions","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"SQuAD2.0","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"TriviaQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Quora Question Pairs","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"CNN  Daily Mail","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"QuAC","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Reverb","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"AI2 Kaggle Dataset","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"COMPLEXQUESTIONS","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Childrens Book Test","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"NarrativeQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"WikiQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"RACE","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"NewsQA","Question Answering","1","Computer Vision","paperswithcode","Question answering is the task of answering a question."
+"Cityscapes","Multi-Task Learning","1","Methodology","paperswithcode","Multi-task learning aims to learn multiple different tasks simultaneously while maximizing
+performance on one or all of the tasks."
+"CelebA","Multi-Task Learning","1","Methodology","paperswithcode","Multi-task learning aims to learn multiple different tasks simultaneously while maximizing
+performance on one or all of the tasks."
+"Charades","Action Recognition In Videos","1","Computer Vision","paperswithcode",""
+"Xiph HD - 4x upscaling","Video Super-Resolution","1","Computer Vision","paperswithcode","Video super-resolution is the task of upscaling a video from a low-resolution to a high-resolution."
+"Vid4 - 4x upscaling","Video Super-Resolution","1","Computer Vision","paperswithcode","Video super-resolution is the task of upscaling a video from a low-resolution to a high-resolution."
+"Ultra Video Group HD - 4x upscaling","Video Super-Resolution","1","Computer Vision","paperswithcode","Video super-resolution is the task of upscaling a video from a low-resolution to a high-resolution."
+"VOT201718","Visual Object Tracking","1","Computer Vision","paperswithcode",""
+"DukeMTMC-reID","Person Re-Identification","1","Computer Vision","paperswithcode","Person re-identification is the task of associating images of the same person taken from different cameras or from the same camera in different occasions."
+"Market-1501","Person Re-Identification","1","Computer Vision","paperswithcode","Person re-identification is the task of associating images of the same person taken from different cameras or from the same camera in different occasions."
+"Oxford 102 Flowers","Text-to-Image Generation","1","Computer Vision","paperswithcode","Text-to-image generation is the task of generating images from text descriptions or captions."
+"COCO","Text-to-Image Generation","1","Computer Vision","paperswithcode","Text-to-image generation is the task of generating images from text descriptions or captions."
+"CUB","Text-to-Image Generation","1","Computer Vision","paperswithcode","Text-to-image generation is the task of generating images from text descriptions or captions."
+"MS-COCO","Text-to-Image Generation","1","Computer Vision","paperswithcode","Text-to-image generation is the task of generating images from text descriptions or captions."
+"ImageNet 128x128","Conditional Image Generation","1","Computer Vision","paperswithcode","Conditional image generation is the task of generating new images from a dataset conditional on their class."
+"CIFAR-10","Conditional Image Generation","1","Computer Vision","paperswithcode","Conditional image generation is the task of generating new images from a dataset conditional on their class."
+"Cats-and-Dogs","Multimodal Unsupervised Image-To-Image Translation","1","Computer Vision","paperswithcode","Multimodal unsupervised image-to-image translation is the task of producing multiple translations to one domain from a single image in another domain."
+"Edge-to-Handbags","Multimodal Unsupervised Image-To-Image Translation","1","Computer Vision","paperswithcode","Multimodal unsupervised image-to-image translation is the task of producing multiple translations to one domain from a single image in another domain."
+"Edge-to-Shoes","Multimodal Unsupervised Image-To-Image Translation","1","Computer Vision","paperswithcode","Multimodal unsupervised image-to-image translation is the task of producing multiple translations to one domain from a single image in another domain."
+"GTAV-to-Cityscapes Labels","Synthetic-to-Real Translation","1","Computer Vision","paperswithcode","Synthetic-to-real translation is the task of domain adaptation from synthetic (or virtual) data to real data."
+"SVNH-to-MNIST","Unsupervised Image-To-Image Translation","1","Computer Vision","paperswithcode","Unsupervised image-to-image translation is the task of doing image-to-image translation without ground truth image-to-image pairings."
+"SYNTHIA-to-Cityscapes","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"SYNTHIA Fall-to-Winter","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"RaFD","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"Aerial-to-Map","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"Cityscapes Labels-to-Photo","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"ADE20K-Outdoor Labels-to-Photos","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"Cityscapes Photo-to-Labels","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"COCO-Stuff Labels-to-Photos","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"ADE20K Labels-to-Photos","Image-to-Image Translation","1","Computer Vision","paperswithcode","Image-to-image translation is the task of taking images from one domain and transforming them so they have the style (or characteristics) of images from another domain."
+"CIFAR-10","Image Generation","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"LSUN Bedroom 256 x 256","Image Generation","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"CAT 256x256","Image Generation","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"CelebA-HQ 1024x1024","Image Generation","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"FFHQ","Image Generation","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"CelebA","Image Generation","1","Computer Vision","paperswithcode","Image generation (synthesis) is the task of generating new images from an existing dataset."
+"Medical domain","Hypernym Discovery","1","Natural Language Processing","paperswithcode","Given a corpus and a target term (hyponym), the task of hypernym discovery consists of extracting a set of its most appropriate hypernyms from the corpus. For example, for the input word “dog”, some valid hypernyms would be “canine”, “mammal” or “animal”."
+"Music domain","Hypernym Discovery","1","Natural Language Processing","paperswithcode","Given a corpus and a target term (hyponym), the task of hypernym discovery consists of extracting a set of its most appropriate hypernyms from the corpus. For example, for the input word “dog”, some valid hypernyms would be “canine”, “mammal” or “animal”."
+"General","Hypernym Discovery","1","Natural Language Processing","paperswithcode","Given a corpus and a target term (hyponym), the task of hypernym discovery consists of extracting a set of its most appropriate hypernyms from the corpus. For example, for the input word “dog”, some valid hypernyms would be “canine”, “mammal” or “animal”."
+"ICSI Meeting Recorder Dialog Act (MRDA) corpus","Dialogue Act Classification","1","Computer Vision","paperswithcode","Dialogue act classification is the task of classifying an utterance with respect to the fuction it serves in a dialogue, i.e. the act the speaker is performing. Dialogue acts are a type of speech acts (for Speech Act Theory, see [Austin (1975)](http:www.hup.harvard.educatalog.php?isbn=9780674411524) and [Searle (1969)](https:www.cambridge.orgcorebooksspeech-actsD2D7B03E472C8A390ED60B86E08640E7))."
+"Switchboard corpus","Dialogue Act Classification","1","Computer Vision","paperswithcode","Dialogue act classification is the task of classifying an utterance with respect to the fuction it serves in a dialogue, i.e. the act the speaker is performing. Dialogue acts are a type of speech acts (for Speech Act Theory, see [Austin (1975)](http:www.hup.harvard.educatalog.php?isbn=9780674411524) and [Searle (1969)](https:www.cambridge.orgcorebooksspeech-actsD2D7B03E472C8A390ED60B86E08640E7))."
+"Second dialogue state tracking challenge","Dialogue State Tracking","1","Computer Vision","paperswithcode","Dialogue state tacking consists of determining at each turn of a dialogue the
+full representation of what the user wants at that point in the dialogue,
+which contains a goal constraint, a set of requested slots, and the users dialogue act."
+"Wizard-of-Oz","Dialogue State Tracking","1","Computer Vision","paperswithcode","Dialogue state tacking consists of determining at each turn of a dialogue the
+full representation of what the user wants at that point in the dialogue,
+which contains a goal constraint, a set of requested slots, and the users dialogue act."
+"Ubuntu Dialogue (Tense)","Dialogue Generation","1","Computer Vision","paperswithcode",""
+"Ubuntu Dialogue (Cmd)","Dialogue Generation","1","Computer Vision","paperswithcode",""
+"Twitter Dialogue (Noun)","Dialogue Generation","1","Computer Vision","paperswithcode",""
+"Ubuntu Dialogue (Entity)","Dialogue Generation","1","Computer Vision","paperswithcode",""
+"Twitter Dialogue (Tense)","Dialogue Generation","1","Computer Vision","paperswithcode",""
+"Ubuntu Dialogue (Activity)","Dialogue Generation","1","Computer Vision","paperswithcode",""
+"Social media","Part-Of-Speech Tagging","1","Natural Language Processing","paperswithcode","Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech.
+A part of speech is a category of words with similar grammatical properties. Common English
+parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.
+
+Example: 
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| NNP | , | CD | NNS | JJ |"
+"UD","Part-Of-Speech Tagging","1","Natural Language Processing","paperswithcode","Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech.
+A part of speech is a category of words with similar grammatical properties. Common English
+parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.
+
+Example: 
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| NNP | , | CD | NNS | JJ |"
+"Penn Treebank","Part-Of-Speech Tagging","1","Natural Language Processing","paperswithcode","Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech.
+A part of speech is a category of words with similar grammatical properties. Common English
+parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc.
+
+Example: 
+
+| Vinken | , | 61 | years | old |
+| --- | ---| --- | --- | --- |
+| NNP | , | CD | NNS | JJ |"
+"VoxForge Indian","Accented Speech Recognition","1","Speech","paperswithcode",""
+"VoxForge Commonwealth","Accented Speech Recognition","1","Speech","paperswithcode",""
+"VoxForge European","Accented Speech Recognition","1","Speech","paperswithcode",""
+"VoxForge American-Canadian","Accented Speech Recognition","1","Speech","paperswithcode",""
+"CHiME-4 real 6ch","Distant Speech Recognition","1","Speech","paperswithcode",""
+"CHiME clean","Noisy Speech Recognition","1","Speech","paperswithcode",""
+"CHiME real","Noisy Speech Recognition","1","Speech","paperswithcode",""
+"LibriSpeech test-other","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"Switchboard + Hub500","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"swb_hub_500 WER fullSWBCH","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"TIMIT","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"fisher WER","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"WSJ eval92","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"Librispeech","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"LibriSpeech test-clean","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"WSJ eval93","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"Switchboard (300hr)","Speech Recognition","1","Speech","paperswithcode","Speech recognition is the task of recognising speech within audio and converting it into text."
+"CUFSF","Face Sketch Synthesis","1","Computer Vision","paperswithcode","Face sketch synthesis is the task of generating a sketch from an input face photo."
+"CUFS","Face Sketch Synthesis","1","Computer Vision","paperswithcode","Face sketch synthesis is the task of generating a sketch from an input face photo."
+"CUHK","Face Sketch Synthesis","1","Computer Vision","paperswithcode","Face sketch synthesis is the task of generating a sketch from an input face photo."
+"RAP","Pedestrian Attribute Recognition","1","Computer Vision","paperswithcode","Pedestrian attribution recognition is the task of recognising pedestrian features - such as whether they are talking on a phone, whether they have a backpack, and so on."
+"PETA","Pedestrian Attribute Recognition","1","Computer Vision","paperswithcode","Pedestrian attribution recognition is the task of recognising pedestrian features - such as whether they are talking on a phone, whether they have a backpack, and so on."
+"PA-100K","Pedestrian Attribute Recognition","1","Computer Vision","paperswithcode","Pedestrian attribution recognition is the task of recognising pedestrian features - such as whether they are talking on a phone, whether they have a backpack, and so on."
+"GTSRB","Traffic Sign Recognition","1","Computer Vision","paperswithcode","Traffic sign recognition is the task of recognising traffic signs in an image or video."
+"Bosch Small Traffic Lights","Traffic Sign Recognition","1","Computer Vision","paperswithcode","Traffic sign recognition is the task of recognising traffic signs in an image or video."
+"Tsinghua-Tencent 100K","Traffic Sign Recognition","1","Computer Vision","paperswithcode","Traffic sign recognition is the task of recognising traffic signs in an image or video."
+"Caltech Lanes Cordova","Lane Detection","1","Computer Vision","paperswithcode","Lane detection is the task of detecting lanes on a road from a camera."
+"TuSimple","Lane Detection","1","Computer Vision","paperswithcode","Lane detection is the task of detecting lanes on a road from a camera."
+"Caltech Lanes Washington","Lane Detection","1","Computer Vision","paperswithcode","Lane detection is the task of detecting lanes on a road from a camera."
+"Caltech","Pedestrian Detection","1","Computer Vision","paperswithcode","Pedestrian detection is the task of detecting pedestrians from a camera.
+
+Further state-of-the-art results (e.g. on the KITTI dataset) can be found at [3D Object Detection](https:paperswithcode.comtaskobject-detection)."
+"SCUT-FBP","Facial Beauty Prediction","1","Computer Vision","paperswithcode","Facial beauty prediction is the task of predicting the attractiveness of a face."
+"ECCV HotOrNot","Facial Beauty Prediction","1","Computer Vision","paperswithcode","Facial beauty prediction is the task of predicting the attractiveness of a face."
+"BP4D","Facial Action Unit Detection","1","Computer Vision","paperswithcode","Facial action unit detection is the task of detecting action units from a video of a face - for example, lip tightening and cheek raising."
+"MSU-MFSD","Face Anti-Spoofing","1","Computer Vision","paperswithcode","Facial anti-spoofing is the task of preventing false facial verification by using a photo, video, mask or a different substitute for an authorized person’s face. Some examples of attacks:
+
+- **Print attack**: The attacker uses someone’s photo. The image is printed or displayed on a digital device.
+
+- **Replayvideo attack**: A more sophisticated way to trick the system, which usually requires a looped video of a victim’s face. This approach ensures behaviour and facial movements to look more ‘natural’ co"
+"ChaLearn 2015","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"MORPH","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"UTKFace","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"MORPH Album2","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"FGNET","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"AFAD","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"CACD","Age Estimation","1","Computer Vision","paperswithcode","Age Estimation is the task of estimating the age of a person from an image."
+"300W","Facial Landmark Detection","1","Computer Vision","paperswithcode","Facial landmark detection is the task of detecting key landmarks on the face and tracking them (being robust to rigid and non-rigid facial deformations due to head movements and facial expressions)."
+"AFLW-Front","Facial Landmark Detection","1","Computer Vision","paperswithcode","Facial landmark detection is the task of detecting key landmarks on the face and tracking them (being robust to rigid and non-rigid facial deformations due to head movements and facial expressions)."
+"AFLW-Full","Facial Landmark Detection","1","Computer Vision","paperswithcode","Facial landmark detection is the task of detecting key landmarks on the face and tracking them (being robust to rigid and non-rigid facial deformations due to head movements and facial expressions)."
+"Florence","3D Face Reconstruction","1","Computer Vision","paperswithcode","3D face reconstruction is the task of reconstructing a face from an image into a 3D form (or mesh)."
+"AFLW2000-3D","3D Face Reconstruction","1","Computer Vision","paperswithcode","3D face reconstruction is the task of reconstructing a face from an image into a 3D form (or mesh)."
+"IJB-B","Face Identification","1","Computer Vision","paperswithcode","Face identification is the task of matching a given face image to one in an existing database of faces. It is the second part of face recognition (the first part being detection). It is a one-to-many mapping: you have to find an unknown person in a database to find who that person is."
+"IJB-A","Face Identification","1","Computer Vision","paperswithcode","Face identification is the task of matching a given face image to one in an existing database of faces. It is the second part of face recognition (the first part being detection). It is a one-to-many mapping: you have to find an unknown person in a database to find who that person is."
+"MegaFace","Face Identification","1","Computer Vision","paperswithcode","Face identification is the task of matching a given face image to one in an existing database of faces. It is the second part of face recognition (the first part being detection). It is a one-to-many mapping: you have to find an unknown person in a database to find who that person is."
+"DISFA","Smile Recognition","1","Computer Vision","paperswithcode","Smile recognition is the task of recognising a smiling face in a photo or video."
+" Static Facial Expressions in the Wild","Facial Expression Recognition","1","Computer Vision","paperswithcode","Facial expression recognition is the task of classifying the expressions on face images into various categories such as anger, fear, surprise, sadness, happiness and so on."
+"Cohn-Kanade","Facial Expression Recognition","1","Computer Vision","paperswithcode","Facial expression recognition is the task of classifying the expressions on face images into various categories such as anger, fear, surprise, sadness, happiness and so on."
+"Real-World Affective Faces","Facial Expression Recognition","1","Computer Vision","paperswithcode","Facial expression recognition is the task of classifying the expressions on face images into various categories such as anger, fear, surprise, sadness, happiness and so on."
+"MMI","Facial Expression Recognition","1","Computer Vision","paperswithcode","Facial expression recognition is the task of classifying the expressions on face images into various categories such as anger, fear, surprise, sadness, happiness and so on."
+"300W","Face Alignment","1","Computer Vision","paperswithcode","Face alignment is the task of identifying the geometric structure of faces in digital images, and attempting to obtain a canonical alignment of the face based on translation, scale, and rotation."
+"AFLW2000-3D","Face Alignment","1","Computer Vision","paperswithcode","Face alignment is the task of identifying the geometric structure of faces in digital images, and attempting to obtain a canonical alignment of the face based on translation, scale, and rotation."
+"AFLW-LFPA","Face Alignment","1","Computer Vision","paperswithcode","Face alignment is the task of identifying the geometric structure of faces in digital images, and attempting to obtain a canonical alignment of the face based on translation, scale, and rotation."
+"AFLW2000","Face Alignment","1","Computer Vision","paperswithcode","Face alignment is the task of identifying the geometric structure of faces in digital images, and attempting to obtain a canonical alignment of the face based on translation, scale, and rotation."
+"Disguised Faces in the Wild","Disguised Face Verification","1","Computer Vision","paperswithcode",""
+"IJB-A","Face Verification","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"MegaFace","Face Verification","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"IJB-B","Face Verification","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"IJB-C","Face Verification","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"YouTube Faces DB","Face Verification","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"Labeled Faces in the Wild","Face Verification","1","Computer Vision","paperswithcode","Face verification is the task of comparing a candidate face to another, and verifying whether it is a match. It is a one-to-one mapping: you have to check if this person is the correct one."
+"MAFA","Occluded Face Detection","1","Computer Vision","paperswithcode",""
+"Annotated Faces in the Wild","Face Detection","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"WIDER Face (Easy)","Face Detection","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"WIDER Face (Hard)","Face Detection","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"FDDB","Face Detection","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"WIDER Face (Medium)","Face Detection","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"PASCAL Face","Face Detection","1","Computer Vision","paperswithcode","Face detection is the task of detecting faces in a photo or video (and distinguishing them from other objects)."
+"MORPH Album2","Age-Invariant Face Recognition","1","Computer Vision","paperswithcode","Age-invariant face recognition is the task of performing face recognition that is invariant to differences in age."
+"CAFR","Age-Invariant Face Recognition","1","Computer Vision","paperswithcode","Age-invariant face recognition is the task of performing face recognition that is invariant to differences in age."
+"FG-NET","Age-Invariant Face Recognition","1","Computer Vision","paperswithcode","Age-invariant face recognition is the task of performing face recognition that is invariant to differences in age."
+"CACDVS","Age-Invariant Face Recognition","1","Computer Vision","paperswithcode","Age-invariant face recognition is the task of performing face recognition that is invariant to differences in age."
+"IJB-A","Face Recognition","1","Computer Vision","paperswithcode","Facial recognition is the task of making a positive identification of a face in a photo or video image against a pre-existing database of faces. It begins with detection - distinguishing human faces from other objects in the image - and then works on identification of those detected faces.
+
+The state of the art tables for this task are contained mainly in the consistent parts of the task : the face verification and face identification tasks."
+"IJB-B","Face Recognition","1","Computer Vision","paperswithcode","Facial recognition is the task of making a positive identification of a face in a photo or video image against a pre-existing database of faces. It begins with detection - distinguishing human faces from other objects in the image - and then works on identification of those detected faces.
+
+The state of the art tables for this task are contained mainly in the consistent parts of the task : the face verification and face identification tasks."
+"Olivetti Faces 5 Image","Face Recognition","1","Computer Vision","paperswithcode","Facial recognition is the task of making a positive identification of a face in a photo or video image against a pre-existing database of faces. It begins with detection - distinguishing human faces from other objects in the image - and then works on identification of those detected faces.
+
+The state of the art tables for this task are contained mainly in the consistent parts of the task : the face verification and face identification tasks."
+"Urban100 - 4x upscaling","Image Super-Resolution","1","Computer Vision","paperswithcode","Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Usually the benchmarks are single-image super-resolution (SISR) tasks."
+"Set14 - 4x upscaling","Image Super-Resolution","1","Computer Vision","paperswithcode","Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Usually the benchmarks are single-image super-resolution (SISR) tasks."
+"BSD100 - 4x upscaling","Image Super-Resolution","1","Computer Vision","paperswithcode","Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Usually the benchmarks are single-image super-resolution (SISR) tasks."
+"Set5 - 4x upscaling","Image Super-Resolution","1","Computer Vision","paperswithcode","Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Usually the benchmarks are single-image super-resolution (SISR) tasks."
+"Manga109 - 4x upscaling","Image Super-Resolution","1","Computer Vision","paperswithcode","Image super-resolution (SR) techniques reconstruct a higher-resolution image or sequence from the observed lower-resolution images. Usually the benchmarks are single-image super-resolution (SISR) tasks."
+"Set5-2x","Super Resolution","1","Computer Vision","paperswithcode","Super resolution is the task of taking an input of a low resolution (LR) and upscaling it to that of a high resolution."
+"Citeseer","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"YAGO3-10","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"WN18RR","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+" FB15k","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"Cora","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"Pubmed","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"WN18","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"FB15k-237","Link Prediction","1","Graphs","paperswithcode","Link prediction is a task to estimate the probability of links between nodes in a graph."
+"WMT2016 English-German","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2014 German-English","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2016 German-English","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2014 English-German","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2014 French-English","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2014 English-French","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2016 English-Romanian","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT2016 Romanian-English","Unsupervised Machine Translation","1","Natural Language Processing","paperswithcode","Unsupervised machine translation is the task of doing machine translation without any translation resources at training time."
+"WMT 2014 EN-DE","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 Romanian-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"IWSLT2015 Thai-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 Russian-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2015 English-Russian","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"IWSLT2015 German-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2014 French-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 English-German","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2015 English-German","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"IWSLT2015 English-German","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 English-Czech","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2014 German-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 Czech-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2014 English-German","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 German-English","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 English-Russian","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2016 English-Romanian","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"WMT2014 English-French","Machine Translation","1","Natural Language Processing","paperswithcode","Machine translation is the task of translating a sentence in a source language to a different target language."
+"GPS","Trajectory Prediction","1","Computer Vision","paperswithcode",""

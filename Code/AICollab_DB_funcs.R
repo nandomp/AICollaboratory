@@ -18,7 +18,7 @@
 # VERSION HISTORY:
 #  - V.1.0    1 Jan 2019. 
 #
-# FUTURE FEATURES:
+# FUTURE FEATURES: 
 #
 # -----------------------------------------------------------------------------------------------------------------------
 
@@ -29,12 +29,12 @@
 # -----------------------------------------------------------------------------------------------------------------------
 
 options("scipen"=1000000)
-options( java.parameters = "-Xmx6g" )
+#options( java.parameters = "-Xmx6g" )
 
 .lib<- c("tidyverse", "readxl", "data.table", "RMariaDB", "plyr", "dplyr")
 
-.inst <- .lib %in% installed.packages()
-if (length(.lib[!.inst])>0) install.packages(.lib[!.inst], repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com")) 
+#.inst <- .lib %in% installed.packages()
+#if (length(.lib[!.inst])>0) install.packages(.lib[!.inst], repos=c("http://rstudio.org/_packages", "http://cran.rstudio.com")) 
 lapply(.lib, require, character.only=TRUE)
 
 set.seed(288)
@@ -44,8 +44,9 @@ set.seed(288)
 # Functions
 # -----------------------------------------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------------------------------------
-
-
+LOCALHOST = FALSE
+SAFETOOLS = TRUE
+SHINYAPPS = FALSE
 # -----------------------------------------------------------------------------------------------------------------------
 # MySQL general functions
 # -----------------------------------------------------------------------------------------------------------------------
@@ -54,18 +55,31 @@ set.seed(288)
 cleanSQLstring <- function(s){
   s2 <- gsub("\"", "", s, fixed = T)
   s3 <- gsub("\'", "", s2, fixed = T)
-  return(s3)
+  s4 <- gsub("/", "", s3, fixed = T)
+  return(s4)
 }
+
 
 # Connection to the DB
 connectAtlasDB <- function(){
+  if(LOCALHOST){
+    rmariadb.settingsfile<-"MySQL/atlasofintelligenceDB.cnf"
+  }
+  if(SAFETOOLS){
+    rmariadb.settingsfile<-"MySQL/atlasofintelligenceDB.safetools.cnf"
+  }
+  if(SHINYAPPS){
+    rmariadb.settingsfile<-"MySQL/atlasofintelligenceDB.shinyapps.cnf"
+  }
   #db <- dbConnect(RMariaDB::MariaDB(), user='atlas_admin', password="Atlas@2018.admin", dbname='atlasofintelligence', host='localhost')
-  rmariadb.settingsfile<-"MySQL/atlasofintelligenceDB.cnf"
+  #rmariadb.settingsfile<-"MySQL/atlasofintelligenceDB.cnf"
   rmariadb.db<-"atlasofintelligence"
   db<-dbConnect(RMariaDB::MariaDB(),default.file=rmariadb.settingsfile,group=rmariadb.db) 
   #print(dbListTables(db))
   return(db)
 }
+
+
 
 # Return all data from table
 select_all <- function(tab_name){
@@ -229,6 +243,10 @@ send_SQL <- function(db, query){
 checkTable <- function(table, dimension){
   table <- as.data.frame(table)
   table <- as.data.frame(lapply(table, as.character), stringsAsFactors=FALSE)
+  table <- as.data.frame(lapply(table, trimws), stringsAsFactors=FALSE)
+  
+  
+  
   if (dimension == "source"){
     if (sum(is.na(table$name))>0 | length(table[table$name == "", "name"]) > 0){
       print("Table source: name is missing")
@@ -315,12 +333,14 @@ insert_source <- function(sourceTable){
   
   if (!is.null(cleanTable)){
     db <- connectAtlasDB()
-    atts <- c("name","link","description")
+    atts <- c("name","link","description","date")
     for(s in 1:nrow(cleanTable)){ 
       print(paste0("Inserting SOURCE: ", paste0(cleanTable[s,1])))
       insert_row_table_id(db, cleanTable[s,], atts, "source", atts)
       
     }
+    dbDisconnect(db)
+    
     # insert_df_table(cleanTable, atts, "source", atts)
   }
 }
@@ -346,7 +366,7 @@ insert_agent <- function(agentTable){
       print(paste0("Inserting AGENT: ", paste0(cleanTable[a,atts])))
       
       # AGENT
-      agent_name = as.character(cleanTable[a,"agent"])
+      agent_name = trimws(as.character(cleanTable[a,"agent"]))
       agent_id = insert_row_table_id(db, cleanTable[a,], "agent", "agent", "name")
       agent_id_in = insert_row_table_id(db, cleanTable[a,], "agent_is", "agent", "name")
       
@@ -405,7 +425,7 @@ insert_task <- function(taskTable){
       print(paste0("Inserting TASK: ", paste0(cleanTable[a,1], collapse =" ")))
       
       # TASK
-      task_name = as.character(cleanTable[a,"task"])
+      task_name = trimws(as.character(cleanTable[a,"task"]))
       task_id = insert_row_table_id(db, cleanTable[a,], "task", "task", "name")
       task_id_in = insert_row_table_id(db, cleanTable[a,], "task_is", "task", "name")
       
@@ -459,7 +479,7 @@ insert_method <- function(methodTable){
       print(paste0("Inserting METHOD: ", paste0(cleanTable[a,1], collapse =" ")))
       
       # METHOD
-      method_name = as.character(cleanTable[a,"method"])
+      method_name = trimws(as.character(cleanTable[a,"method"]))
       method_id = insert_row_table_id(db, cleanTable[a,], "method", "method", "name")
       
       querySource <- paste0("SELECT * FROM source WHERE name = '", cleanTable[a,"source"],"'", collapse ="")
