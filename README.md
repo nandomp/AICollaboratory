@@ -16,6 +16,9 @@
 
 <br />
 
+[AI Collaboratory](https://safe-tools.dsic.upv.es/shiny/AIcollab/) 
+
+<br />
 
 This project is conceived as a pioneering initiative for the development of a collaboratory for the analysis, evaluation, comparison and classification of [A]I systems. This project will create a unifying setting that incorporates data, knowledge and measurements to characterise all kinds of intelligence, including humans, non-human animals, AI systems, hybrids and collectives thereof. The first prototype of the collaboratory will make it possible to study, analysis and evaluation, in a complete and unified way, of a representative selection of these sort of [A]I systems, covering, in the longer term, the current and future intelligence landscape. 
 
