@@ -22,7 +22,7 @@
 
 * [Games](#games)
 	* [Arcade Learning Environment](#case-study-arcade-learning-environment-atari-2600-games)
-	* [Alpha* systems](#case-study-arcade-learning-environment-atari-2600-games)
+	* [Alpha* systems](#case-study-alpha-systems)
 
 
 			
