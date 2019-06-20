@@ -26,14 +26,13 @@ This project is conceived as a pioneering initiative for the development of a co
 
 <div align="center">
 <a href="https://safe-tools.dsic.upv.es/shiny/AIcollab/">R Shiny application </a>	  
-
+</div>
 
 <br />
 
 <div align="center">
 <a href="https://ec.europa.eu/jrc/communities/en/community/1162/useful-links"> Follow us </a> and get the latest news and activities! 
 </div>
-
 
 
 
