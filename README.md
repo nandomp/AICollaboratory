@@ -433,7 +433,7 @@ European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/communit
 
 <br>
 
-[Universitat PolitÃ¨cnica de ValÃ¨ncia](http://www.upv.es) ([Vicerrectorado de lnvestigación, lnnovación y Transferencia](http://www.upv.es/entidades/VIIT/))
+[Universitat Politècnica de València](http://www.upv.es) ([Vicerrectorado de lnvestigación, lnnovación y Transferencia](http://www.upv.es/entidades/VIIT/))
 
 <div align="center">
 <a href="http://www.upv.es"><img src="https://www.upv.es/perfiles/pas-pdi/imagenes/MarcaUPV50a_color.jpg" alt="UPV" width="300" /></a>
