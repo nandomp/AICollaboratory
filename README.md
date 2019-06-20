@@ -401,7 +401,7 @@ Some examples...
 
 # :muscle: Credits
 
-[A]I Collaboratory is created and maintained by [Fernando Mart√≠nez-Plumed](https://nandomp.github.io/) and [Jos√© Hern√°ndez-Orallo](http://josephorallo.webs.upv.es/).
+[A]I Collaboratory is created and maintained by [Fernando MartÌnez-Plumed](https://nandomp.github.io/) and [JosÈ Hern·ndez-Orallo](http://josephorallo.webs.upv.es/).
 
 [A]I Collaboratory is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
 
