@@ -418,6 +418,13 @@ Some examples...
 
 # :heart: Acknowledgements
 
+European Commission's [AI Watch](https://ec.europa.eu/knowledge4policy/ai-watch/about_en)
+
+<div align="center">
+<a href="https://ec.europa.eu/knowledge4policy/ai-watch/about_en"><img src="https://ec.europa.eu/knowledge4policy/sites/know4pol/themes/custom/ec_europa/assets/images/logo/logo--en.svg" alt="EU" width="300" /></a>
+</div>
+
+
 European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/community/humaint) project within the [JRC's Centre for Advanced Studies](https://ec.europa.eu/jrc/en/research/centre-advanced-studies)
 
 <div align="center">
