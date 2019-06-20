@@ -50,7 +50,7 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Database population](#database-population)
 	* [Database querying](#database-querying)
 * [References](#orange_book-references)
-* [Credits](#muscle-credits)
+* [Collaboration](#muscle-call-for-collaboration)
 * [Acknowledgements](#heart-acknowledgements)
 
 # :page_with_curl: Infraestructure
@@ -396,24 +396,29 @@ Some examples...
 
 
 
-# :muscle: Call for Collaboration
+# :muscle: Credits
 
-[A]I Collaboratory is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
+*[A]I Collaboratory* is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
 
-[A]I Collaboratory is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
+*[A]I Collaboratory* is aligned with [AI WATCH](https://ec.europa.eu/knowledge4policy/ai-watch/about_en) initiative.
 
-*Call for editors/contributors of the collaboratory*
+*[A]I Collaboratory* is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
 
-*We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
-**AI Collaboratory Workshop TBA!**
-
-[A]I Collaboratory is powered by <a href="https://www.r-project.org">
+* [A]I Collaboratory is powered by <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
       alt="R" width = "30"/>
   </a> &  <a href="https://www.mysql.com">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png"
       alt="MySQL" width = "35"/>
   </a>
+  
+# :open_hands: Call for editors/contributors
+
+We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!
+
+*AI Collaboratory Workshop TBA!*
+
+
 
 
 # :heart: Acknowledgements
