@@ -225,7 +225,7 @@ We use a free, lightweight, open source [MySQL](https://www.mysql.com/) database
 
 
 
-# Code (R)
+# :hash: Code (R)
 
 ### Database manipulation functions
 
