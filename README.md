@@ -399,13 +399,13 @@ Some examples...
 
 # :muscle: Credits
 
-*[A]I Collaboratory* is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
+*[A]I Collaboratory* is ...
 
-*[A]I Collaboratory* is aligned with [AI WATCH](https://ec.europa.eu/knowledge4policy/ai-watch/about_en) initiative.
-
-*[A]I Collaboratory* is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
-
-*[A]I Collaboratory is powered by <a href="https://www.r-project.org">
+	* created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
+	
+	* aligned with [AI WATCH](https://ec.europa.eu/knowledge4policy/ai-watch/about_en) initiative, and with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
+	
+	* powered by <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
       alt="R" width = "30"/>
   </a> &  <a href="https://www.mysql.com">
@@ -417,7 +417,7 @@ Some examples...
 
 We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!
 
-*AI Collaboratory Workshop TBA!*
+*[A]I Collaboratory Workshop TBA!*
 
 
 
