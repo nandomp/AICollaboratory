@@ -403,7 +403,7 @@ Some examples...
 
 * created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
 	
-* aligned with [AI WATCH](https://ec.europa.eu/knowledge4policy/ai-watch/about_en) initiative, and with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
+* aligned with [AI WATCH](https://ec.europa.eu/knowledge4policy/ai-watch/about_en) initiative, and with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative.
 	
 * powered by <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
