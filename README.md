@@ -50,7 +50,8 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [Database population](#database-population)
 	* [Database querying](#database-querying)
 * [References](#orange_book-references)
-* [Collaboration](#muscle-call-for-collaboration)
+* [Credits](#muscle-credits)
+* [Collaboration](#open_hands-call-for-editorscontributors)
 * [Acknowledgements](#heart-acknowledgements)
 
 # :page_with_curl: Infraestructure
@@ -404,7 +405,7 @@ Some examples...
 
 *[A]I Collaboratory* is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
 
-* [A]I Collaboratory is powered by <a href="https://www.r-project.org">
+*[A]I Collaboratory is powered by <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
       alt="R" width = "30"/>
   </a> &  <a href="https://www.mysql.com">
