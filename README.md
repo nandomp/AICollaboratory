@@ -419,7 +419,7 @@ Some examples...
 # :heart: Acknowledgements
 
 European Commission's [AI Watch](https://ec.europa.eu/knowledge4policy/ai-watch/about_en)
-
+https://ec.europa.eu/knowledge4policy/ai-watch/about_en
 <div align="center">
 <a href="https://ec.europa.eu/knowledge4policy/ai-watch/about_en"><img src="https://ec.europa.eu/knowledge4policy/sites/know4pol/themes/custom/ec_europa/assets/images/logo/logo--en.svg" alt="EU" width="300" /></a>
 </div>
@@ -433,7 +433,7 @@ European Commission's [HUMAINT](https://ec.europa.eu/jrc/communities/en/communit
 
 <br>
 
-[Vicerrectorado de lnvestigación, lnnovación y Transferencia](http://www.upv.es/entidades/VIIT/), [Universitat Politècnica de València](http://www.upv.es) (PAID-06-18)
+[Universitat Politècnica de València](http://www.upv.es) ([Vicerrectorado de lnvestigaci�n, lnnovaci�n y Transferencia](http://www.upv.es/entidades/VIIT/))
 
 <div align="center">
 <a href="http://www.upv.es"><img src="https://www.upv.es/perfiles/pas-pdi/imagenes/MarcaUPV50a_color.jpg" alt="UPV" width="300" /></a>
