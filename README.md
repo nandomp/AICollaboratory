@@ -34,7 +34,7 @@ This project is conceived as a pioneering initiative for the development of a co
 <a href="https://ec.europa.eu/jrc/communities/en/community/1162/useful-links"> Follow us </a> and get the latest news and activities! 
 </div>
 
----
+<h1 align="center"></h1>
 
 
 :triangular_flag_on_post: **Table of contents**
@@ -59,6 +59,10 @@ This project is conceived as a pioneering initiative for the development of a co
 * [Credits](#muscle-credits)
 * [Collaboration](#open_hands-call-for-editorscontributors)
 * [Acknowledgements](#heart-acknowledgements)
+
+
+<h1 align="center"></h1>
+
 
 # :page_with_curl: Infraestructure
 
