@@ -43,7 +43,7 @@ This project is conceived as a pioneering initiative for the development of a co
 	* [AI](#computer-AI)
 	* [Human](#woman-human)
 	* [Animal](#hear_no_evil-animal-non-human)
-* [Code](#-code-r)
+* [Code](#hash-code-r)
 	* [Database manipulation](#database-manipulation)
 	* [Data scraping](#data-scraping)
 * [Usage](#hammer-usage)
@@ -387,9 +387,6 @@ Gorilla | Asterix | Gorila | 3324.7 | score
 Some examples...
 
 
-
-
-
 # :orange_book: References
 
 * Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Seán Ó hÉigeartaigh, Fernando Martínez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and José Hernández-Orallo, [*Mapping Intelligence: Requirements and Possibilities*](https://doi.org/10.1007/978-3-319-96448-5_13), In: Müller, Vincent C. (ed.), [Philosophy and Theory of Artificial Intelligence 2017](https://www.springer.com/gb/book/9783319964478), Studies in Applied Philosophy, Epistemology and Rational Ethics (SAPERE), Vol 44, ISBN 978-3-319-96447-8, Springer, 2018.
@@ -399,13 +396,16 @@ Some examples...
 
 
 
-# :muscle: Credits
+# :muscle: Call for Collaboration
 
 [A]I Collaboratory is created and maintained by [Fernando Martínez-Plumed](https://nandomp.github.io/) and [José Hernández-Orallo](http://josephorallo.webs.upv.es/).
 
 [A]I Collaboratory is aligned with the [Kinds of Intelligence](http://lcfi.ac.uk/projects/kinds-of-intelligence/) programme and their atlas of intelligence initiative (see references above).
 
+*Call for editors/contributors of the collaboratory*
+
 *We're open to suggestions, feel free to message us or open an issue. Pull requests are also welcome!*
+**AI Collaboratory Workshop TBA!**
 
 [A]I Collaboratory is powered by <a href="https://www.r-project.org">
     <img src="https://www.r-project.org/Rlogo.png"
