@@ -392,9 +392,9 @@ Some examples...
 
 # :orange_book: References
 
-* Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Se√°n √ì h√âigeartaigh, Fernando Mart√≠nez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and Jos√© Hern√°ndez-Orallo, [*Mapping Intelligence: Requirements and Possibilities*](https://doi.org/10.1007/978-3-319-96448-5_13), In: M√ºller, Vincent C. (ed.), [Philosophy and Theory of Artificial Intelligence 2017](https://www.springer.com/gb/book/9783319964478), Studies in Applied Philosophy, Epistemology and Rational Ethics (SAPERE), Vol 44, ISBN 978-3-319-96447-8, Springer, 2018.
+* Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Se·n ” h…igeartaigh, Fernando MartÌnez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and JosÈ Hern·ndez-Orallo, [*Mapping Intelligence: Requirements and Possibilities*](https://doi.org/10.1007/978-3-319-96448-5_13), In: M¸ller, Vincent C. (ed.), [Philosophy and Theory of Artificial Intelligence 2017](https://www.springer.com/gb/book/9783319964478), Studies in Applied Philosophy, Epistemology and Rational Ethics (SAPERE), Vol 44, ISBN 978-3-319-96447-8, Springer, 2018.
 
-* Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Se√°n √ì h√âigeartaigh, Fernando Mart√≠nez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and Jos√© Hern√°ndez-Orallo, [*A First Survey on an Atlas of Intelligence*](http://users.dsic.upv.es/~flip/papers/Bhatnagar18_SurveyAtlas.pdf), Technical Report, 2018.
+* Sankalp Bhatnagar, Anna Alexandrova, Shahar Avin, Stephen Cave, Lucy Cheke, Matthew Crosby, Jan Feyereis, Marta Halina, Bao Sheng Loe, Se·n ” h…igeartaigh, Fernando MartÌnez-Plumed, Huw Price, Henry Shevlin, Adrian Weller, Alan Wineld, and JosÈ Hern·ndez-Orallo, [*A First Survey on an Atlas of Intelligence*](http://users.dsic.upv.es/~flip/papers/Bhatnagar18_SurveyAtlas.pdf), Technical Report, 2018.
 
 
 
